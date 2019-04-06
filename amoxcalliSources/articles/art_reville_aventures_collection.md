@@ -1,11 +1,11 @@
 | Dublin Core Element | Value |
 | ------------------- |:----: |
 | DC.title | Les aventures d’une collection |
-| DC.creator | Albert Réville |
+| DC.creator | Réville, Albert (1826-1906) |
 | DC.subject | Manuscrits mexicains précolombiens |
 | DC.description | Edition du texte cité en titre |
 | DC.publisher | Jacquot, Olivier |
-| DC.contributor | Olivier Jacquot |
+| DC.contributor | Jacquot, Olivier |
 | DC.date | 2019-04-06 |
 | DC.type | text |
 | DC.format | text/markdown |
