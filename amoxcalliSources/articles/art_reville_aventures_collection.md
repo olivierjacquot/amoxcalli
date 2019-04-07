@@ -16,6 +16,8 @@
 | DC.coverage | Mexique |
 | DC.rights |  Licence publique Creative Commons Attribution - Utilisation non commerciale - Partage dans les mêmes conditions 4.0 International. |
 
+***
+
 # ANTIQUITÉS MEXICAINES
 
 Les aventures d’une collection
