@@ -16,6 +16,8 @@
 | DC.coverage | Mexique |
 | DC.rights |  Licence publique Creative Commons Attribution - Utilisation non commerciale - Partage dans les mêmes conditions 4.0 International. |
 
+***
+
 NEW YORK. MARCH 10, 1893. 
 
 THE BOTURINI-AUBIN-GOUPIL COLLECTION OF MEXICANA [Head before the Numismatic and Antiquarian Society of Philadelphia, March 2, 1893.]
