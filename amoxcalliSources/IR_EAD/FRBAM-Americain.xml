@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+        repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="fr" mainagencycode="751131015" encodinganalog="identifier"
+            identifier="FRBAM-Americain">FRBAM-Americain.xml</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Manuscrits et fonds d'archives</titleproper>
+                <subtitle>Département des Manuscrits. Américain. </subtitle>
+                <author>Bibliothèque nationale de France</author>
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Bibliothèque nationale de France</publisher>
+                <date calendar="gregorian" era="ce">2019</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Instrument de recherche encodé manuellement à l'aide du logiciel oXygen, par
+                Olivier Jacquot, élève du master "Technologies numériques appliquées à l'histoire"
+                de l'Ecole nationale des chartes, en <date normal="2019-03">mars
+                2019</date>.</creation>
+            <langusage>Instrument de recherche rédigé en <language encodinganalog="language"
+                    langcode="fre">français</language></langusage>
+            <descrules>Cet instrument de recherche a été réalisé conformément à la norme ISAD(G) et
+                aux règles d'application de la DTD EAD (version 2002) en respectant le <emph
+                    render="italic">Dictionnaire des balises de la DTD EAD</emph> (<extref
+                    href="https://francearchives.fr/file/0def64f5a10f3f1ae03fdea59399a3e0755ef157/static_1066.pdf"
+                    >https://francearchives.fr/file/0def64f5a10f3f1ae03fdea59399a3e0755ef157/static_1066.pdf</extref>)
+                et le manuel d'encodage <emph render="italic">Faire un répertoire ou un inventaire
+                    simple en EAD</emph> (<extref
+                    href="https://www.enssib.fr/bibliotheque-numerique/documents/62240-faire-un-repertoire-ou-un-inventaire-simple-en-ead-description-archivistique-encodee.pdf"
+                    >https://www.enssib.fr/bibliotheque-numerique/documents/62240-faire-un-repertoire-ou-un-inventaire-simple-en-ead-description-archivistique-encodee.pdf</extref>).
+                L'indexation des noms de personnes et des organismes est conforme à la norme AFNOR
+                NF Z 44-061 de juin 1986 <emph render="italic">Documentation – Catalogage – Forme et
+                    structure des vedettes noms de personne, des vedettes titres, des rubriques de
+                    classement et des titres forgés</emph>.</descrules>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="collection">
+        <did>
+            <unitid>Américain 1-77</unitid>
+            <unittitle>Manuscrits et fonds d'archives. Département des Manuscrits.
+                Américain.</unittitle>
+            <repository>
+                <corpname authfilenumber="751041006" source="Répertoire_des_Centres_de_Ressources"
+                    normal="Bibliothèque nationale de France. Département des manuscrits">
+                    Bibliothèque nationale de France. Département des manuscrits </corpname>
+                <address>
+                    <addressline>58 rue de Richelieu</addressline>
+                    <addressline>75002 Paris</addressline>
+                    <addressline>Tél. : 01.53.79.59.59</addressline>
+                    <addressline>http://www.bnf.fr</addressline>
+                </address>
+            </repository>
+        </did>
+        <dsc>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unittitle>Américain : présentation de la collection</unittitle>
+                    <langmaterial>Amérindien (ou Indien d'Amérique), Indiennes(langues d'Amérique
+                        centrale), Indiennes (langues d'Amérique du Sud)</langmaterial>
+                    <origination>Anciens possesseurs : <persname role="4010">Clérambault</persname>,
+                            <persname role="4010">Orbigny, Alcide d' (1802-1857)</persname>, Abbé
+                            <persname role="4010">Brasseur de Bourbourg, Étienne-Charles
+                            (1814-1874)</persname>, comte <persname role="4010">Charencey, Hyacinthe
+                            de (1832-1916)</persname>
+                    </origination>
+                </did>
+                <scopecontent>
+                    <p>Le fonds des manuscrits américains de la Bibliothèque nationale de France
+                        comprend 77 manuscrits relatifs à une soixantaine de langues ou dialectes de
+                        l’Amérique, datant des XVIIe, XVIIIe et XIXe siècles. Ils concernent le
+                        Canada, l’Amérique du Nord, Terre-Neuve, le Mexique, le Guatemala,
+                        l’Argentine, la Bolivie, le Brésil, le Chili, l’Équateur, la Guyane, le
+                        Paraguay. Les manuscrits mexicains (aztèques et mayas) forment un fonds
+                        spécifique. Avant 1860, ces manuscrits étaient inscrits dans le Supplément
+                        français. Le noyau de la collection est constitué de dix volumes concernant
+                        les dialectes de l’Amérique centrale, recueillis par Clérambault, en juillet
+                        1837, auxquels s’ajoutèrent en 1857 dix volumes de la collection d’Alcide
+                        Dessalines d’Orbigny (1802-1857), relatifs à des dialectes d’Amérique du
+                        Sud, puis, en 1883, 37 manuscrits de la collection de l’abbé Brasseur de
+                        Bourbourg (1814-1874) provenant eux-mêmes de la bibliothèque d’Alphonse
+                        Pinart (1852-1911). Par la suite, des dons et des achats ont complété ce
+                        fonds : en 1898, trois manuscrits ont été donnés par le comte de Charencey.
+                        La plupart des ouvrages sont des traductions, faites par des missionnaires,
+                        de textes religieux en langues indiennes (catéchismes, vies de saints,
+                        doctrine, sermons, sacrements) et de nombreux vocabulaires et grammaires,
+                        parfois de langues actuellement disparues (cf. Kitemoka, de la famille
+                        çapakura, de la région des rives du Rio Blanco en Bolivie, ou Kanicana du
+                        Rio Machupo). À noter le numéro 57 qui est une Histoire universelle jusqu’à
+                        la conquête, en kiçe. À la différence du fonds mexicain où se trouvent des
+                        documents d’origine indienne, ces manuscrits sont le plus souvent de mains
+                        européennes. Tous sont en écriture latine, excepté le numéro 34 en
+                        hiéroglyphes des Indiens Mikemak de Terre-Neuve.</p>
+                </scopecontent>
+                <custodhist>
+                    <acqinfo>
+                        <p>Le noyau de ce fonds est constitué par les 10 volumes recueillis par
+                            Clérambault en 1837, puis par les 10 volumes de la collection Dessalines
+                            d'Orbigny, entrés en 1857 et enfin par 37 volumes de l'abbé Brasseur de
+                            Bourbourg. Par la suite, dons et achats ont complété ce fonds.</p>
+                    </acqinfo>
+                </custodhist>
+                <bibliography>
+                    <head>Catalogues imprimés</head>
+                    <bibref><persname normal="Brasseur de Bourbourg, Étienne-Charles (1814-1874)"
+                            >Étienne-Charles Brasseur de Bourbourg</persname>, <title><emph
+                                render="italic">Bibliothèque mexico-guatemalienne : précédée d’un
+                                coup d’oeil sur les études américaines dans leur rapports avec les
+                                études classiques et suivie du tableau par ordre alphabétique des
+                                ouvrages de linguistique américaine contenus dans le même volume,
+                                rédigée et mise en ordre d’après les documents de sa collection
+                                américaine</emph></title>, Paris : Maisonneuve, 1871, 1 vol.
+                        (XLVII-183 p.). Disponible en ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k5489737d&#62;, ou avec recherche
+                        plein-texte possible, url :
+                        &#60;https://archive.org/details/bibliothequemexi00brasiala&#62;.</bibref>
+                    <bibref><title><emph render="italic">Catalogue des livres rares et précieux,
+                                manuscrits et imprimés principalement sur l’Amérique et sur les
+                                langues du monde entier, composant la bibliothèque de M. Alph.-L.
+                                Pinart et comprenant en totalité la bibliothèque
+                                Mexico-Guatémalienne de M. l’abbé Brasseur de Bourbourg : [vente du
+                                lundi 28 janvier au mardi 5 février 1884… rue des Bons-Enfants, 28
+                                (Maison Silvestre), salle n° 1 par le ministère de Me Maurice
+                                Delestre,… assisté de M. Em. Paul,...]</emph></title>, Paris : Vve
+                        A. Labitte, 1883, 1 vol. (VIII-248 p.). Disponible en ligne, url :
+                        &#60;https://archive.org/details/cataloguedesliv00bourgoog&#62; (avec prix
+                        mais sans les pages 157-158), ou url :
+                        &#60;https://archive.org/details/cihm_61039&#62; (sans prix).</bibref>
+                    <bibref><persname normal="Omont, Henri (1857-1940)">Omont, Henri</persname>,
+                                <title><emph render="italic">Catalogue des manuscrits américains de
+                                la Bibliothèque nationale</emph></title>, Paris, E. Champion, 1925.
+                        Disponible en ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255704n&#62;.</bibref>
+                    <bibref><persname normal="Omont, Henri (1857-1940)">Omont, Henri</persname>,
+                                <title><emph render="italic">Catalogue des manuscrits américains de
+                                la Bibliothèque nationale</emph></title>, Paris, E. Champion, 1925.
+                        Version annotée de la banque de renseignement bibliographique comportant
+                        deux corrections manuscrites, p. 7 (Américain 3-5) et p. 18 (Américain 59).
+                        Disponible en ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/btv1b10318620n&#62;.</bibref>
+                    <bibref><persname normal="McQuown, Norman A.">McQuown, Norman A.</persname>,
+                                <title><emph render="italic">Catalogue des manuscrits américains
+                                conservés dans le Fonds Américain, le Fonds Mexicain et d’autres
+                                Fonds de la Bibliothèque Nationale à Paris</emph></title>, Chicago :
+                        University of Chicago Library, 1989, 1 vol. (516 p.). (Microfilm Collection
+                        of Manuscripts on Cultural Anthropology, series XXVIII ; 151).</bibref>
+                </bibliography>
+                <bibliography>
+                    <head>Inventaire manuscrit</head>
+                    <bibref><title>« Fonds étrangers. Dialectes américains »</title>. [Recense les
+                        manuscrits jusqu’au n° 74. Non folioté. Il est actuellement conservé dans le
+                        fonds des manuscrits mexicains, sous la cote Mexicain 429].</bibref>
+                </bibliography>
+                <bibliography>
+                    <head>Livres imprimés</head>
+                    <bibref><persname normal="Parmenter, Ross">Parmenter, Ross</persname> ;
+                            <persname normal="Schaefer Dentzel, Carl">Schaefer Dentzel, Carl
+                            (préf.)</persname>, <title><emph render="italic">Explorer, linguist, and
+                                ethnologist : a descriptive bibliography of the published works of
+                                Alphonse Louis Pinart, with notes on his life</emph></title>, Los
+                        Angeles : Southwest Museum, 1966, 1 vol. (XI-57 p.). (F.W. Hodge Anniversary
+                        Publication Fund. [Publications] ; 9).</bibref>
+                    <bibref><persname normal="Brasseur de Bourbourg, Étienne-Charles (1814-1874)"
+                            >Brasseur de Bourbourg, Charles Étienne</persname> ; <persname
+                            normal="Sainson, Katia">Sainson, Katia (éd.)</persname>, <title><emph
+                                render="italic">The manuscript hunter : Brasseur de Bourbourg’s
+                                travels through Central America and Mexico,
+                        1854-1859</emph></title>, Norman : University of Oklahoma Press, [2017], 1
+                        vol. (XIII-288 p.). (American exploration and travel series ; 84).</bibref>
+                </bibliography>
+                <bibliography>
+                    <head>Articles consacrés au fonds en général</head>
+                    <bibref><persname normal="Omont, Henri (1857-1940)">Omont, Henri</persname>,
+                            <title>« Catalogue des manuscrits américains de la Bibliothèque
+                            nationale »</title>, <title><emph render="italic">Revue des
+                                bibliothèques</emph></title>, 1925, n° 35, p. 90-110.</bibref>
+                    <bibref><persname normal="Berthier, Annie">Berthier, Annie</persname>, <title>«
+                            Américain »</title>, in <persname normal="Berthier, Annie">Berthier,
+                            Annie (dir.)</persname>, <title><emph render="italic">Manuscrits,
+                                xylographes, estampages : les collections orientales du Département
+                                des manuscrits : guide</emph></title>, Paris : Bibliothèque
+                        nationale de France, 2000, p. 132. Disponible en ligne, url :
+                        http://gallica.bnf.fr/ark:/12148/bpt6k209175g/f132.item.</bibref>
+                    <bibref><persname normal="Weiss, Valentine">Weiss, Valentine</persname>,
+                            <title>« Un grand normand : Charles, Félix, Hyacinthe Gouhier, comte de
+                            Charencey, linguiste, anthropologue et homme politique (1832-1916)
+                            »</title>, <title><emph render="italic">Mémoires de l’Académie des
+                                sciences, arts et belles-lettres de Caen</emph></title>, 1998, 36,
+                        p. 175-204.</bibref>
+                </bibliography>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 1</unitid>
+                    <unitid type="ancienne cote">Supplément français 5116</unitid>
+                    <unitid type="ancienne cote">Impr., X + 1613 C.</unitid>
+                    <unittitle>Grammaire algonquine ou des sauvages de l’Amérique septentrionale,
+                        avec la description du pays, journaux de voyages, mémoires, remarques sur
+                        l’histoire naturelle, etc., etc.</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>Papier </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 2</unitid>
+                    <unittitle>Catecismo de la Doctrina christiana, en idioma kiche y
+                        castellano</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 3-5</unitid>
+                    <unittitle>Theologia indorum. Yndustriacion de los Yndios en la fe</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 6</unitid>
+                    <unittitle>« Sancturale hiemale ». Recueil de sermons pour les fêtes de
+                        différents saints</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 7</unitid>
+                    <unittitle> Vocabulario en lengua castellana y guatemalteca, que se llama ‘Cak
+                        chi quel chi’</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 8</unitid>
+                    <unittitle>Arte breve de la lengua otomi, compuesto por el Padre Fray Alonso
+                        Urbano, de la Orden de N. P. S. Augustin, de las letras del A b,
+                        c.</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 9</unitid>
+                    <unittitle>Arte de la lengua qiche, compuesto por N. M. R. P. Fray Bartholome
+                        Anleo, religioso Menor de N. S. Padre san Francisco</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 10</unitid>
+                    <unittitle>« Theologia Indorum », par le P. Domingo de Vigo</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 11</unitid>
+                    <unittitle>Marial sacro y Santoral. Sermones en la lenga qijche, escritos por
+                        varios autores, principalmente por une Yndio, por lo qual hay ucho que
+                        correjir, o emendar en todos los textos latinos</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 12</unitid>
+                    <unittitle>Vocabulaire espagnol-quiché</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 13</unitid>
+                    <unittitle>Pétitions en kakchikel et Sermon en quiché</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 14</unitid>
+                    <unittitle>Vocabulaire espagnol-kakchikel</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 15</unitid>
+                    <unittitle>Arte de lengua kakchikel, del usso de Fr. Estevan Torresano, prer.
+                        Año de 1754</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 16</unitid>
+                    <unittitle>Vocabulaire algonquin-français</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 17</unitid>
+                    <unittitle>Petit dictionnaire de la langue des Iroquois de la nation
+                        d’Agnié</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 18</unitid>
+                    <unittitle>Rudiment de la langue mikemak</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 19</unitid>
+                    <unittitle>Arte de la lengua chiquita</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 20</unitid>
+                    <unittitle>Bocabulario de la lengua de les Chiquitos</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 21</unitid>
+                    <unittitle>Vocabulario de la lengua chiquita, parte 2a :
+                        Chiquito-Español</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 22</unitid>
+                    <unittitle>Sermones sobre los Evangelios y fiestas del año en la lengua
+                        matalzingue de las Indias</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 23</unitid>
+                    <unittitle>Prières du matin en langue mikkemak</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 24</unitid>
+                    <unittitle>Idiome des Indiens Baures ou Bauros, du nord-est de la province de
+                        Mojos, Bolivia</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 25</unitid>
+                    <unittitle>Idiomes des Indiens Araucanos et Pampas, ou Puelches</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 26</unitid>
+                    <unittitle>Idiomes des Indiens de la République Argentine</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 27</unitid>
+                    <unittitle>Idiomes des Indiens de Bolivie</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 28</unitid>
+                    <unittitle>Idiomes des Indiens de Bolivie</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 29</unitid>
+                    <unittitle>Idiomes des Indiens du Brésil</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 30</unitid>
+                    <unittitle>Idiomes des Indiens Patagons</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 31</unitid>
+                    <unittitle>Idiomes des Indiens ou naturels des provinces des Chiquitos et
+                        Mojos</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 32</unitid>
+                    <unittitle>Idée de grammaire Galibis, suivie d’un vocabulaire</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 33</unitid>
+                    <unittitle>Mélanges philologiques</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 34</unitid>
+                    <unittitle>Deux pages d’un livre de prières catholiques, en hiéroglyphes des
+                        Indiens Micmac de Terre-Neuve</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 35</unitid>
+                    <unittitle>Homélies et instructions religieuses, en langue guarani</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 36</unitid>
+                    <unittitle>Sermones de Doctrina, en lengua chiapaneca, compuestos por el R. P.
+                        Fr. Joan Nuñez, Dominico, recogidos en la familia del Sr D. Esteban
+                        Nucamendi, gobernador que fué de Acalá de Chiapas</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 37</unitid>
+                    <unittitle>Algunas cossas curiosas en lengua chiapaneca, sacadas de proposito
+                        para doctrina de los Indios y para que los Padres que deprenden esta lengua
+                        se aprovechen dellas por nos aver en ella nada escrito. Los Padres perdonen
+                        y resolvan el buen desseo que tubo quien lo travajo por servirles y
+                        aprovechar las almas destos pobres. Fr. Joan Nuñez</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 38</unitid>
+                    <unittitle>Arte de la lengua chiapaneca, compuesto por el Padre Fray Juan de
+                        Albornoz, de la Orden de Predicadores, de la provincia de San Vicente de
+                        Chiapas y Guatemala. 1691</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 39</unitid>
+                    <unittitle>Doctrina en lengua chiapaneca, escrita por el Padre Mtro Fray Luis
+                        Barrientos, de la Orden de Predicadores. 1690</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 40</unitid>
+                    <unittitle>Arte de la lengua cakchiquel, compuesto por el P. Fray Angel, de la
+                        Orden de nuestro Padre San Francisco</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 41</unitid>
+                    <unittitle>Bocabulario de la lengua cakchiquel, compuesto por el Padre Fray
+                        Angel, de la Orden de nuestro Padre San Francisco</unittitle>
+                    <unittitle>Vocabulario de la lengua cakchiquel, compuesto por el Padre fray
+                        Angel</unittitle>
+                    <physdesc>
+                        <physfacet>Manuscrit</physfacet>, <extent>225 feuillets</extent>, <physfacet
+                            type="support">papier</physfacet>, <dimensions>205 x 145
+                        mm</dimensions>. <physfacet type="reliure"
+                        >Demi-reliure.</physfacet></physdesc>
+                    <langmaterial>Texte en <language langcode="cak">cakchiquel</language> et
+                            <language langcode="spa">espagnol</language>. </langmaterial>
+                    <unitdate era="ce" calendar="gregorian" normal="1701/1800">XVIIIe
+                        siècle</unitdate>
+                </did>
+                <bibliography>
+                    <head>Bibliographie : classement chronologique</head>
+                    <p>
+                        <bibref>
+                            <persname>Brasseur de Bourbourg, Étienne-Charles</persname>,
+                                    <title><emph render="italic">Bibliothèque mexico-guatemalienne :
+                                    précédée d’un coup d’oeil sur les études américaines dans leur
+                                    rapports avec les études classiques et suivie du tableau par
+                                    ordre alphabétique des ouvrages de linguistique américaine
+                                    contenus dans le même volume, rédigée et mise en ordre d’après
+                                    les documents de sa collection américaine</emph>
+                            </title>, Paris : Maisonneuve, 1871, p. 8. Disponible en ligne, url :
+                            &#60;http://gallica.bnf.fr/ark:/12148/bpt6k5489737d/f63.item&#60;</bibref>
+                        <bibref>
+                            <title><emph render="italic">Catalogue des livres rares et précieux,
+                                    manuscrits et imprimés principalement sur l’Amérique et sur les
+                                    langues du monde entier, composant la bibliothèque de M.
+                                    Alph.-L. Pinart et comprenant en totalité la bibliothèque
+                                    Mexico-Guatémalienne de M. l’abbé Brasseur de Bourbourg : [vente
+                                    du lundi 28 janvier au mardi 5 février 1884... rue des
+                                    Bons-Enfants, 28 (Maison Silvestre), salle n° 1 par le ministère
+                                    de Me Maurice Delestre,... assisté de M. Em.
+                                Paul,...]</emph></title>, Paris : Vve A. Labitte, 1883, p. 4, n° 24.
+                            Disponible en ligne, url :
+                            &#60;https://archive.org/details/cataloguedesliv00bourgoog&#60;</bibref>
+                        <bibref>
+                            <persname>Henri Omont</persname>, <title><emph render="italic">Catalogue
+                                    des manuscrits américains de la Bibliothèque
+                                nationale</emph></title>, Paris : E. Champion, 1925, p. 14.
+                            Disponible en ligne, url :
+                            &#60;http://gallica.bnf.fr/ark:/12148/btv1b10318620n/f26.item&#60;</bibref>
+                    </p>
+                </bibliography>
+                <acqinfo>
+                    <p>Attribué au Père Angel par Étienne-Charles Brasseur de Bourbourg.</p>
+                    <p>Collection Étienne-Charles Brasseur de Bourbourg</p>
+                    <p>Collection Alphonse Pinart</p>
+                    <p>Acq. Vente Pinart (1883). Le catalogue de vente annoté de la Harvard
+                        University indique en marge le prix atteint : « 60 ».</p>
+                </acqinfo>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+                <scopecontent>
+                    <p>Début : “A, pronombre posesivo... A, dicho quando inter...”</p>
+                    <p>A la fin, fol. 225 v°, la note suivante : “El P. Fr. Angel suplica à los que
+                        lean este vocabulario borren aquellas palabras que pueden causar ruina
+                        espiritual y el uso las imprime en la memoria.”</p>
+                    <p>Ex-libris de Brasseur de Bourbourg : « Ex Collectione Americana Domini
+                        Brasseur de Bourbourg »</p>
+                    <p>Ex-libris d’Alphonse Pinart : « Alph. Pinart, Sol Oriens Discutit Umbras
+                        »</p>
+                    <p>Numéro « 24 » du catalogue de vente (1883).</p>
+                    <p> Brasseur de Bourbourg, dans sa Bibliothèque mexico-guatemalienne, p. 8,
+                        indique (repris par le catalogue de vente, p. 4) : “de la même écriture que
+                        le précédent [Américain 40]. Cet ouvrage, non plus que le précédent
+                        [Américain 40], ne porte en tête aucun nom d’auteur ; on trouve seulement à
+                        la fin la note suivante : “El P. Fr. Angel suplica à los que lean este
+                        vocabulario borren aquellas palabras que pueden causar ruina espiritual y el
+                        uso las imprime en la memoria.” Bien que cette note ne soit pas de la même
+                        écriture que le vocabulaire, il est à croire que le livre est de lui. Car il
+                        est important de faire observer à ce propos qu’un grand nombre d’ouvrages
+                        manuscrits, composés par les religieux des divers ordres au Mexique ou dans
+                        l’Amérique centrale, sont rarement écrits de leur main propre : la plupart
+                        dictaient leurs ouvrages à de jeunes élèves indigènes ; c’est ce qui
+                        explique, d’ailleurs, les incorrections, parfois étranges quant à
+                        l’orthographe, qu’on y trouve fréquemment.”</p>
+                </scopecontent>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 42</unitid>
+                    <unittitle>Theologia Indorum</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 43</unitid>
+                    <unittitle>Noticia breve de los vocablos mas usuales de la lengua
+                        cacchiquel</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 44</unitid>
+                    <unittitle>Vocabulario en la lengua cakchiquel y castellana, por Fr. Thomas de
+                        Sto Domingo, 1693</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 45</unitid>
+                    <unittitle>Sermones en lengua cakchiquel, escritos por varios Padres de la Orden
+                        de san Francisco, y recogidos por el M. R. M. Padre Fr. Baltasar de Alarcon,
+                        procurador general de la misma Orden</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 46</unitid>
+                    <unittitle>Vocabulario de la lengua cakchiquel, con advertencia de los vocablos
+                        de las lenguas quiché y tzutohil, se trasladó de la obra compuesta por el
+                        ilmo Padre el venerable Fr. Domingo de Vico</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 47</unitid>
+                    <unittitle>Vocabulario de la lengua cakchiquel y española, con un arte de la
+                        misma lengua, 1813</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 48</unitid>
+                    <unittitle>Preguntas para administrar el santo sacramento del Matrimonio en mam,
+                        conformes al Manual que usamos, siguen la varias partes de la Doctrina
+                        cristiana en mam y en castellano, etc. ; lo todo hallado entre los papeles
+                        que quedaron del defunto Sr. presbitero Don Manuel Fuentes, cura proprio que
+                        fué de la parroquia de San Miguel Ixtlahuacan</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 49</unitid>
+                    <unittitle>Oraciones para el sancto sacrificio de la Misa, en lengua
+                        nahuatl</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 50</unitid>
+                    <unittitle>Bocabulario de nombres, que comiençan en romance, en la lengua
+                        pokoman de Amatitan, ordenado y compuesto por el Padre Fray Pedro Moran, en
+                        este convento de N. P. Santo Domingo de Goathemala, 1720</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 51</unitid>
+                    <unittitle>Vidas de santos, en forma de homelias, en lengua pokoman de Amatitan,
+                        ordenadas por el Padre Fray Pedro Moran, en este convento de N. P. Santo
+                        Domingo de Goathemala</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 52</unitid>
+                    <unittitle>Platica de la principales misterios de la religion, en poconchi, con
+                        unos Actos de fe, esperanca y caridad</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 53</unitid>
+                    <unittitle>Arte breve y compendiosa de la lengua pocomchi de la provincia de la
+                        Verapaz, compuesto por el venerable Padre Fray Dionysio de Çuñiga, para los
+                        principientes que comiençan á aprender, y traducido en la lengua pocoman de
+                        Amatitan, por el Padre Fray Pedro Moran, quien lo empeço á escribir en este
+                        convento de N. Padre Santo Domingo de Goathemala, oy juebes diez del mes de
+                        abril de este ano de mill cetessientos y veynte</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 54</unitid>
+                    <unittitle>Arte de la lengua cacchi de Coban en la Verapaz, compuesto por el
+                        Illmo Sr Don fray Thomas de Cárdenas, de la Orden de Predicadores, quarto
+                        obispo de Coban</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 55</unitid>
+                    <unittitle>Doctrina christiana, en lengua quecchi, escrita por padron del pueblo
+                        de San Augustin Lanquin, en la Vera Paz, por Eugenio Pop, alcalde que fué en
+                        el año de 1795</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 56</unitid>
+                    <unittitle>Algunos sermones en lengua quiché de Rabinal</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 57</unitid>
+                    <unittitle>Arte de las tres lenguas kakchiqvel, quiche y tzutuhil</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 58</unitid>
+                    <unittitle>Arte de la lengua quiche, yllustrado con algunas notas que estan
+                        puestas al fin, para su perfecta inteligencia, hechas por un aficionado a
+                        este idioma. Año de mil setecientos noventa y tres</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 59</unitid>
+                    <unittitle>Vocabulario quiche, par Basseta</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 60</unitid>
+                    <unittitle>Doctrina christriana, en la lengua utlateca, alias quiche, del uso de
+                        Fr. Jossef Ant. Sanchez Viscayno. Año de 1790</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 61</unitid>
+                    <unittitle>Apuntamiento del idioma kiché. Junio de 1854</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 62</unitid>
+                    <unittitle>Arte de la lengua utlateca ó kiché, vulgarmente llamado el Arte de
+                        Totonicapan ; compuesto par el Rdo Padre Fray Marcos Martinez, de la Orden
+                        de Predicadores</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 63</unitid>
+                    <unittitle>Arte de la lengua qiché [o] utlatecat, seguido del modo de bien
+                        vivir, en la misma lengua ; lo todo sacado de los escritos del ven. Padre
+                        Fr. Domingo de Vico</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 64</unitid>
+                    <unittitle>Vocabulario de la lengua castellana y quiché</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 65</unitid>
+                    <unittitle>Vocabulario de las lenguas qiche y kakchiquel</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 66</unitid>
+                    <unittitle>Arte de lengua zoque para la mayor gloria de Dios Nuestro
+                        Señor</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 67</unitid>
+                    <unittitle>Arte breve en lengua tzoque, conforme se habla en el pueblo de
+                        Tecpatlan,… 12 de junio de 1672 años, y per verdad lo firme Fr. Luis
+                        Gonzales</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 68</unitid>
+                    <unittitle>Doctrina christiana, en lengua tzoque, seguida de un confesionario y
+                        del modo de dar el viatico a los enfermos, en la misma lengua ; obra del Rdo
+                        Padre Maestro Fray Juan Pozarenco… Acabose en veinteydos de agosto del año
+                        de mil seiscientos y noventa y seis</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 69</unitid>
+                    <unittitle>Sermones en lengua achi ó tzutuhil, compuestos para el uso de los
+                        Padres de la Orden de Santo Domingo de Guatemala, á principios del siglo
+                        XVII, conforme al stilo del ven. P. F. Domingo de Vico</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 70</unitid>
+                    <unittitle>Parabolas y exemplos sacados de la naturaleza y de los costumbres del
+                        Campo, aplicados a la moral cristiana, obra escrita en la lengua zapoteca
+                        para el consuelo é instruccion de los naturales de la misma lengua, por el
+                        R. P. M. Fray Pedro de la Cueba, de la Orden de Predicadores</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 71</unitid>
+                    <unittitle>Doctrina christiana abreviada en lengua zotzlem, ou tzotzil, ou
+                        langue cinacanteca de Chiapas</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>
+                        <extent>11 feuillets ["21 ff." selon Étienne-Charles Brasseur de Bourbourg,
+                            dans sa Bibliothèque mexico-guatemalienne, p. 58. ]</extent>;
+                            <dimensions>205 x 142 mm</dimensions>
+                        <extent/>
+                    </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="tzo"
+                            >Tzotzil</language> et en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1801/1900" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après le catalogue de Henri Omont, <title><emph
+                                render="italic">Catalogue des manuscrits américains de la
+                                Bibliothèque nationale</emph></title>, Paris : E. Champion, 1925, p.
+                        21. Disponible en ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/btv1b10318620n/f33.item&#62;, et
+                        encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="a101399_FRBNFEAD0000073851" level="item">
+                <did>
+                    <unitid type="ancienne cote">Africain 2</unitid>
+                    <unitid type="cote">Américain 72</unitid>
+                    <unittitle>Dictionnaire du jargon tchinouk</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="a102399_FRBNFEAD0000073851" level="item">
+                <did>
+                    <unitid type="ancienne cote">Africain 3</unitid>
+                    <unitid type="cote">Américain 73</unitid>
+                    <unittitle>Prières en langue koilythlen; ou kouitchin (Ile de
+                        Vancouver)</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 74</unitid>
+                    <unittitle>Bocabulario de la lengua de los Chiquitos</unittitle>
+                    <physdesc>
+                        <physfacet type="support"/>
+                        <extent/>
+                    </physdesc>
+                    <unitdate/>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0096408_FRBNFEAD00009967116353" otherlevel="niveau_englobant"
+                level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 75</unitid>
+                    <unitid type="ancienne cote">Espagnol 537</unitid>
+                    <unittitle>Documentos para las lenguas de Mexico, compuesto por S. Leon
+                        Reinisch</unittitle>
+                </did>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0096546_FRBNFEAD00009980916354" otherlevel="niveau_englobant"
+                level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 76</unitid>
+                    <unitid type="ancienne cote">Espagnol 538</unitid>
+                    <unittitle>Arte, vocabulario, confessionario y modo de administrar el santissimo
+                        sacramento de la Eucharistia, y el de la Extrema Oncion, y Doctrina
+                        christiana,... y noticia desta lengua, aquien vulgarmente llaman mame,...
+                        laqual segun su antigualla se llama zatzohpatzap ; compuesta por el Padre
+                        predicador Fray Diego de Reynosso por <persname normal="Robledo, Francisco"
+                            >Francisco Robledo</persname>, impressor del secreto del S. Oficio -
+                            <date calendar="gregorian" era="ce" normal="1644">1644</date>
+                    </unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>304 p.</extent>
+                    </physdesc>
+                    <unitdate normal="1801/1900" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Copie faite à Mexico en juin <date calendar="gregorian" era="ce"
+                            normal="1867">1867</date> par S.L. Reinisch.</p>
+                </scopecontent>
+                <processinfo>
+                    <p>DEVENU : Américain 76.</p>
+                </processinfo>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0096549_FRBNFEAD00009981216355" otherlevel="niveau_englobant"
+                level="otherlevel">
+                <did>
+                    <unitid type="cote">Américain 77</unitid>
+                    <unitid type="ancienne cote">Espagnol 539</unitid>
+                    <unittitle>Título de los señores de Totonicapan, escrito en lengua Quiche, el
+                        año de <date calendar="gregorian" era="ce" normal="1554">1554</date>, y
+                        traducido a la castellana el año de 1834, por el padre Dionisio José Chonay,
+                        indigena, cura de Sacapulas ; el original quiche se conserva en el archivo
+                        municipal de Totonicapan (Guatelama)</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>33 p.</extent>
+                    </physdesc>
+                    <unitdate normal="1801/1900" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Copie faite en <date calendar="gregorian" era="ce" normal="1834">1834</date>
+                        par l'abbé Brasseur de Bourbourg.</p>
+                </scopecontent>
+                <processinfo audience="external">
+                    <p>Notice encodée en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+        </dsc>
+    </archdesc>
+</ead>
