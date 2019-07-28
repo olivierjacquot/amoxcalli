@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+        repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="fr" mainagencycode="751131015" encodinganalog="identifier"
+            identifier="FRBAM-Angrand">FRBAM-Angrand.xml</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Manuscrits et fonds d'archives</titleproper>
+                <subtitle>Département des Manuscrits. Angrand. </subtitle>
+                <author>Bibliothèque nationale de France</author>
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Bibliothèque nationale de France</publisher>
+                <date calendar="gregorian" era="ce">2019</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Instrument de recherche encodé manuellement à l'aide du logiciel oXygen, par
+                Olivier Jacquot, élève du master "Technologies numériques appliquées à l'histoire"
+                de l'Ecole nationale des chartes, en <date normal="2019-03">mars
+                2019</date>.</creation>
+            <langusage>Instrument de recherche rédigé en <language encodinganalog="language"
+                    langcode="fre">français</language></langusage>
+            <descrules>Cet instrument de recherche a été réalisé conformément à la norme ISAD(G) et
+                aux règles d'application de la DTD EAD (version 2002) en respectant le <emph
+                    render="italic">Dictionnaire des balises de la DTD EAD</emph> (<extref
+                    href="https://francearchives.fr/file/0def64f5a10f3f1ae03fdea59399a3e0755ef157/static_1066.pdf"
+                    >https://francearchives.fr/file/0def64f5a10f3f1ae03fdea59399a3e0755ef157/static_1066.pdf</extref>)
+                et le manuel d'encodage <emph render="italic">Faire un répertoire ou un inventaire
+                    simple en EAD</emph> (<extref
+                    href="https://www.enssib.fr/bibliotheque-numerique/documents/62240-faire-un-repertoire-ou-un-inventaire-simple-en-ead-description-archivistique-encodee.pdf"
+                    >https://www.enssib.fr/bibliotheque-numerique/documents/62240-faire-un-repertoire-ou-un-inventaire-simple-en-ead-description-archivistique-encodee.pdf</extref>).
+                L'indexation des noms de personnes et des organismes est conforme à la norme AFNOR
+                NF Z 44-061 de juin 1986 <emph render="italic">Documentation – Catalogage – Forme et
+                    structure des vedettes noms de personne, des vedettes titres, des rubriques de
+                    classement et des titres forgés</emph>.</descrules>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="collection">
+        <did>
+            <unitid>Angrand 1-3-Angrand 30</unitid>
+            <unittitle>Manuscrits et fonds d'archives. Département des Manuscrits.
+                Angrand.</unittitle>
+            <repository>
+                <corpname authfilenumber="751041006" source="Répertoire_des_Centres_de_Ressources"
+                    normal="Bibliothèque nationale de France. Département des manuscrits">
+                    Bibliothèque nationale de France. Département des manuscrits </corpname>
+                <address>
+                    <addressline>58 rue de Richelieu</addressline>
+                    <addressline>75002 Paris</addressline>
+                    <addressline>Tél. : 01.53.79.59.59</addressline>
+                    <addressline>http://www.bnf.fr</addressline>
+                </address>
+            </repository>
+        </did>
+        <dsc>
+            <c otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unittitle>Angrand : Présentation de la collection</unittitle>
+                    <langmaterial>Espagnol, français, anglais</langmaterial>
+                </did>
+                <scopecontent>
+                    <p>Le 8 mai <date calendar="gregorian" era="ce" type="entrée">1885</date>, fut
+                        léguée par testament la collection de <persname role="4010">Léonce
+                            Angrand</persname>, décédé le 11 mars 1886. Cet ancien consul général de
+                        France ayant résidé au <geogname>Pérou</geogname>, en
+                            <geogname>Bolivie</geogname> et au <geogname>Guatemala</geogname>
+                        s'était passionné pour la géologie et les civilisations précolombiennes au
+                        point de constituer une bibliothèque consacrée à l'ensemble du continent
+                        américain en français, espagnol et anglais et abordant de nombreux sujets :
+                        découverte et conquête du continent, récits de voyage, archéologie, indiens,
+                        histoire coloniale, histoire des pays nouvellement indépendants. Il lègua
+                        aussi une somme importante pour un prix d'américanisme, sans doute le
+                        premier du genre, à attribuer « au meilleur ouvrage sur les langues,
+                        l'histoire et les antiquités américaines des temps antérieurs à la
+                        découverte ».<lb/> La collection de manuscrits, transférée en <date
+                            calendar="gregorian" era="ce">1986</date> du département des Imprimés à
+                        celui des Manuscrits, comprend 30 ouvrages : trois en dialectes américains
+                        et, parmi les autres, des lettres et mémoires de <persname role="0110"
+                            >Brasseur de Bourbourg</persname> de <date calendar="gregorian" era="ce"
+                            >1859</date> à <date calendar="gregorian" era="ce">1865</date>,
+                        accompagnés de photographies, de notes topographiques et géographiques, de
+                        dessins de sites archéologiques. Ce fonds est clos et en partie microfilmé.
+                        La collection de 24 albums d'estampes, lithographies, dessins et
+                        photographies relatifs au <geogname>Mexique</geogname>, à
+                            <geogname>Cuba</geogname>, au Pérou, à la Bolivie, au Guatemala... se
+                        trouve au département des Estampes et de la photographie essentiellement
+                        sous les cotes suivantes : V d 24, Vh 240 rés., Of 32 rés. pet. fol. t. I et
+                        II. La collection comprend aussi 143 cartes des XVIIIe et XIXe s. conservées
+                        au département des Cartes et plans, sous la cote : Ge Angrand ; cf. url :
+                        &#60;http://catalogue.bnf.fr/ark:/12148/cb406040741&#62;. Les ouvrages et
+                        périodiques édités en Amérique centrale sont particulièrement nombreux. Le
+                        plus grand nombre des ouvrages a été publié de <date calendar="gregorian"
+                            era="ce">1820</date> à <date calendar="gregorian" era="ce">1880</date>
+                        mais ceux du XVIIIe siècles sont assez nombreux et quelques uns datent du
+                        XVIe et du XVIIe siècles. Les ouvrages sont classés par type de documents et
+                        par ordre alphabétique auteurs/titres. Plus de 1300 volumes de monographies
+                        et périodiques sont conservés au département Philosophie, Histoire et
+                        Sciences de l'homme dans le fonds coté : P. Angrand. Une quinzaine
+                        d'ouvrages est conservée à la Réserve de livres rares (sous la cote : RES P
+                        Angrand).</p>
+                </scopecontent>
+            </c>
+            <c id="NE0085900_FRBNFEAD000089085585" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 1-3</unitid>
+                    <unittitle>Recueil</unittitle>
+                    <physdesc><physfacet type="support">Papier</physfacet>. <extent>3 tomes. Tome 1
+                            : 78 pages, tome 2 : 88 pages, tome 3 : 62 feuillets.</extent>.
+                            <dimensions>Dimensions des tomes 1 et 2 : 320 x 196 mm. Dimensions du
+                            tome 3 : 320 x 281 mm</dimensions>. Planches dessinées (tome 3). </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="fre"
+                            >Français</language></langmaterial>
+                    <unitdate normal="1831/1838" era="ce" calendar="gregorian">1831-1838</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Tomes 1 et 2 : Lettres, notes et mémoires sur les langues, les antiquités et
+                        la géographie moderne de l'Amérique centrale adressés à la Société de
+                        géographie de Paris pendant les années 1831-1838, par le colonel <persname
+                            role="0110">Galindo</persname>.</p>
+                    <p>Tome 3 : Planches destinées à être jointes aux deux volumes précédents.
+                        [Atlas incomplet en partie reconstitué par Angrand].</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date></p>
+                </acqinfo>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 69. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f68.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="a1988781085900_FRBNFEAD000089085585" level="fonds">
+                <did>
+                    <unitid type="cote">Angrand 1</unitid>
+                    <unittitle>Recueil</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent> 78 pages</extent>.
+                            <dimensions>Dimensions du tome 1 : 320 x 196 mm. </dimensions>.
+                    </physdesc>
+                </did>
+                <scopecontent>
+                    <p>Lettres, notes et mémoires sur les langues, les antiquités et la géographie
+                        moderne de l'Amérique centrale adressés à la Société de géographie de Paris
+                        pendant les années 1831-1838 tomes 1 et 2).</p>
+                </scopecontent>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 1. Cote de consultation en salle
+                        de lecture : <num type="cotesub_com">MFILM Angrand 1</num>. Cote de la
+                        matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            192426</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 69. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f68.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="a1988781185900_FRBNFEAD000089085585" level="fonds">
+                <did>
+                    <unitid type="cote">Angrand 2</unitid>
+                    <unittitle>Recueil</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>88 pages</extent>.
+                            <dimensions>Dimensions du tome 2 : 320 x 196 mm.</dimensions>.
+                    </physdesc>
+                </did>
+                <scopecontent>
+                    <p>Lettres, notes et mémoires sur les langues, les antiquités et la géographie
+                        moderne de l'Amérique centrale adressés à la Société de géographie de Paris
+                        pendant les années 1831-1838 tomes 1 et 2).</p>
+                </scopecontent>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 2. Cote de consultation en salle
+                        de lecture : <num type="cotesub_com">MFILM Angrand 2</num>. Cote de la
+                        matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            192427</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 69. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f68.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="a1988781285900_FRBNFEAD000089085585" level="fonds">
+                <did>
+                    <unitid type="cote">Angrand 3</unitid>
+                    <unittitle>Recueil</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>Tome 3 : 62
+                            feuillets.</extent>. <dimensions>Dimensions du tome 3 : 320 x 281
+                            mm.</dimensions> Planches dessinées (tome 3). </physdesc>
+                </did>
+                <scopecontent>
+                    <p>Tome 3 : Planches destinées à être jointes aux deux volumes précédents.
+                        [Atlas incomplet en partie reconstitué par Angrand].</p>
+                </scopecontent>
+                <altformavail type="mfilm">
+                    <p>Microfilm couleur pour la cote Angrand 3. Cote de consultation en salle de
+                        lecture : <num type="cotesub_com">MFC Angrand 3</num>. Cote de la matrice
+                        (pour commander une reproduction) : <num type="cotesub_matrice">ICR
+                            205</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 69. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f68.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085902_FRBNFEAD000089087586" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 4</unitid>
+                    <unittitle>Lettres et mémoires de <persname role="0110">Brasseur de
+                            Bourbourg</persname> accompagnées de photographies</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>70 pièces compostés de
+                            5 à 70</extent>. <dimensions>270 x 220 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="fre"
+                            >Français</language>
+                    </langmaterial>
+                    <unitdate normal="1801/1900" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Lettres et mémoires de <persname role="0110">Brasseur de Bourbourg</persname>
+                        accompagnées de photographies</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 69. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f68.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085903_FRBNFEAD000089088587" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 5</unitid>
+                    <unittitle>
+                        <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="0070" source="OPP">Léonce
+                            Angrand</persname>. Idée générale d'une exploration archéologique au
+                        Mexique et dans l'Amérique tropicale</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>235
+                        feuillets</extent>. <dimensions>302 x 192 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="fre"
+                            >Français</language>
+                    </langmaterial>
+                    <unitdate normal="1801/1900" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Manuscrit autographe incomplet</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 5. Cote de consultation en salle
+                        de lecture : <num type="cotesub_com">MFILM Angrand 5</num>. Cote de la
+                        matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            192428</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 69. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f68.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085904_FRBNFEAD000089089588" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 6-7</unitid>
+                    <unittitle>Bibliotheca [sic]americana : catalogo de los autores que han escrito
+                        de la America en differentes idomas... compuesta pour el coronel <persname
+                            authfilenumber="ark:/12148/cb14640016z"
+                            normal="Alcedo, Antonio de (1735-1812)" role="0070" source="OPP">Antonio
+                            de Alcedo</persname>, capitan de R<emph render="super">s</emph> guardias
+                        espagnolas, academico de la R<emph render="super">l</emph> Academia de la
+                        historia.</unittitle>
+                    <physdesc>
+                        <physfacet type="support">papier</physfacet>. <extent>2 tomes. Tome 1 : 280
+                            feuillets. Tome 2 : 279 feuillets</extent>. <dimensions>230 x 280
+                            mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="fre"
+                            >Français</language>
+                    </langmaterial>
+                    <unitdate normal="1801/1900" era="ce" calendar="gregorian">1791</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Manuscrit autographe</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <bibliography>
+                    <bibref><persname authfilenumber="ark:/12148/cb135565756"
+                            normal="Alcedo, Antonio de (1735-1812)" role="0110" source="OPP">Alcedo,
+                            Antonio de (1735-1812)</persname> ; <persname
+                            normal="Garcés G., Jorge A." role="0540" source="OPP">Garcés G., Jorge
+                            A. (préf.)</persname>, <title>Bibliotheca americana, catalogo de los
+                            autores que han escrito de la América en diferentes idiomas y noticia de
+                            su vida y patria, años en que vivieron y obras...</title>, Quito : Impr.
+                        municipal, 1964, 2 vol. (VIII-439 p., 529 p.). (Publicaciones del Museo de
+                        arte e historia : 32).</bibref>
+                </bibliography>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 69. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f68.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085905_FRBNFEAD000089090589" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 8</unitid>
+                    <unittitle>Libro de sermones predicables sobre los misterios que en la quaresma
+                        se celebran desde la Septuagesima hasta el tercer día de Pascua... compuesto
+                        en lengua cackchiquel por el padre <persname role="0040">Antonio de
+                            Sal</persname>, ... dirigido al padre fray <persname role="0360">Diego
+                            de Sal</persname>.</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>243
+                        feuillets</extent>. <dimensions>203 x 140 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="myn">langue
+                            cackchiquel</language> et en <language audience="external"
+                            langcode="spa">espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1831/1838" era="ce" calendar="gregorian">1643</unitdate>
+                </did>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <custodhist>
+                    <p>Rédigé par le Père <persname role="0360">Antonio del Sal</persname></p>
+                    <p>Manuscrit ayant appartenu à fray <persname role="4010">Joseph de
+                            Guzman</persname></p>
+                    <p>Manuscrit ayant appartenu à M. <persname role="0360">Padilla</persname></p>
+                    <p>Offert en 1862 à Léonce Angrand par M. <persname role="0360"
+                            >Padilla</persname>
+                    </p>
+                </custodhist>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 8. Cote de consultation en salle
+                        de lecture : <num type="cotesub_com">MFILM Angrand 8</num>. Cote de la
+                        matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            95139</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 69-70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f68.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085906_FRBNFEAD000089091590" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 9</unitid>
+                    <unittitle>Vocabulario en lengua kiche y castellana</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>139
+                        feuillets</extent>. <dimensions>215 x 150 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="myn"
+                            >kiche</language> et en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1601/1700" era="ce" calendar="gregorian">XVIIe
+                        siècle</unitdate>
+                </did>
+                <altformavail type="num">
+                    <p>Il existe une version numérisée de ce document.</p>
+                </altformavail>
+                <dao href="http://gallica.bnf.fr/ark:/12148/btv1b100201460" linktype="simple">
+                    <daodesc>
+                        <p>Numérisation effectuée à partir d'un document original : Angrand 9.</p>
+                    </daodesc>
+                </dao>
+                <scopecontent>
+                    <p>Vocabulaire s'arrêtant à la lettre M.</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 9. Cote de consultation en salle
+                        de lecture : <num type="cotesub_com">MFILM Angrand 9</num>. Cote de la
+                        matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            95140</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085927_FRBNFEAD000089112591" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 10</unitid>
+                    <unittitle>Vocabulario de la lengua general de los indigenas de la Provincia de
+                        Quito</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>12 feuillets</extent>.
+                            <dimensions>160 x 113 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="spa"
+                            >espagnol</language> et <language langcode="myn">kiche</language>
+                    </langmaterial>
+                    <unitdate normal="1834" era="ce" calendar="gregorian">1834</unitdate>
+                </did>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 10. Cote de consultation en
+                        salle de lecture : <num type="cotesub_com">MFILM Angrand 10</num>. Cote de
+                        la matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            176960</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085928_FRBNFEAD000089113592" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 11</unitid>
+                    <unittitle>Discurso en que se prueba el derecho que el rey tiene como soberano
+                        de valerse del oro y plata de las iglesias de sus reynos y estados, para
+                        subvenir a los gastos de la presente guerra, y la obligación en que se halla
+                        la Iglesia de soccorerle</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>13 feuillets</extent>.
+                            <dimensions>370 x 265 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1701/1800" era="ce" calendar="gregorian">XVIIIe
+                        siècle</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Minute chargée de corrections</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 11. Cote de consultation en
+                        salle de lecture : <num type="cotesub_com">MFILM Angrand 11</num>. Cote de
+                        la matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            192429</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085929_FRBNFEAD000089114593" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 12</unitid>
+                    <unittitle>Atlas guatemalteco en ocho cartas formadas y grabadas en Guatemala de
+                        orden del gefe [sic] del Estado C. Dr Mariano Galvez, año de 1832, por
+                            <persname authfilenumber="ark:/12148/cb10483152r"
+                            normal="Rivera Maestre, M " role="3320" source="OPP">Miguel
+                            Rivera-Maestre</persname>
+                    </unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>53 feuillets ou
+                            pages</extent>. <dimensions>227 x 300 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1831/1838" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <altformavail type="num">
+                    <p>Il existe une version numérisée de ce document.</p>
+                </altformavail>
+                <dao href="http://gallica.bnf.fr/ark:/12148/btv1b100201409" linktype="simple">
+                    <daodesc>
+                        <p>Numérisation effectuée à partir d'un document original : Angrand 12.</p>
+                    </daodesc>
+                </dao>
+                <scopecontent>
+                    <p>Imprimé interfolié auquel on a ajouté des cartes manuscrits et de nombreuses
+                        notes géographiques : tableaux, itinéraires et d'un tableau statistique
+                        imprimé, le tout paginé : “1-53”. La partie imprimée est décrite dans le
+                            <extref actuate="onrequest"
+                            href="http://catalogue.bnf.fr/ark:/12148/cb312224105/PUBLIC"
+                            linktype="simple">catalogue général de la BnF</extref>. Voir également
+                        au département des Cartes et Plans, <extref actuate="onrequest"
+                            href="http://catalogue.bnf.fr/ark:/12148/cb40743495v/PUBLIC"
+                            linktype="simple">GE FF- 1190 (PIECE)</extref>
+                    </p>
+                    <p>Edité au Guatemala : casildo España, 1832</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <bibliography>
+                    <bibref><persname authfilenumber="ark:/12148/cb135565756"
+                            normal="Moziño, José Mariano (1757-1820)" role="0110" source="OPP"
+                            >Moziño, José Mariano (1757-1820)</persname> ; <persname
+                                normal="Rivera Maestre, M." role="0360" source="OPP">Rivera Maestre, M.</persname>, <title>Atlas guatemalteco en 8 cartas formadas
+                                y grabadas en Guatemala...</title>, Guatemala : casildo España, 1832, 8 cartes.</bibref>
+                </bibliography>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085931_FRBNFEAD000089116594" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 13</unitid>
+                    <unittitle>Notas geográficas, topográphicas, etc. sobre la isla de
+                        Pinos</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>61 pages</extent>.
+                            <dimensions>220 x 163 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1801/1900" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 13. Cote de consultation en
+                        salle de lecture : <num type="cotesub_com">MFILM Angrand 13</num>. Cote de
+                        la matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            192430</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                        et documents relatifs à l'Amérique recueillis et légués à la
+                        Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+                <controlaccess>
+                    <subject>Isla de la Juventud</subject>
+                </controlaccess>
+            </c>
+            <c id="NE0085932_FRBNFEAD000089117595" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 14</unitid>
+                    <unittitle>Note sur les antiquités de Kiché et de Tepam-Guatemala (avec 9
+                        planches) par Miguel Rivera-Maestre</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>10 pages</extent>.
+                            <dimensions>300 x 210 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1834" era="ce" calendar="gregorian">1834</unitdate>
+                </did>
+                <altformavail type="num">
+                    <p>Il existe une version numérisée de ce document.</p>
+                </altformavail>
+                <dao href="http://gallica.bnf.fr/ark:/12148/btv1b10020336b" linktype="simple">
+                    <daodesc>
+                        <p>Numérisation effectuée à partir d'un document original : Angrand 14.</p>
+                    </daodesc>
+                </dao>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 14. Cote de consultation en
+                        salle de lecture : <num type="cotesub_com">MFILM Angrand 14</num>. Cote de
+                        la matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            68100</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                        et documents relatifs à l'Amérique recueillis et légués à la
+                        Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085933_FRBNFEAD000089118596" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 15</unitid>
+                    <unittitle/>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>14 pièces</extent>.
+                        <dimensions/>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="fre"
+                            >Français</language>
+                    </langmaterial>
+                    <unitdate normal="1831/1838" era="ce" calendar="gregorian"/>
+                </did>
+                <scopecontent>
+                    <p/>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 1-3. Cote de consultation en
+                        salle de lecture : <num type="cotesub_com">MFILM Angrand 15</num>. Cote de
+                        la matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            204951</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                        et documents relatifs à l'Amérique recueillis et légués à la
+                        Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085934_FRBNFEAD000089119597" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 16</unitid>
+                    <unittitle>Lettre de monsieur <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="0110" source="OPP"
+                            >Angrand</persname> sur les Jardins de Lima</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>11 feuillets</extent>.
+                            <dimensions>312 x 198 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="fre"
+                            >Français</language>
+                    </langmaterial>
+                    <unitdate normal="1831/1838" era="ce" calendar="gregorian">1866</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Manuscrit autographe</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 15. Cote de consultation en
+                        salle de lecture : <num type="cotesub_com">MFILM Angrand 16</num>. Cote de
+                        la matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            204952</num>.</p>
+                </altformavail>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                        et documents relatifs à l'Amérique recueillis et légués à la
+                        Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085935_FRBNFEAD000089120598" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 17</unitid>
+                    <unittitle>Noticias de Nutka, por D. <persname role="0070">José Mariano
+                            Moziño</persname>
+                    </unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>99 feuillets</extent>.
+                            <dimensions>340 x 210 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1701/1800" era="ce" calendar="gregorian">XVIIIe
+                        siècle</unitdate>
+                </did>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <altformavail type="mfilm">
+                    <p>Microfilm noir et blanc pour la cote Angrand 17. Cote de consultation en
+                        salle de lecture : <num type="cotesub_com">MFILM Angrand 17</num>. Cote de
+                        la matrice (pour commander une reproduction) : <num type="cotesub_matrice">R
+                            192431</num>.</p>
+                </altformavail>
+                <bibliography>
+                    <bibref><persname authfilenumber="ark:/12148/cb135565756"
+                            normal="Moziño, José Mariano (1757-1820)" role="0110" source="OPP"
+                            >Moziño, José Mariano (1757-1820)</persname> ; <persname
+                            normal="Wilson, Iris Higbie" role="0360" source="OPP">Wilson, Iris
+                            Higbie (éd.)</persname>, <title>Noticias de Nutka : an account of Nootka
+                            Sound in 1792</title>, Seattle ; London : University of Washington
+                        press, 1970, 1 vol. (IV-142 p.-[16] p. de pl.). (American ethnological
+                        society monograph, ISSN 0065-8197 ; 50).</bibref>
+                    <bibref><persname authfilenumber="ark:/12148/cb135565756"
+                            normal="Moziño, José Mariano (1757-1820)" role="0110" source="OPP"
+                            >Moziño, José Mariano (1757-1820)</persname> ; <persname
+                            authfilenumber="ark:/12148/cb129428026" normal="Monge, Fernando"
+                            role="0360" source="OPP">Monge, Fernando</persname> (éd.) ; <persname
+                            authfilenumber="ark:/12148/cb12942803j" normal="Olmo, Margarita del"
+                            role="0110" source="OPP">Olmo, Margarita del</persname> (éd.),
+                            <title>Las « Noticias de Nutka » de José Mariano Moziño</title>,
+                        Aranjuez : Ediciones Doce Calles, cop. 1998, 1 vol. (266 p.). (Theatrum
+                        naturae. Serie Textos clásicos).</bibref>
+                </bibliography>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+                <controlaccess>
+                    <subject>Nootka</subject>
+                    <subject>Indiens Nootka</subject>
+                </controlaccess>
+            </c>
+            <c id="NE0085936_FRBNFEAD000089121599" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 18</unitid>
+                    <unittitle>Recueil</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>119
+                        feuillets</extent>. <dimensions>302 x 207 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1831/1838" era="ce" calendar="gregorian">XVIIIe
+                        siècle</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Recueil contenant : </p>
+                    <p>Fol. 1-66 : "estado del reino de Santa Fé, por el señor Cavallero"</p>
+                    <p>Fol. 67-77 : "Lo importante que es la población y medios que se proponen para
+                        conseguirlo en este nuevo reino de Granada [attribué au Dr Pedreros]"</p>
+                    <p>Fol. 78-119 : "Viaje a Orinoco, por <name>Antonio de La Torre</name>" </p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085937_FRBNFEAD000089122600" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 19-27</unitid>
+                    <unittitle>Les "Ruines de Tiahuanaco" par <persname
+                            authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="0070" source="OPP">M.
+                            Angrand</persname>
+                    </unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="fre"
+                            >français</language>
+                    </langmaterial>
+                    <unitdate normal="1801/1900" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <scopecontent>
+                    <p>9 cartons refermant une suite de notes en partie rédigées</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+                <controlaccess>
+                    <subject>Tiahuanaco</subject>
+                    <subject>Archéologie</subject>
+                    <subject>Bolivie</subject>
+                </controlaccess>
+            </c>
+            <c id="NE0085938_FRBNFEAD000089123601" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 28</unitid>
+                    <unittitle>Descripción de la antiguidades de <geogname>Xochicalco</geogname>...
+                        por don <persname authfilenumber="ark:/12148/cb12295294k"
+                            normal="Alzate y Ramírez, José Antonio de (1737-1799)" role="0070"
+                            source="OPP">Joseph Antonio Alzate y Ramirez</persname>
+                    </unittitle>
+                    <physdesc>1 vol. <physfacet type="support">Papier</physfacet>. 1 vol.,
+                            <extent>IV-31 pages</extent>. <dimensions>322 x 197 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1831/1838" era="ce" calendar="gregorian">1791</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Le Manuscrit est accompagné de 5 dessins calqués.</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <bibliography>
+                    <bibref><persname authfilenumber="ark:/12148/cb12295294k"
+                            normal="Alzate y Ramírez, José Antonio de (1737-1799)" role="0110"
+                            source="OPP">Alzate y Ramírez, José Antonio de (1737-1799)</persname>,
+                                <title><emph render="italic">Descripcion de las antiguedades de
+                                Xochicalco</emph></title>, En Mexico : Por don Felipe de Zuñiga y
+                        Ontiveros, 1791. Disponible en ligne, url :
+                        &#60;https://archive.org/details/descripciondelas00alza&#62;.</bibref>
+                </bibliography>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+                <controlaccess>
+                    <subject>Xochicalco</subject>
+                    <subject>Archéologie</subject>
+                    <subject>Mexique</subject>
+                </controlaccess>
+            </c>
+            <c id="NE0085939_FRBNFEAD000089124602" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 29</unitid>
+                    <unittitle>Carton renfermant des notes diverses et des dessins</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>22 pièces</extent>. </physdesc>
+                    <langmaterial>Documents <language audience="external" langcode="mul"
+                            >multilingues</language>
+                    </langmaterial>
+                    <unitdate normal="1831/1838" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Carton renfermant des notes diverses et des dessins</p>
+                </scopecontent>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+            <c id="NE0085940_FRBNFEAD000089125603" otherlevel="niveau_englobant" level="otherlevel">
+                <did>
+                    <unitid type="cote">Angrand 30</unitid>
+                    <unittitle>Recueil de poésies diverses en espagnol</unittitle>
+                    <physdesc>
+                        <physfacet type="support">Papier</physfacet>. <extent>12 feuillets</extent>.
+                            <dimensions>220 x 180 mm</dimensions>. </physdesc>
+                    <langmaterial>Documents en <language audience="external" langcode="spa"
+                            >espagnol</language>
+                    </langmaterial>
+                    <unitdate normal="1801/1900" era="ce" calendar="gregorian">XIXe
+                        siècle</unitdate>
+                </did>
+                <acqinfo>
+                    <p>Legs <persname authfilenumber="ark:/12148/cb140619898"
+                            normal="Angrand, Léonce (1808-1886)" role="4010" source="OPP">Léonce
+                            Angrand</persname>, <date audience="external" calendar="gregorian"
+                            era="ce" type="entrée">8 mai 1885</date>
+                    </p>
+                </acqinfo>
+                <processinfo audience="external">
+                    <p>Notice rédigée d'après l'<title><emph render="italic">Inventaire des livres
+                                et documents relatifs à l'Amérique recueillis et légués à la
+                                Bibliothèque nationale par M. Angrand</emph></title>,
+                        Nogent-le-Rotrou, impr. Daupeley-Gouverneur, 1887, p. 70. Disponible en
+                        ligne, url :
+                        &#60;http://gallica.bnf.fr/ark:/12148/bpt6k255697k/f69.item&#62;, et encodée
+                        en EAD par Olivier Jacquot.</p>
+                </processinfo>
+            </c>
+        </dsc>
+    </archdesc>
+</ead>
