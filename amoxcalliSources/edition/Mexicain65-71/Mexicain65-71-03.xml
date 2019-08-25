@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" ?>
+<?xml-model href="documentation/out/ODD-Mexicain65-71.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!DOCTYPE TEI SYSTEM "documentation/DTD-Entity.dtd">
+<?xml-stylesheet type="text/xsl" href="tv/tv.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Codex Ixtlilxochitl</title>
+            <title type="source">Paris, BnF, Manuscrit Mexicain 65-71</title>
+            <author>
+               <persName>Fernando de Alva Cortés Ixtlilxochitl (Texcoco, 1578? — Mexico,
+                  1648)</persName>
+            </author>
+            <respStmt>
+               <resp>Transcription du manuscrit original et encodage XML-TEI</resp>
+               <persName type="person">
+                  <forename>Olivier</forename>
+                  <surname>Jacquot</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher>Olivier Jacquot</publisher>
+            <availability status="restricted">
+               <p>Copyright © 2019, Olivier Jacquot</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">Cette
+                  édition est mise à disposition librement sur le web à destination de la communauté
+                  scientifique dans le cadre de la licence Creative Commons <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Attribution
+                     - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0
+                     International (CC BY-NC-SA 4.0)</ref>. </licence>
+            </availability>
+            <address>
+               <addrLine>
+                  <name type="person">Olivier Jacquot</name>
+               </addrLine>
+               <addrLine>Mél : ojacquot@netcourrier.com
+                  <email>ojacquot@netcourrier.com</email></addrLine>
+               <addrLine>54, rue de Wattignies</addrLine>
+               <addrLine>75012 Paris</addrLine>
+               <addrLine>France</addrLine>
+               <addrLine>
+                  <ref target="https://amoxcalli.hypotheses.org"
+                     >https://amoxcalli.hypotheses.org</ref>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc/>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="fol_109-110r.jpg" width="1024px" height="1459px"/>
+         <zone xml:id="l341" ulx="858" uly="80" lrx="949" lry="124"/>
+         <!-- p109-110 -->
+         <zone xml:id="l342" ulx="90" uly="501" lrx="188" lry="573"/>
+         <!--figura de -->
+         <zone xml:id="l343" ulx="91" uly="568" lrx="164" lry="616"/>
+         <!--Tlaloc-->
+         <zone xml:id="l344" ulx="194" uly="123" lrx="871" lry="185"/>
+         <zone xml:id="l345" points=" 191,190 882,178 882,211 189,223 "/>
+         <zone xml:id="l346" points=" 189,219 871,201 871,232 183,255 "/>
+         <zone xml:id="l347" points=" 194,252 882,231 865,268 188,297 "/>
+         <zone xml:id="l348" points=" 218,280 877,259 868,294 185,311 "/>
+         <zone xml:id="l349" points=" 191,314 873,286 865,322 194,340 "/>
+         <zone xml:id="l350" points=" 156,336 889,312 893,352 203,370 184,396 150,394 "/>
+         <zone xml:id="l351" points=" 224,361 878,344 876,371 192,389 "/>
+         <zone xml:id="l352" points=" 198,388 894,366 883,401 194,419 "/>
+         <zone xml:id="l353" points=" 194,416 895,394 893,429 214,455 176,465 "/>
+         <zone xml:id="l354" points=" 213,450 865,429 867,458 193,476 "/>
+         <zone xml:id="l355" points=" 201,477 881,446 871,481 182,504 "/>
+         <zone xml:id="l356" points=" 195,501 876,478 880,510 212,534 175,547 178,527 "/>
+         <zone xml:id="l357" points=" 207,530 873,505 871,533 197,558 "/>
+         <zone xml:id="l358" points=" 199,555 883,525 881,555 195,587 "/>
+         <zone xml:id="l359" points=" 212,577 903,556 888,585 199,600 "/>
+         <zone xml:id="l360" points=" 199,603 878,585 880,619 193,632 "/>
+         <zone xml:id="l361" points=" 183,632 886,614 886,645 175,662 "/>
+         <zone xml:id="l362" points=" 197,658 884,636 878,669 230,687 190,701 "/>
+         <zone xml:id="l363" points=" 224,679 895,655 893,689 229,709 198,728 169,698 "/>
+         <zone xml:id="l364" points=" 171,708 894,680 896,715 199,746 194,770 133,767 "/>
+         <zone xml:id="l365" points=" 228,731 895,713 895,741 193,769 203,746 "/>
+         <zone xml:id="l366" points=" 201,764 880,739 880,771 192,798 "/>
+         <zone xml:id="l367" points=" 197,794 886,761 886,790 194,823 "/>
+         <zone xml:id="l368" points=" 192,820 887,786 887,822 248,848 185,863 "/>
+         <zone xml:id="l369"
+            points=" 239,847 898,816 900,853 385,875 363,889 338,874 236,874 172,896 190,865 "/>
+         <zone xml:id="l370" points=" 240,874 893,847 883,879 190,904 "/>
+         <zone xml:id="l371" points=" 203,906 889,871 885,909 249,931 179,950 "/>
+         <zone xml:id="l372" points=" 248,929 918,893 918,928 189,963 "/>
+         <zone xml:id="l373" points=" 198,963 898,927 900,968 200,994 "/>
+         <zone xml:id="l374" points=" 200,990 895,960 891,989 231,1020 217,1044 188,1042 "/>
+         <zone xml:id="l375" points=" 222,1015 900,991 898,1025 240,1046 177,1069 191,1042 "/>
+         <zone xml:id="l376"
+            points=" 239,1042 905,1017 906,1047 292,1076 253,1097 223,1082 173,1077 "/>
+         <zone xml:id="l377" points=" 198,1081 897,1044 897,1081 198,1105 "/>
+         <zone xml:id="l378" points=" 191,1106 927,1066 919,1106 195,1139 "/>
+         <zone xml:id="l379" points=" 157,1134 899,1105 899,1136 220,1161 189,1188 150,1180 "/>
+         <zone xml:id="l380" points=" 213,1164 899,1131 900,1154 199,1189 "/>
+         <zone xml:id="l381" points=" 205,1185 908,1151 908,1189 197,1211 "/>
+         <zone xml:id="l382" points=" 197,1212 904,1189 900,1219 218,1241 204,1262 188,1253 "/>
+         <zone xml:id="l383" points=" 218,1235 917,1217 919,1246 197,1266 "/>
+         <zone xml:id="l384"
+            points=" 209,1263 905,1249 892,1271 503,1288 446,1295 367,1291 191,1298 "/>
+         <zone xml:id="l385" ulx="368" uly="1286" lrx="994" lry="1316"/>
+         <!-- sign-->
+         <zone xml:id="l386"
+            points=" 247,1261 262,1282 271,1311 263,1335 246,1350 219,1354 185,1344 173,1313 178,1286 195,1262 224,1253 "/>
+         <!-- tampon-->
+         <zone xml:id="l387" ulx="880" uly="1306" lrx="932" lry="1345"/>
+         <!-- P17  -->
+      </surface>
+
+      <surface>
+         <graphic url="fol_109-110v.jpg" width="1024px" height="1467px"/>
+         <zone xml:id="l388" ulx="410" uly="27" lrx="493" lry="59"/>
+         <!-- nom-->
+         <zone xml:id="l389" ulx="873" uly="55" lrx="905" lry="77"/>
+         <!-- p150-->
+         <zone xml:id="l390"
+            points=" 326,55 722,82 659,359 690,432 713,516 814,567 897,791 846,905 731,940 654,952 650,1045 825,1060 825,1408 474,1416 143,1408 137,1046 334,1033 325,914 297,905 354,646 240,618 233,753 157,751 143,499 163,342 210,206 "/>
+         <!-- image-->
+         <zone xml:id="l391" ulx="665" uly="300" lrx="876" lry="422"/>
+         <!-- tampon -->
+      </surface>
+
+      <surface>
+         <graphic url="fol_112r.jpg" width="1024px" height="1459px"/>
+         <zone xml:id="l392" ulx="985" uly="60" lrx="999" lry="87"/>
+         <!-- p9-->
+         <zone xml:id="l393" ulx="921" uly="88" lrx="957" lry="112"/>
+         <!-- p122-->
+         <zone xml:id="l394" points=" 204,111 297,108 294,138 900,148 896,186 200,190 "/>
+         <zone xml:id="l395" points=" 227,188 303,181 897,183 898,211 186,218 "/>
+         <zone xml:id="l396" points=" 209,220 886,215 890,246 203,248 "/>
+         <zone xml:id="l397" points=" 210,249 906,243 909,273 200,280 "/>
+         <zone xml:id="l398" points=" 211,275 904,271 904,301 208,306 "/>
+         <zone xml:id="l399" points=" 208,307 896,296 894,328 201,335 "/>
+         <zone xml:id="l400" points=" 208,332 902,318 902,344 197,366 "/>
+         <zone xml:id="l401" points=" 204,362 902,348 900,372 285,396 252,402 190,393 "/>
+         <zone xml:id="l402" points=" 196,389 903,377 913,406 430,419 381,431 240,424 163,453 "/>
+         <zone xml:id="l403" points=" 225,423 918,405 918,433 328,455 305,461 240,449 150,486 "/>
+         <zone xml:id="l404" points=" 239,451 892,429 898,459 187,482 "/>
+         <zone xml:id="l405" points=" 208,482 892,462 897,490 196,512 "/>
+         <zone xml:id="l406" points=" 214,511 887,495 893,527 196,538 "/>
+         <zone xml:id="l407" points=" 210,536 888,531 891,565 205,564 "/>
+         <zone xml:id="l408" points=" 202,569 883,561 883,588 508,602 232,602 199,611 "/>
+         <zone xml:id="l409" points=" 210,597 887,587 887,619 198,623 "/>
+         <zone xml:id="l410" points=" 200,630 888,622 889,650 202,662 "/>
+         <zone xml:id="l411" points=" 225,651 902,648 902,680 196,678 "/>
+         <zone xml:id="l412" points=" 192,682 883,676 883,697 186,710 "/>
+         <zone xml:id="l413" points=" 214,707 893,696 895,723 197,729 "/>
+         <zone xml:id="l414" points=" 172,734 892,727 894,757 229,763 182,781 167,769 "/>
+         <zone xml:id="l415" points=" 221,758 883,752 883,775 229,791 179,798 "/>
+         <zone xml:id="l416" points=" 219,789 896,776 896,806 193,816 "/>
+         <zone xml:id="l417" points=" 202,815 897,806 899,835 201,846 "/>
+         <zone xml:id="l418" points=" 201,850 886,840 886,862 185,884 "/>
+         <zone xml:id="l419" points=" 220,873 913,860 907,899 175,903 "/>
+         <zone xml:id="l420" points=" 184,906 893,893 895,928 183,936 "/>
+         <zone xml:id="l421" points=" 190,937 889,929 892,956 234,969 168,989 "/>
+         <zone xml:id="l422" points=" 222,968 893,957 897,984 181,1000 "/>
+         <zone xml:id="l423" points=" 189,998 904,978 904,1012 173,1027 "/>
+         <zone xml:id="l424" points=" 195,1031 890,1015 895,1048 198,1061 "/>
+         <zone xml:id="l425" points=" 189,1064 888,1050 886,1084 186,1094 "/>
+         <zone xml:id="l426" points=" 203,1089 892,1079 892,1108 197,1115 "/>
+         <zone xml:id="l427"
+            points=" 196,1117 896,1111 901,1136 762,1145 700,1160 693,1141 527,1146 497,1159 483,1141 408,1161 408,1144 313,1165 265,1163 186,1159 "/>
+         <zone xml:id="l428"
+            points=" 223,1145 897,1138 897,1168 423,1177 374,1186 348,1170 223,1169 213,1194 179,1196 "/>
+         <zone xml:id="l429" points=" 222,1174 883,1169 884,1198 186,1204 "/>
+         <zone xml:id="l430" points=" 206,1200 889,1197 894,1224 190,1230 "/>
+         <zone xml:id="l431"
+            points=" 200,1232 904,1223 906,1253 300,1249 239,1251 195,1265 187,1247 "/>
+         <zone xml:id="l432"
+            points=" 235,1246 893,1244 891,1284 512,1271 470,1268 404,1276 396,1262 340,1278 337,1262 231,1264 198,1274 209,1251 "/>
+         <zone xml:id="l433" points=" 226,1264 655,1265 634,1310 180,1298 194,1277 "/>
+         <zone xml:id="l434" ulx="903" uly="1300" lrx="941" lry="1332"/>
+         <!-- p18   -->
+      </surface>
+
+      <surface>
+         <graphic url="fol_112v.jpg" width="1024px" height="1469px"/>
+         <zone xml:id="l435" ulx="389" uly="37" lrx="612" lry="65"/>
+         <!-- nom-->
+         <zone xml:id="l436" ulx="867" uly="43" lrx="925" lry="68"/>
+         <!-- p-->
+         <zone xml:id="l437" ulx="34" uly="64" lrx="250" lry="170"/>
+         <!-- tampon-->
+         <zone xml:id="l438" ulx="605" uly="126" lrx="838" lry="238"/>
+         <!-- tampon-->
+         <zone xml:id="l439"
+            points=" 515,225 789,237 825,575 918,1043 918,1289 51,1285 45,1053 207,287 450,285 "/>
+         <!-- image     -->
+      </surface>
+   </facsimile>
+
+   <text n="Planches commentées" type="edition" xml:id="PC">
+      <body>
+         <div type="section" n="03">
+            <!--  Fol. 109-112v -->
+            <pb n="109-110r" xml:id="fol_109-110r"/>
+            <p>
+               <lb facs="#l344"/><fw type="pageNum" place="top-right"><handShift medium="black-ink"
+                     resp="#hdpag-encre-6"/>109-110</fw>
+               <lb facs="#l345"/>Lengua&espace;me&Xx;icana se dize <persName ref="#opochtli"><orig>o
+                  Pochtli</orig><reg/></persName><note type="commentaire">Opochtli est, dans la mythologie aztèque, le dieu de la pêche.</note> se&espace;con&Pp;one&pt-par-rien;&Ee;l nombre
+                  <lb facs="#l346"/>deste&pt-par-rien; ydolo&pt-par-rien; tenia &V-pr-u;na &Rr;odela
+               en la&espace;mano&pt-par-rien; yzqu&i-aigu;erda <lb facs="#l347"/>&Dd;e
+               &Pp;lumeria&pt-par-rien; de di&supr-space;ferentes colores&pt-par-rien;
+               con&espace;unas ojas&pt-par-rien; &Dd;e&espace;oro&pt-par-rien; <lb facs="#l348"
+               />que&espace;atrauesauan&pt-par-rien; &Pp;or&espace;medio della&pt-par-rien; con
+               grenas y cascave <lb facs="#l349"/><seg type="hyphen">les</seg>&pt-par-rien;
+               de&espace;oro&pt-par-rien; y cutaras&pt-par-rien; azules&pt-par-virgule; y &V-pr-u;n
+               panete con&espace;los estre <lb facs="#l350"/><seg type="hyphen"
+               >mos</seg>&pt-par-rien; te&Xx;ido de&pt-par-rien; hilo&pt-par-rien; de diuersos
+               colores&pt; Las &Pp;iernas y bra&cced;os <lb facs="#l351"
+               />&V-pr-v;etadas&pt-par-virgule; &Dd;e azul&pt-par-virgule; en
+               la&espace;mano&pt-par-rien; <choice>
+                  <abbr>Dr<hi rend="sup">a.</hi></abbr>
+                  <expan>Derecha</expan>
+               </choice> &V-pr-u;na flecha&espace;larga&pt-par-rien; con ca&Xx;qui <lb facs="#l352"
+                  /><seg type="hyphen">llo</seg>&pt-par-rien; de pedernal&pt-par-virgule; arma
+               antigua&pt-par-rien; &Dd;e &mM;e&Xx;icanos&pt-par-rien; que se tira&u-pr-b;a <lb
+                  facs="#l353"/>con&espace;un&espace;artif&i-aigu;cio peque&n-tilde;o&pt-par-rien;
+               como&pt-par-rien; cruz<add place="above">&#43;</add> y porasiento y&espace;estrado lo
+                  <lb facs="#l354"/>propio quel&pt-par-rien; ydolo primero&pt-par-rien;
+               a&espace;este&pt-par-rien; no
+               le&espace;&Rr;e&pt-par-rien;&supr-space;presenta&u-pr-v;a nadie&pt-par-rien; <lb
+                  facs="#l355"/>mas&pt-par-rien; de&espace;que&espace;quando&pt-par-rien;
+               muria&espace;el Rey lo conponian&pt-par-rien; &Dd;e semejan <lb facs="#l356"/><seg
+                  type="hyphen">tes</seg> gornatos&pt-par-rien; que&espace;los deste&pt-par-rien;
+               hidolo&pt-par-virgule; por particular&pt-par-virgule; y R&pt-absent; L&pt-absent; <lb
+                  facs="#l357"/>pri&u-pr-v;ilegio y conellos&pt-par-virgule;
+               quema&u-pr-b;an&pt-par-rien; &Ee;l cuerpo&pt-par-rien; hasta haberse&pt-par-rien;
+               &cced;eniza&pt-par-rien; <lb facs="#l358"/><add place="margin">Figura de</add>como se
+               tratara&pt-par-rien; adelante&pt-par-rien; este&espace;ydolo&pt-par-rien; queda
+               &Rr;etratado&pt-par-rien; en la&espace;se <lb facs="#l359"/><seg type="hyphen"
+                  >gunda</seg> &Pp;lana&pt-par-rien; del &Rr;etrato&pt-par-rien; del yndio que
+               &Rr;epresenta&pt-par-rien; <persName ref="#tezcatlipoca"><orig>&aA;tles <lb
+                        facs="#l360"/><add place="margin">,</add><seg type="hyphen"
+                           >catlepoca</seg></orig><reg>Tezcatlipoca</reg></persName><note type="commentaire">Frère rival du dieu Quetzalcòatl, Tezcatlipoca est le dieu destructeur de la nuit et l'obscurité.</note>&cent-envers-pr-virgule;
+               El ter&cced;ero y&pt-par-rien;&supr-space;dolo&pt-par-rien; llamado&pt-par-rien;
+               <persName ref="#tlaloc">&tT;laloc</persName><note type="commentaire">Dieu aztèque de l'eau.</note>&pt-par-rien; es&pt-par-rien; dios
+               de&espace;las lubias <lb facs="#l361"/>llamanle&pt-par-rien; abundador&pt-par-rien;
+               de la&espace;tierra y buenos ten&Pp;orales&pt-par-rien; hera <lb facs="#l362"/>tan
+               bien com&Pp;uesto&pt-par-virgule; de madera&pt-par-virgule; altalle&pt-par-rien; y
+               estatura de &v-pr-u;n <lb facs="#l363"/>hombre&pt-par-rien;
+               y&espace;todo&espace;su&espace;traje y &V-pr-v;est&i-aigu;dura&pt-par-virgule;
+               hera&pt-par-rien; senificar lub&i-aigu;as &Yy; <lb facs="#l364"/>frutos&pt-par-rien;
+               en&espace;abundan&cced;ias&pt; El cuerpo thenia&espace;tisnado&pt-par-rien; y
+               &v-pr-u;ntado de <lb facs="#l365"/>&V-pr-u;n&espace;licor&pt-par-rien;
+               llamado&pt-par-rien; holi&pt-par-rien; en&espace;lengua me&Xx;&i-aigu;cana que
+               destilan &cced;iertos <lb facs="#l366"/>arboles&pt-par-rien; que secrian&pt-par-rien;
+               en&espace;tierras callientes&pt-par-virgule; dequese hazian <lb facs="#l367"/>las
+               pelotas&pt-par-rien; con&espace;que juga&u-pr-b;an los yndios thenia&pt-par-rien; en
+               la <lb facs="#l368"/>mano&pt-par-rien; <choice>
+                  <abbr>Dr.<hi rend="sup">a</hi></abbr>
+                  <expan>Derecha</expan>
+               </choice> &V-pr-u;na ojade&espace;oro&pt-par-rien; batido&pt-par-rien;
+               bolteada&pt-par-rien; que&espace;sinifica&u-pr-v;a&pt-par-rien; <lb facs="#l369"
+               />el&pt-par-rien; &Rr;elanpago&pt-par-virgule; en la izqu&i-aigu;erda &V-pr-u;na
+               &Rr;odela&espace;de <lb facs="#l370"/>plumas&pt-par-rien; con guarni&cced;ion de
+               nacar&pt-par-rien; a&espace;manera&pt-par-rien; &Dd;e &Rr;ed&pt-par-rien; y so <lb
+                  facs="#l371"/><seg type="hyphen">bre</seg> la vestidura&pt-par-virgule;
+               que&espace;tanbien era&espace;de &Pp;lumas&pt-par-rien; azules <lb facs="#l372"
+               />thenia&espace;la&espace;misma guarni&cced;ion con&espace;la&pt-par-rien;
+               orladura&pt-par-virgule; de &cced;ierta <lb facs="#l373"
+               />labor&espace;te&pt-par-rien;&supr-space;gida de&espace;pelos
+               de&espace;liebre&pt-par-virgule; y cone&Xx;o a&espace;manera de <lb facs="#l374"
+               />medias lunas&pt-par-rien; blancas&pt-par-virgule; en el&pt-par-rien;
+               &Rr;ostro&pt-par-virgule; hera de &Uu;na fi <lb facs="#l375"/><seg type="hyphen"
+                  >gura</seg> fe&pt-par-rien;&supr-space;ysima&pt-par-rien; que&espace;los yndios
+               en&espace;sus &Pp;inturas <lb facs="#l376"/>y carateles&pt-par-rien;
+               figura&u-pr-b;an&pt-par-virgule; por las lubias&pt-par-virgule; y
+               &Pp;orque&pt-par-rien; sín <lb facs="#l377"/>dificultad no se &Pp;uede&pt-par-rien;
+               descre&u-pr-b;ir su&espace;catadura&pt-par-virgule; se&espace;re <lb facs="#l378"
+                  /><seg type="hyphen">mite</seg>&pt-par-virgule; a la&espace;siguiente
+               &Pp;intura&pt-par-rien; tenia&pt-par-rien; &V-pr-u;n gran cape <lb facs="#l379"/><seg
+                  type="hyphen">lete</seg>&pt-par-virgule; de &Pp;lumaria blanca&pt-par-virgule; y
+               &u-pr-v;erde&pt-par-virgule; que signi&supr-space;fica&u-pr-b;an&espace;los <lb
+                  facs="#l380"/>frutos&pt-par-rien; &V-pr-v;erdes&pt-par-rien; y
+               frondosos&pt-par-rien; al cuello&pt-par-rien; &v-pr-u;na sarta&pt-par-rien; de
+               pras&i-aigu;os&pt-par-rien; <lb facs="#l381"/>con gre&u-pr-v;as&pt-par-virgule; de
+               cuero de benado&pt-par-virgule; en las piernas&pt-par-rien; tenidos y &Pp;inta <lb
+                  facs="#l382"/><seg type="hyphen">dos</seg>&pt-par-rien; de amarillo&pt-par-rien;
+               que al &Rr;emate&pt-par-rien; y bajo de ellas&pt-par-rien; pendian y col <lb
+                  facs="#l383"/><seg type="hyphen">ga&u-pr-b;an</seg>&pt-par-rien;
+               casca&u-pr-b;elles&pt-par-virgule; de oro&pt; El
+               asiente&espace;y&espace;estrado&pt-par-virgule; hera&espace;de&espace;ma <lb
+                  facs="#l384"/><seg type="hyphen">dera</seg>&pt-par-virgule; con un &cced;ercui y
+               de&espace;lo&espace;mismo&pt-par-rien; almenado&pt-par-rien; como todo se <del
+                  rend="overstrike">p</del>
+               <lb facs="#l385"/>pinta&pt-par-rien; en la&espace;plana siguiente&pt-par-rien; donde
+               se&espace;&u-pr-v;era mas&espace;patente&pt; <lb facs="#l386"/>Este idolo no tenia
+               Indio que le representava. (<unclear>Pomar d' <gap reason="illegible"/></unclear> est
+                  <gap reason="illegible"/>). <lb facs="#l387"/><fw type="pageNum" place="bot-right"
+                     ><handShift medium="pencil" resp="#hdpag-crayon-7"/>17</fw>
+            </p>
+
+            <p>
+               <lb facs="#l388"/><persName ref="#tlaloc">&tT;laloc</persName>&pt; <lb facs="#l389"
+                  /><fw type="pageNum" place="top-right"><handShift medium="pencil"
+                     resp="#hdpag-crayon-7"/>110</fw>
+               <figure>
+                  <lb facs="#l390"/>
+                  <!-- image -->
+                  <graphic url="fol_109-110v.jpg" width="1024px"
+                     height="1542px"/>
+                  <list type="unordered">
+                     <head>Tlaloc</head>
+                     <label xml:lang="fr">Folio : </label>
+                     <item>109v(110v)</item>
+                     <label xml:lang="fr">Rubrique : </label>
+                     <item>-</item>
+                     <label xml:lang="fr">Légende : </label>
+                     <item xml:lang="nah">Tlaloc</item>
+                     <label xml:lang="fr">Descripteurs : </label>
+                     <item>bijou, bouclier, fortifications, grelot, Tlaloc</item>
+                     <label xml:lang="fr">Inscriptions : </label>
+                     <item>-</item>
+                     <label xml:lang="fr">Notes : </label>
+                     <item>-</item>
+                     <label xml:lang="fr">Auteur, titre : </label>
+                     <item>recueil de peintures</item>
+                     <label xml:lang="fr">Titre d'usage : </label>
+                     <item>Codex Ixtlilxochitl</item>
+                     <label xml:lang="fr">Nom de pays : </label>
+                     <item>Mexique</item>
+                     <label xml:lang="fr">Origine : </label>
+                     <item>-</item>
+                     <label xml:lang="fr">Siècle : </label>
+                     <item>16ème-17ème siècle</item>
+                     <label xml:lang="fr">Date : </label>
+                     <item>?</item>
+                     <label xml:lang="fr">Artiste : </label>
+                     <item>?</item>
+                  </list>
+               </figure>
+               <lb facs="#l391"/><stamp><mentioned xml:lang="FR">Collection E. Eug. GOUPIL à Paris
+                     Ancienne Collection J.M.A. Aubin </mentioned></stamp><handShift
+                  medium="black-ink" resp="#hdfra-goupil-5"/>N° 65 à 71. <lb/><fw type="pageNum"
+                  place="bot-right"><handShift medium="pencil" resp="#hdpag-crayon-7"/>&#43;</fw>
+            </p>
+
+            <p>
+               <lb facs="#l392"/><fw type="pageNum" place="top-right"><handShift medium="black-ink"
+                     resp="#hdpag-encre-6"/><unclear reason="illegible">5</unclear></fw>
+               <lb facs="#l393"/><fw type="pageNum" place="top-right"><handShift medium="black-ink"
+                     resp="#hdpag-encre-6"/>112</fw>
+               <lb facs="#l394"/>El ten&Pp;lo&pt-par-rien; y cu<index indexName="IndexRerum">
+                  <term>Cu</term></index><note type="commentaire"
+                     >Vocable d'origine maya, employé par Bernardino de Sahagún pour
+                     désigner un téocali (pyramide à degrés).</note> &Pp;ren&cced;ip<choice>
+                  <corr>a</corr>
+                  <sic/>
+               </choice>l&pt-par-rien; &Dd;esta &cced;iudad&pt-par-rien; y a&V-pr-u;n el de <lb
+                  facs="#l395"/>esta la&espace;<placeName ref="#nueva-espana">nue&u-pr-v;a
+                  es&pt-par-rien;&supr-space;&Pp;a&n-tilde;a</placeName>
+               esta&u-pr-v;a&pt-par-virgule; edificado&pt-par-rien; en medio de&espace;la <lb
+                  facs="#l396"/>ciudad&pt-par-virgule; quadrado y&espace;ma&cced;iso&pt-par-rien;
+               como&espace;terra pleno de piedra&pt-par-virgule; y barro&pt-par-virgule; <lb
+                  facs="#l397"/>sim&supr-space;&Pp;le&pt-par-rien; y
+               solamente&espace;las&pt-par-rien; bazes de calycanto&pt-par-rien; thenia&espace;ca
+                  <lb facs="#l398"/><seg type="hyphen">da</seg>&pt-par-rien; quadro&pt-par-virgule;
+               oczenta&pt-par-rien; bra&cced;as largas y de&espace;alto&pt-par-rien; mas de veyn <lb
+                  facs="#l399"/><seg type="hyphen">te</seg>&pt-par-rien; y siete tenia&pt-par-rien;
+               &Pp;or la&espace;parte&pt-par-virgule; que&espace;a&espace;el&pt-par-rien; se subia
+               &cced;iento y se <lb facs="#l400"/><seg type="hyphen">senta</seg>&pt-par-rien;
+               escalones&pt-par-rien; que mira&u-pr-b;an&pt-par-rien; al &Pp;oniente
+               comen&cced;a&u-pr-b;a su&espace;e <lb facs="#l401"/><seg type="hyphen"
+                  >difi&cced;io</seg> &Dd;esde los&espace;&cced;imientos en&espace;tal
+               forma&pt-par-virgule; que como&pt-par-rien; <lb facs="#l402"/>y&u-pr-v;a
+               subiendo&pt-par-rien; se&espace;y&u-pr-v;a&pt-par-rien; diminuyendo
+               y&espace;estreczando&pt-par-virgule; de&espace;<choice>
+                  <corr>est</corr>
+                  <sic>tsd</sic>
+               </choice>as <lb facs="#l403"/>partes&pt-par-virgule; en forma&pt-par-rien;
+               piramidal&pt-par-virgule; y detreczo atreczo&pt-par-virgule; como yua <lb
+                  facs="#l404"/> subiendo&pt-par-virgule; hazia &V-pr-u;n descanso como
+               &Pp;oyo&pt-par-virgule; al&pt-par-rien; &Rr;ededor&pt-par-virgule; de&espace;todo <lb
+                  facs="#l405"/>&Ee;l&pt;&tiret; &eE;n&espace;medio destas&pt-par-rien;
+               gradas&pt-par-virgule; &Dd;esde&pt-par-rien; &Ee;l suelo&pt-par-rien; y fundamento
+                  <lb facs="#l406"/>sub&i-aigu;a &v-pr-u;na &Pp;ared&pt-par-rien; hasta
+               la&espace;&cced;ima&pt-par-virgule; y cumbre&pt-par-virgule; dellas&pt-par-virgule;
+               que <lb facs="#l407"/>hera como&pt-par-rien; d&i-aigu;&u-pr-v;ision &Pp;arados
+               sub&i-aigu;das&pt-par-rien; que entranbas yuan <lb facs="#l408"
+               />aparar&pt-par-virgule; &Aa;&V-pr-u;n&espace;patio que en lo&espace;mas&espace;alto
+               del&pt-par-rien; se hazia don <lb facs="#l409"/><seg type="hyphen">de</seg>
+               a&u-pr-v;ia&espace;dos&pt-par-rien; a&Pp;osentos&espace;grandes&pt; Uno
+               mayor&pt-par-virgule; que otro&pt-par-rien; y &Ee;l <lb facs="#l410"
+               />questa&u-pr-v;a&pt-par-rien; a&espace;la &Pp;arte&pt-par-rien; del sur <choice>
+                  <corr>este</corr>
+                  <sic>euez</sic>
+               </choice> era&espace;el&espace;<choice>
+                  <abbr>mi<hi rend="sup">or</hi></abbr>
+                  <expan>minor</expan>
+               </choice> esta&u-pr-v;a&espace;el ydolo&pt-par-rien; <lb facs="#l411"/><persName
+                  ref="#huitzilopochtli">&hH;uizilopochtli</persName><note type="commentaire">Dieu du Soleil et de la Guerre.</note> y en&espace;el
+               otro&pt-par-rien; que era el menor questa&u-pr-v;a&espace;a&espace;la <lb
+                  facs="#l412"/>&Pp;arte&pt-par-virgule; &Dd;el norte&pt-par-virgule;
+               hera&pt-par-rien; del ydolo&espace;&tT;laloc &Ee;l qual&pt-par-rien; y <persName
+                  ref="#huitzilopochtli">&hH;uiz<del rend="overtyped">i</del><del type="primary"
+                     >o</del>
+                  <lb facs="#l413"/><seg type="hyphen">loxochtli</seg></persName> y los
+               a&Pp;osentos&pt-par-rien; mira&u-pr-v;an&pt-par-rien; al &Pp;oniente&pt-par-virgule;
+               esta&u-pr-v;an&espace;edi <lb facs="#l414"/><seg type="hyphen"
+               >ficados</seg>&pt-par-rien; estos&pt-par-rien; a&Pp;osentis&pt-par-rien;
+               alcanto&pt-par-rien; y &Rr;emate&pt-par-rien; del <choice>
+                  <abbr>dizo</abbr>
+                  <expan>dicho</expan>
+               </choice>&pt-par-rien; <lb facs="#l415"/>patio della &Pp;arte del oriente y asi
+               &Pp;or delante&pt-par-rien; dellos&pt-par-virgule; <lb facs="#l416"/>se
+               hazia&espace;el &Pp;atio &Pp;rolongado&pt-par-rien; &Dd;e norte
+               a&espace;sur&pt-par-rien; con&espace;una&espace;argama <lb facs="#l417"/><seg
+                  type="hyphen">son</seg>&pt-par-rien; de tres &Pp;almas&pt-par-rien; y
+               mas&pt-par-rien; &Dd;egrues&pt-par-virgule; muy&pt-par-rien; enluzido y tanca <lb
+                  facs="#l418"/><seg type="hyphen">paz</seg> que&espace;cabian
+               en&espace;el&pt-par-rien; quinientos&pt-par-rien; &Hh;ombres&pt-par-rien; y al
+               &V-pr-u;n&espace;lado&pt-par-virgule; <lb facs="#l419"/>del&pt-par-rien; hazia la
+               &Pp;uerta&pt-par-rien; de&espace;la &Pp;osento mayor&pt-par-rien; de&pt-par-rien;
+                  <persName ref="#huitzilopochtli">&hH;uizilopoch <lb facs="#l420"/><seg
+                     type="hyphen">tli</seg></persName> &V-pr-u;na &Pp;iedra&pt-par-rien;
+               le&u-pr-v;antada&pt-par-rien; &Dd;e &V-pr-u;na&espace;uara&pt-par-rien;
+               &Ee;n&espace;alto&pt-par-rien; al&espace;talle <lb facs="#l421"
+               />y&espace;labor&pt-par-rien; &Dd;e
+               &V-pr-u;n&espace;co&supr-space;fretunbado&pt-par-rien;
+               que&espace;se&espace;nonbra&u-pr-v;a &tT;echcatl<index indexName="IndexRerum">
+                  <term>Techcatl</term></index><note type="commentaire">Un « techcatl » (mot nahuatl signifiant également « pénitence », « souffrance » et « blessé ») est un autel de sacrifice humain.</note>
+               <lb facs="#l422"/>donde&pt-par-rien; sacrifica&u-pr-v;an los yndios
+               thenia&espace;cada a&Pp;osen <lb facs="#l423"/><seg type="hyphen">to</seg>
+               destos&pt-par-rien; destos&pt-par-rien; &Dd;essobrados&pt-par-virgule; que
+               se&espace;manda&u-pr-v;an&pt-par-virgule; &Pp;or&espace;de dentro <lb facs="#l424"
+               />de &V-pr-u;no&pt-par-rien; &Ee;n&espace;otro&pt-par-rien;
+               con&espace;escaleras&pt-par-rien; &Dd;e&espace;madera&pt-par-rien; mouedi&cced;as es
+                  <lb facs="#l425"/><seg type="hyphen">ta&u-pr-v;an</seg>&espace;llenos&pt-par-rien;
+               &Dd;e muni&cced;ion &Dd;e&espace;todo jenero&pt-par-rien; de harmas&pt-par-rien; espe
+                  <lb facs="#l426"/><seg type="hyphen">&cced;ialmente</seg>&pt-par-rien; &Dd;e
+               macanas&pt-par-virgule; &Rr;odelas&pt-par-virgule; arcos&pt-par-virgule;
+               fleczas&pt-par-virgule; lan&cced;as <lb facs="#l427"/>hondas&pt-par-virgule; y
+               guixaros&pt-par-virgule; y todo genero&pt-par-rien; de vestidos y a&Rr;cos de <lb
+                  facs="#l428"/>guerras la haz y frente&pt-par-rien; de&espace;la &Pp;posento mayor
+               hera la <lb facs="#l429"/><seg type="hyphen">brada</seg> de &Pp;&i-aigu;edra altalle
+               y figura&pt-par-virgule; de cabe&cced;as de muerte&pt-par-virgule; <lb facs="#l430"
+               />blanqueadas con&espace;cal&pt-par-virgule; &Dd;e&espace;que&pt-par-rien; se
+               an&Pp;onia&pt-par-rien; todo el frontispi&cced;io y <lb facs="#l431"
+               />en&cced;ima&pt-par-virgule; &Pp;or almenas &Pp;iedras labradas
+               altalle&pt-par-virgule; de caracoles gran <lb facs="#l432"/><seg type="hyphen"
+                  >des</seg>&pt;&tiret; El qual&pt-par-virgule; y &Ee;l otro&pt-par-virgule;
+               con&espace;el &Rr;esto&pt-par-rien; del&espace;cuo&pt-par-rien; se&espace;pinta <lb
+                  facs="#l433"/>en la plana&espace;siguiente&tiret; <lb facs="#l434"/><fw
+                  type="pageNum" place="bot-right"><handShift medium="pencil" resp="#hdpag-crayon-7"
+                  />18</fw>
+            </p>
+
+            <p>
+               <lb facs="#l435"/>El cu<index
+                  indexName="IndexRerum"><term>Cu</term></index><note type="commentaire">Vocable d'origine
+                  maya, employé par Bernardino de Sahagún pour désigner un téocali (pyramide à
+                  degrés).</note>&pt-par-virgule; y <placeName ref="#templomayor">templo mayor</placeName> <lb facs="#l436"/><fw
+                  type="pageNum" place="top-right"><handShift medium="pencil" resp="#hdpag-crayon-7"
+                  />112v</fw>
+               <lb facs="#l437"/><stamp rend="inverted"><mentioned xml:lang="FR">Collection E. Eug.
+                     GOUPIL à Paris Ancienne Collection J.M.A. Aubin</mentioned></stamp>
+               <lb facs="#l438"/><stamp><mentioned xml:lang="FR">Collection E. Eug. GOUPIL à Paris
+                     Ancienne Collection J.M.A. Aubin </mentioned></stamp><handShift
+                  medium="black-ink" resp="#hdfra-goupil-5"/>N° 65 à 71. <figure>
+                  <lb facs="#l439"/>
+                  <!-- image -->
+                  <graphic url="fol_112v.jpg" width="1024px"
+                     height="1542px"/>
+                  <list type="unordered">
+                     <head><placeName ref="#templomayor">Templo mayor</placeName></head>
+                     <label xml:lang="fr">Folio : </label>
+                     <item>112v</item>
+                     <label xml:lang="fr">Rubrique : </label>
+                     <item>-</item>
+                     <label xml:lang="fr">Légende : </label>
+                     <item xml:lang="nah">mx: Mexico, templo mayor</item>
+                     <label xml:lang="fr">Descripteurs : </label>
+                     <item>crâne, escalier, pyramide, temple, templo.mayor</item>
+                     <label xml:lang="fr">Inscriptions : </label>
+                     <item>-</item>
+                     <label xml:lang="fr">Notes : </label>
+                     <item>-</item>
+                     <label xml:lang="fr">Auteur, titre : </label>
+                     <item>recueil de peintures</item>
+                     <label xml:lang="fr">Titre d'usage : </label>
+                     <item>Codex Ixtlilxochitl</item>
+                     <label xml:lang="fr">Nom de pays : </label>
+                     <item>Mexique</item>
+                     <label xml:lang="fr">Origine : </label>
+                     <item>-</item>
+                     <label xml:lang="fr">Siècle : </label>
+                     <item>16ème-17ème siècle</item>
+                     <label xml:lang="fr">Date : </label>
+                     <item>?</item>
+                     <label xml:lang="fr">Artiste : </label>
+                     <item>?</item>
+                  </list>
+               </figure>
+            </p>
+
+         </div>
+      </body>
+   </text>
+</TEI>

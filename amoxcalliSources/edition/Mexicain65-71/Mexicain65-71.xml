@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- <?xml-model href="Mexicain65-71_tei_2019.rnc" type="application/relax-ng-compact-syntax"?>  -->
+<?xml-stylesheet type="text/xsl" href="tv/tv.xsl" ?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Codex Ixtlilxochitl</title>
+                <title type="source">Paris, BnF, Manuscrit Mexicain 65-71</title>
+                <author>Fernando de Alva Cortés Ixtlilxochitl (Texcoco, 1578? — Mexico,
+                    1648)</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Olivier Jacquot</publisher>
+                <availability status="restricted">
+                    <p>Copyright © 2019, Olivier Jacquot</p>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">Cette
+                        édition est mise à disposition librement sur le web à destination de la
+                        communauté scientifique dans le cadre de la licence Creative Commons <ref
+                            target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"
+                            >Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes
+                            Conditions 4.0 International (CC BY-NC-SA 4.0)</ref>. </licence>
+                </availability>
+                <address>
+                    <addrLine>
+                        <name type="person">Olivier Jacquot</name>
+                    </addrLine>
+                    <addrLine>Mél : ojacquot@netcourrier.com
+                        <email>ojacquot@netcourrier.com</email></addrLine>
+                    <addrLine>54, rue de Wattignies</addrLine>
+                    <addrLine>75012 Paris</addrLine>
+                    <addrLine>France</addrLine>
+                    <addrLine>
+                        <ref target="https://amoxcalli.hypotheses.org"
+                            >https://amoxcalli.hypotheses.org</ref>
+                    </addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>France, Paris, Bibliothèque nationale de France, Département des manuscrits,
+                    Service des manuscrits orientaux, Manuscrits mexicains, Mexicain 65-71</p>
+                <p>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc948145</p>
+                <p>https://gallica.bnf.fr/ark:/12148/btv1b84701752</p>
+                <p>Codex Ixtlilxochitl</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="Mexicain65-71-01.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="Mexicain65-71-02.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="Mexicain65-71-03.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="Mexicain65-71-04.xml"/>
+</teiCorpus>

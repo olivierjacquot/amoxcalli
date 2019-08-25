@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" ?>
+<?xml-model href="documentation/out/ODD-Mexicain65-71.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!DOCTYPE TEI SYSTEM "documentation/DTD-Entity.dtd">
+<?xml-stylesheet type="text/xsl" href="tv/tv.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Codex Ixtlilxochitl</title>
+            <title type="source">Paris, BnF, Manuscrit Mexicain 65-71</title>
+            <author>
+               <persName>Fernando de Alva Cortés Ixtlilxochitl (Texcoco, 1578? — Mexico,
+                  1648)</persName>
+            </author>
+            <respStmt>
+               <resp>Transcription du manuscrit original et encodage XML-TEI</resp>
+               <persName type="person">
+                  <forename>Olivier</forename>
+                  <surname>Jacquot</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt>
+            <publisher>Olivier Jacquot</publisher>
+            <availability status="restricted">
+               <p>Copyright © 2019, Olivier Jacquot</p>
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/deed.fr">Cette
+                  édition est mise à disposition librement sur le web à destination de la communauté
+                  scientifique dans le cadre de la licence Creative Commons <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Attribution
+                     - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0
+                     International (CC BY-NC-SA 4.0)</ref>. </licence>
+            </availability>
+            <address>
+               <addrLine>
+                  <name type="person">Olivier Jacquot</name>
+               </addrLine>
+               <addrLine>Mél : ojacquot@netcourrier.com
+                  <email>ojacquot@netcourrier.com</email></addrLine>
+               <addrLine>54, rue de Wattignies</addrLine>
+               <addrLine>75012 Paris</addrLine>
+               <addrLine>France</addrLine>
+               <addrLine>
+                  <ref target="https://amoxcalli.hypotheses.org"
+                     >https://amoxcalli.hypotheses.org</ref>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+      <profileDesc/>
+   </teiHeader>
+   
+   <facsimile>
+      <surface>
+         <graphic url="fol_105r.jpg" width="1024px" height="1468px"/>
+         <zone xml:id="l317" ulx="884" uly="194" lrx="922" lry="212"/>
+         <!-- p105 -->
+         <zone xml:id="l318" points=" 114,32 345,28 339,68 115,75 "/>
+         <!-- nom -->
+         <zone xml:id="l319"
+            points=" 562,74 642,100 688,237 803,33 842,47 714,301 769,432 807,562 836,1066 808,1135 886,1159 868,1246 696,1322 411,1279 404,1106 275,1068 273,637 198,625 178,304 232,230 333,183 397,207 350,341 366,383 469,253 462,114 "/>
+         <!--image-->
+         <zone xml:id="l320" ulx="735" uly="329" lrx="951" lry="445"/>
+         <!-- tampon -->
+         <zone xml:id="l321" ulx="911" uly="1254" lrx="947" lry="1290"/>
+         <!-- p13 -->
+      </surface>
+
+      <surface>
+         <graphic url="fol_106r.jpg" width="1024px" height="1476px"/>
+         <zone xml:id="l322" ulx="813" uly="152" lrx="851" lry="180"/>
+         <!-- p106 -->
+         <zone xml:id="l323" points=" 76,52 277,34 466,34 461,62 78,95 "/>
+         <!-- nom -->
+         <zone xml:id="l324"
+            points=" 529,48 614,124 699,152 700,268 646,285 664,361 827,538 793,574 768,597 994,972 995,1119 918,1182 843,1275 726,1263 615,1060 395,1101 357,1181 186,1229 175,1174 219,844 63,747 62,355 210,294 337,341 374,372 401,342 415,262 446,160 "/>
+         <!-- image-->
+         <zone xml:id="l325" ulx="672" uly="262" lrx="898" lry="373"/>
+         <!-- tampon -->
+         <zone xml:id="l326" ulx="131" uly="1283" lrx="167" lry="1331"/>
+         <!-- 6 21 -->
+         <zone xml:id="l327" ulx="909" uly="1221" lrx="957" lry="1257"/>
+         <!-- p14 -->
+      </surface>
+
+      <surface>
+         <graphic url="fol_107r.jpg" width="1024px" height="1459px"/>
+         <zone xml:id="l328" ulx="828" uly="46" lrx="863" lry="75"/>
+         <!-- p107 -->
+         <zone xml:id="l329" ulx="854" uly="80" lrx="894" lry="100"/>
+         <!-- p102 -->
+         <zone xml:id="l330" ulx="536" uly="222" lrx="767" lry="337"/>
+         <!-- tampon -->
+         <zone xml:id="l331"
+            points=" 384,220 477,287 588,369 675,447 693,638 610,674 614,1085 189,1089 261,388 257,279 "/>
+         <!-- image -->
+         <zone xml:id="l332" ulx="395" uly="1316" lrx="668" lry="1344"/>
+         <!-- nom -->
+         <zone xml:id="l333" ulx="794" uly="1204" lrx="838" lry="1253"/>
+         <!-- p15 -->
+         <zone xml:id="l334" ulx="784" uly="1268" lrx="815" lry="1299"/>
+         <!-- p15 -->
+         <zone xml:id="l335" ulx="844" uly="1256" lrx="875" lry="1285"/>
+         <!-- p1.. -->
+      </surface>
+
+      <surface>
+         <graphic url="fol_108r.jpg" width="1024px" height="1459px"/>
+         <zone xml:id="l336" ulx="786" uly="156" lrx="824" lry="184"/>
+         <!-- p108 -->
+         <zone xml:id="l337" points=" 399,41 662,40 651,80 395,83 "/>
+         <!-- nom -->
+         <zone xml:id="l338" points=" 687,210 902,232 898,336 671,316 "/>
+         <!-- tampon -->
+         <zone xml:id="l339"
+            points=" 477,123 583,197 556,340 668,527 820,527 833,831 715,845 757,1256 504,1278 393,1344 307,1312 299,1140 174,1097 152,1045 201,556 272,396 193,291 301,187 373,133 "/>
+         <!-- image -->
+         <zone xml:id="l340" ulx="867" uly="1269" lrx="913" lry="1303"/>
+         <!-- p16 -->
+      </surface>
+   </facsimile>
+
+   <text n="Seigneurs tetzcocans" type="edition" xml:id="ST">
+      <body>
+         <div xml:id="section" n="2"><!--  Fol. 105-108 -->            
+
+            <div n="105" xml:id="p105" type="illustration">
+               <pb n="105r" xml:id="fol_105r"/>
+               <p>
+                  <lb facs="#l317"/><fw type="pageNum" place="top-right"><handShift medium="pencil"/>105</fw>
+                  <lb facs="#l318"/><handShift medium="brown-ink" resp="#hdspa-Cal-ill-1"/><persName ref="#tocuepotzin">&tT;ocuepotzin&tiret;</persName><note type="commentaire">Voir Lesbre, Patrick, "Illustrations acolhua de facture européenne (Codex Ixtlilxochitl, ff. 105-112)", "Journal de la Société des Américanistes", 1998, tome 84, n° 2, p. 97-124. DOI : https://doi.org/10.3406/jsa.1998.1719</note>      
+                  <figure><lb facs="#l319"/><!-- image -->
+                     <graphic url="fol_105r.jpg" width="1024px" height="1542px"/>
+                     <list type="unordered">
+                        <head>Tocuepotzin</head>
+                        <label xml:lang="fr">Folio : </label><item>105</item>
+                        <label xml:lang="fr">Rubrique : </label><item>-</item>
+                        <label xml:lang="fr">Légende : </label><item xml:lang="nah">tocuepotzin</item>
+                        <label xml:lang="fr">Descripteurs : </label><item>acaiyetl, bijou, bouquet, collier, étoffe, lance, Tocuepotzin</item>
+                        <label xml:lang="fr">Inscriptions : </label><item>-</item>
+                        <label xml:lang="fr">Notes : </label><item>-</item>
+                        <label xml:lang="fr">Auteur, titre : </label><item>recueil de peintures</item>
+                        <label xml:lang="fr">Titre d'usage : </label><item>Codex Ixtlilxochitl</item>
+                        <label xml:lang="fr">Nom de pays : </label><item>Mexique</item>
+                        <label xml:lang="fr">Origine : </label><item>-</item>
+                        <label xml:lang="fr">Siècle : </label><item>16ème-17ème siècle</item>
+                        <label xml:lang="fr">Date : </label><item>?</item>
+                        <label xml:lang="fr">Artiste : </label><item>?</item>
+                     </list>
+                  </figure>                  
+               <lb facs="#l320"/><stamp><mentioned xml:lang="FR">Collection E. Eug. GOUPIL à Paris Ancienne Collection J.M.A. Aubin </mentioned></stamp>
+                  <handShift medium="black-ink"/>N° 65 à 71. <lb facs="#l321"/><fw type="pageNum" place="bot-right"><handShift medium="pencil" resp="#hdpag-crayon-7"/>13</fw>
+               </p>
+            </div>
+            
+            
+            <div n="106" xml:id="p106" type="illustration">
+               <pb n="106r" xml:id="fol_106r"/>
+               <p>
+                  <lb facs="#l322"/><fw type="pageNum" place="top-right"><handShift medium="black-ink" resp="#hdpag-encre-6"
+                     />106</fw>
+                  <lb facs="#l323"/><handShift medium="brown-ink" resp="#hdspa-Cal-ill-1"/><persName ref="#nezahualcoyotl">&nN;e&cced;ahualcoyotz&i-aigu;n</persName><note type="biographical">Voir Nezahualcóyotl (1402-1472) ; Martínez Rodríguez, José Luis, "Nezahualcóyotl : vida y obra", México : Fondo de cultura económica, 1980, 1 vol. (334 p.)</note> Rey de <placeName ref="#tezcuco"><orig>&tT;<supplied reason="omitted-in-original">e</supplied>zcuco&pt;</orig><reg>Tezcuco</reg></placeName>
+                   <figure><lb facs="#l324"/><!-- image -->
+                      <graphic url="fol_106r.jpg" width="1024px" height="1542px"/>
+                     <list type="unordered">
+                        <head>Nezahualcoyotl</head>
+                        <label xml:lang="fr">Folio : </label><item>106</item>
+                        <label xml:lang="fr">Rubrique : </label><item>-</item>
+                        <label xml:lang="fr">Légende : </label><item xml:lang="nah">Nezahualcoyotl</item>
+                        <label xml:lang="fr">Descripteurs : </label><item>bijou, bouclier, huehuetl, macuahuitl, Nezahualcoyotl, tlatoani</item>
+                        <label xml:lang="fr">Inscriptions : </label><item>-</item>
+                        <label xml:lang="fr">Notes : </label><item>-</item>
+                        <label xml:lang="fr">Auteur, titre : </label><item>recueil de peintures</item>
+                        <label xml:lang="fr">Titre d'usage : </label><item>Codex Ixtlilxochitl</item>
+                        <label xml:lang="fr">Nom de pays : </label><item>Mexique</item>
+                        <label xml:lang="fr">Origine : </label><item>-</item>
+                        <label xml:lang="fr">Siècle : </label><item>16ème-17ème siècle</item>
+                        <label xml:lang="fr">Date : </label><item>?</item>
+                        <label xml:lang="fr">Artiste : </label><item>?</item>
+                     </list>
+                  </figure>   
+                  <lb facs="#l325"/><stamp><mentioned xml:lang="FR">Collection E. Eug. GOUPIL à
+                        Paris Ancienne Collection J.M.A. Aubin </mentioned></stamp>
+                  <handShift medium="black-ink"/>N° 65 à 71. <lb facs="#l326"/><fw type="pageNum"
+                     place="bot-left"><handShift medium="black-ink"/>6 21</fw>
+                  <lb facs="#l327"/><fw type="pageNum" place="bot-right"><handShift medium="pencil" resp="#hdpag-crayon-7"
+                     />14</fw>
+               </p>
+            </div>
+
+            <div n="107" xml:id="p107" type="illustration">
+               <pb n="107r" xml:id="fol_107r"/>
+               <p>
+                  <lb facs="#l328"/><fw type="pageNum" place="top-right"><handShift
+                     medium="black-ink" resp="#hdpag-encre-6"/>107</fw>
+                  <lb facs="#l329"/><fw type="pageNum" place="top-right"><handShift medium="pencil"
+                     />103</fw>
+                  <lb facs="#l330"/><stamp><mentioned xml:lang="FR">Collection E. Eug. GOUPIL à
+                        Paris Ancienne Collection J.M.A. Aubin </mentioned></stamp>
+                  <handShift medium="black-ink"/>N° 65 à 71.
+                  <figure><lb facs="#l331"/><!-- image -->
+                     <graphic url="fol_107r.jpg" width="1024px" height="1542px"/>
+                     <list type="unordered">
+                        <head>Cuauhtlatzacuillotzin</head>
+                        <label xml:lang="fr">Folio : </label><item>107</item>
+                        <label xml:lang="fr">Rubrique : </label><item>-</item>
+                        <label xml:lang="fr">Légende : </label><item xml:lang="nah">Cuauhtlatzacuillotzin</item>
+                        <label xml:lang="fr">Descripteurs : </label><item>acaiyetl, bijou, bouquet, coquillage, Cuauhtlatzacuillotzin, étoffe</item>
+                        <label xml:lang="fr">Inscriptions : </label><item>-</item>
+                        <label xml:lang="fr">Notes : </label><item>-</item>
+                        <label xml:lang="fr">Auteur, titre : </label><item>recueil de peintures</item>
+                        <label xml:lang="fr">Titre d'usage : </label><item>Codex Ixtlilxochitl</item>
+                        <label xml:lang="fr">Nom de pays : </label><item>Mexique</item>
+                        <label xml:lang="fr">Origine : </label><item>-</item>
+                        <label xml:lang="fr">Siècle : </label><item>16ème-17ème siècle</item>
+                        <label xml:lang="fr">Date : </label><item>?</item>
+                        <label xml:lang="fr">Artiste : </label><item>?</item>
+                     </list>
+                  </figure> 
+                  <lb facs="#l332"/><handShift medium="brown-ink" resp="#hdspa-Cal-ill-1"/><persName ref="#quauhtlatzocuilotzin">&cC;uauhtlatzacuilotz&i-aigu;</persName><note type="commentaire">Le fol. 8 du manuscrit Mexicain 15-17 représente la Naissance de Cuauhtlatzacuillotzin, le fol. 9, sa mort. Le fol. 12 du manuscrit Mexicain 11 représente un conseil présidé par Nezahualcoyotl et Nezahualpilli avec Cuauhtlatzacuillotzin. Voir : http://mandragore.bnf.fr/ark:/12148/cgfbt206803w.</note> <lb facs="#l333"/><fw type="pageNum"
+                     place="bot-right"><handShift medium="pencil"/>15</fw>
+                  <lb facs="#l334"/><fw type="pageNum" place="bot-right"><handShift medium="pencil" resp="#hdpag-crayon-7"
+                     />15</fw>
+                  <lb facs="#l335"/><fw type="pageNum" place="bot-right"><handShift medium="pencil"
+                        />1<supplied reason="déchiré">5</supplied></fw>
+               </p>
+            </div>
+           
+
+            <div n="108" xml:id="p108" type="illustration">
+               <pb n="108r" xml:id="fol_108r"/>
+               <p>
+                  <lb facs="#l336"/><fw type="pageNum" place="top-right"><handShift
+                     medium="black-ink" resp="#hdpag-encre-6"/>108</fw>
+                  <lb facs="#l337"/><handShift medium="brown-ink" resp="#hdspa-Cal-ill-1"/><persName ref="#nezahualpilli">ne&cced;ahualpiltzintli</persName><note type="biographical">Nezahualpilli (1464-1515) était le tlatoani de la cité-État de Texcoco. Voir : Höhl, Manfred, "Ensayo de biografía de un soberano de Tezcoco: Nezahualpilli", "Revista española de antropología americana", 1983, vol. VIII, n° 59, p. [59]-94. Disponible sur Internet, url : https://revistas.ucm.es/index.php/REAA/article/view/REAA8383110059A/25071.</note>
+                  <lb facs="#l338"/><stamp><mentioned
+                        xml:lang="FR">Collection E. Eug. GOUPIL à Paris Ancienne Collection J.M.A.
+                        Aubin </mentioned></stamp>
+                  <handShift medium="black-ink"/>N° 65 à 71.
+                  <figure><lb facs="#l339"/><!-- image -->
+                     <graphic url="fol_108r.jpg" width="1024px" height="1542px"/>
+                     <list type="unordered">
+                        <head>Nezahualpilli</head>
+                        <label xml:lang="fr">Folio : </label><item>108</item>
+                        <label xml:lang="fr">Rubrique : </label><item>-</item>
+                        <label xml:lang="fr">Légende : </label><item xml:lang="nah">Nezahualpilli</item>
+                        <label xml:lang="fr">Descripteurs : </label><item>bijou, bouquet, chasse.mouches, étoffe, Nezahualpilli, tlatoani</item>
+                        <label xml:lang="fr">Inscriptions : </label><item>-</item>
+                        <label xml:lang="fr">Notes : </label><item>-</item>
+                        <label xml:lang="fr">Auteur, titre : </label><item>recueil de peintures</item>
+                        <label xml:lang="fr">Titre d'usage : </label><item>Codex Ixtlilxochitl</item>
+                        <label xml:lang="fr">Nom de pays : </label><item>Mexique</item>
+                        <label xml:lang="fr">Origine : </label><item>-</item>
+                        <label xml:lang="fr">Siècle : </label><item>16ème-17ème siècle</item>
+                        <label xml:lang="fr">Date : </label><item>?</item>
+                        <label xml:lang="fr">Artiste : </label><item>?</item>
+                     </list>
+                  </figure> 
+                  <lb facs="#l340"/><fw type="pageNum" place="bot-right"><handShift medium="pencil" resp="#hdpag-crayon-7"
+                     />16</fw>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
