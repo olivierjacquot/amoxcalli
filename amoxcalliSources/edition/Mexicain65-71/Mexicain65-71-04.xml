@@ -2064,7 +2064,7 @@
                   <lb/>T&pt; <lb facs="#l441"/>&hH;ebrero<note type="gloss" place="margin"
                      resp="#OJ">Febrero, première apparition dans un dictionnaire en 1495,
                      Vocabulario español-latino (Antonio de Nebrija)</note>&pt; <lb facs="#l442"
-                  />&sS;guese el calendario&pt-par-rien; de las fiestas&pt-par-rien; y
+                  />&sS;iguese el calendario&pt-par-rien; de las fiestas&pt-par-rien; y
                   meses&pt-par-rien; destos&pt-par-rien; naturales&pt; <lb facs="#l443"/><fw
                      type="pageNum" place="top-right"><handShift medium="black-ink"
                         resp="#hdpag-encre-6"/>113</fw>
@@ -2114,12 +2114,12 @@
                <!-- Nican inxiuztzitzquilo -->
                <p>
                   <lb facs="#l462"/><add place="margin-left">&pdmV;</add>En&espace;este&espace;mes
-                  mataban&pt-par-rien; munczos&pt-par-rien; niños sacri <lb facs="#l463"/><seg
+                  mataban&pt-par-rien; munczos&pt-par-rien; niños sacri<lb facs="#l463"/><seg
                      type="hyphen">ficabanlos</seg> en munczos&pt-par-rien; lugares en
-                  las&espace;cun <lb facs="#l464"/><seg type="hyphen">bres</seg> de&espace;los
-                  montes sa&Cc;andoles&pt-par-rien; los coracones&pt-par-rien; <!-- <lb facs="#l465"/>a hon&Rr;a de los dioses&pt-par-rien; del&espace;agua pa<supplied reason="omitted-in-original">ra</supplied> &huit-pr-que; les diesen  -->
+                  las&espace;cun<lb facs="#l464"/><seg type="hyphen">bres</seg> de&espace;los
+                  montes sa&Cc;andoles&pt-par-rien; los coracones&pt-par-rien; <lb facs="#l465"/>a hon&Rr;a de los dioses&pt-par-rien; del&espace;agua pa<supplied reason="omitted-in-original">ra</supplied> &huit-pr-que; les diesen
                   <lb facs="#l466"/>agua&pt-par-rien; o llubias&pt-slash; a los ni&n-tilde;os
-                  que&espace;mataban conpo <lb facs="#l467"/><seg type="hyphen"
+                  que&espace;mataban conpo<lb facs="#l467"/><seg type="hyphen"
                   >&Nn;ianlos</seg>&pt-par-rien; &Cc;on &Rr;icos&pt-par-rien; atabios&pt-par-rien;
                   para llebarlos&pt-par-rien; a ma <lb facs="#l468"/><seg type="hyphen"
                   >tar</seg>&pt-par-rien; y lleban&V-pr-v;anlos&pt-par-rien; en una
@@ -2164,7 +2164,7 @@
                   de&espace;ellos&pt-par-rien; &huit-pr-que; los abian <lb facs="#l485"
                         /><damage><supplied reason="omitted-in-original" resp="OJ"><seg
                            type="hyphen">cautivado</seg>
-                  i</supplied></damage>an&espace;gloriosamente&pt-par-rien; ata <lb facs="#l486"
+                  i</supplied></damage>an&espace;gloriosamente&pt-par-rien; ata<lb facs="#l486"
                         /><damage><supplied reason="omitted-in-original" resp="OJ"><seg
                            type="hyphen">viados</seg> con plum</supplied></damage>ajes&pt-par-rien;
                   y baylando&pt-par-rien; de </p>
@@ -2178,140 +2178,144 @@
                      <lb facs="#l487"/>
                      <row>
                         <cell role="label">7</cell>
-                        <cell role="data1">Acatl -</cell>
+                        <cell role="data1">Acatl<note type="gloss">Roseau.</note>  -</cell>
                         <cell role="label">e.</cell>
-                        <cell role="data">2 La&espace;purifica&cced;ion de &mM;a<unclear/></cell>
-                        <!-- abrévation à déchiffrer -->
+                        <cell role="data">2 La&espace;purifica&cced;ion de &mM;a<choice><orig>8</orig><reg>ia</reg></choice></cell>
                      </row>
                      <lb facs="#l488"/>
                      <row>
                         <cell role="label">8</cell>
-                        <cell role="data">ocelotl -</cell>
+                        <cell role="data">ocelotl<note type="gloss">Jaguar.</note> -</cell>
                         <cell role="label">f.</cell>
                         <cell role="data">3</cell>
                      </row>
                      <lb facs="#l489"/>
                      <row>
                         <cell role="label">9</cell>
-                        <cell role="data">cuautilli -</cell>
+                        <cell role="data">cuautilli<note type="gloss">Cuauhtli : aigle.</note> -</cell>
                         <cell role="label">g.</cell>
                         <cell role="data">4</cell>
                      </row>
                      <lb facs="#l490"/>
                      <row>
                         <cell role="label">10</cell>
-                        <cell role="data">coxacuauhtli</cell>
+                        <cell role="data">coxacuauhtli<note type="gloss">Cozcacuauhtli : vautour.</note></cell>
                         <cell role="label">A.</cell>
                         <cell role="data">5</cell>
                      </row>
                      <lb facs="#l491"/>
                      <row>
                         <cell role="label">11</cell>
-                        <cell role="data">olin -</cell>
-                        <cell role="label">b.</cell>
-                        <cell role="data">6</cell>
-                     </row>
-                     <lb facs="#l492"/>
-                     <row>
-                        <cell role="label">12</cell>
-                        <cell role="data">tecpatl -</cell>
-                        <cell role="label">c.</cell>
-                        <cell role="data">7</cell>
-                     </row>
-                     <lb facs="#l493"/>
-                     <row>
-                        <cell role="label">13</cell>
-                        <cell role="data">quiyahuitl -</cell>
+                        <cell role="data">olin<note type="gloss">Mouvement.</note> -
+					</cell>
+					<cell role="label">b.</cell>
+					<cell role="data">6</cell>
+				</row>
+				<lb facs="#l492"/>
+				<row>
+					<cell role="label">12</cell>
+					<cell role="data">
+						tecpatl<note type="gloss">Silex.</note> -
+					</cell>
+					<cell role="label">c.</cell>
+					<cell role="data">7</cell>
+				</row>
+				<lb facs="#l493"/>
+				<row>
+					<cell role="label">13</cell>
+					<cell role="data">quiyahuitl<note type="gloss">Pluie.</note> -</cell>
                         <cell role="label">d.</cell>
                         <cell role="data">8</cell>
                      </row>
                      <lb facs="#l494"/>
                      <row>
                         <cell role="label">I</cell>
-                        <cell role="data">xuchitl -</cell>
+                        <cell role="data">xuchitl<note type="gloss">Sic pour "xochitl" : fleur.</note> -</cell>
                         <cell role="label">e.</cell>
                         <cell role="data">9</cell>
                      </row>
                      <lb facs="#l495"/>
                      <row>
                         <cell role="label">2</cell>
-                        <cell role="data">ipactli -</cell>
+                        <cell role="data">ipactli<note type="gloss">Sic pour "cipactli" : sorte de caïman.</note> -</cell>
                         <cell role="label">f.</cell>
                         <cell role="data">10</cell>
                      </row>
                      <lb facs="#l496"/>
                      <row>
                         <cell role="label">3</cell>
-                        <cell role="data">Acotl -</cell>
+                        <cell role="data">Acotl<note type="gloss">Sic pour "acatl" : roseau.</note> -</cell>
                         <cell role="label">g.</cell>
                         <cell role="data">11</cell>
                      </row>
                      <lb facs="#l497"/>
                      <row>
                         <cell role="label">4</cell>
-                        <cell role="data">callin -</cell>
-                        <cell role="label">A.</cell>
-                        <cell role="data">12</cell>
-                     </row>
-                     <lb facs="#l498"/>
-                     <row>
-                        <cell role="label">5</cell>
-                        <cell role="data">cuetzpalin -</cell>
+                        <cell role="data">callin<note type="gloss">Sic pour "calli" : maison.</note> -
+					</cell>
+					<cell role="label">A.</cell>
+					<cell role="data">12</cell>
+				</row>
+				<lb facs="#l498"/>
+				<row>
+					<cell role="label">5</cell>
+					<cell role="data">cuetzpalin<note type="gloss">Lézard.</note> -</cell>
                         <cell role="label">b.</cell>
                         <cell role="data">13</cell>
                      </row>
                      <lb facs="#l499"/>
                      <row>
                         <cell role="label">6</cell>
-                        <cell role="data">cohuatl -</cell>
+                        <cell role="data">cohuatl<note type="gloss">Serpent.</note> -</cell>
                         <cell role="label">c.</cell>
                         <cell role="data">14</cell>
                      </row>
                      <lb facs="#l500"/>
                      <row>
                         <cell role="label">7</cell>
-                        <cell role="data">miquiztli -</cell>
+                        <cell role="data">miquiztli<note type="gloss">Mort.</note> -</cell>
                         <cell role="label">d.</cell>
                         <cell role="data">15</cell>
                      </row>
                      <row facs="#l501">
                         <cell role="label">8</cell>
-                        <cell role="data">macatl -</cell>
+                        <cell role="data">macatl<note type="gloss">Sic pour "mazatl" : sorte de chevreuil.</note> -</cell>
                         <cell role="label">e.</cell>
                         <cell role="data">16</cell>
                      </row>
                      <lb facs="#l502"/>
                      <row>
                         <cell role="label">9</cell>
-                        <cell role="data">tochtli -</cell>
-                        <cell role="label">f.</cell>
-                        <cell role="data">17</cell>
-                     </row>
-                     <lb facs="#l503"/>
-                     <row>
-                        <cell role="label">10</cell>
-                        <cell role="data">atl -</cell>
+                        <cell role="data">tochtli<note type="gloss">Lapin.</note> -
+					</cell>
+					<cell role="label">f.</cell>
+					<cell role="data">17</cell>
+				</row>
+				<lb facs="#l503"/>
+				<row>
+					<cell role="label">10</cell>
+					<cell role="data">atl<note type="gloss">Eau.</note> -</cell>
                         <cell role="label">g.</cell>
                         <cell role="data">18</cell>
                      </row>
                      <lb facs="#l504"/>
                      <row>
                         <cell role="label">11</cell>
-                        <cell role="data">ytzquintli -</cell>
+                        <cell role="data">ytzquintli<note type="gloss">Sic pour "itzcuintli" : chien.</note> -</cell>
                         <cell role="label">A.</cell>
                         <cell role="data">19</cell>
                      </row>
                      <lb facs="#l505"/>
                      <row>
                         <cell role="label">12</cell>
-                        <cell role="data">o&cced;omatli -</cell>
+                        <cell role="data">o&cced;omatli<note type="gloss">Sic pour "ozomatli" : singe.</note> -</cell>
                         <cell role="label">b</cell>
                         <cell role="data">20</cell>
                      </row>
                      <lb facs="#l506"/>
                      <row>
                         <cell role="label">13</cell>
-                        <cell role="data">malinali -</cell>
+                        <cell role="data">malinali<note type="gloss">Sic pour "malinalli" : herbe.</note> -</cell>
                         <cell role="label">c</cell>
                         <cell role="data">21</cell>
                      </row>
@@ -2352,15 +2356,15 @@
                   naturales&pt-par-rien; y comien&cced;an <lb facs="#l518"
                   />el&espace;abreo&pt-par-rien; primero&pt-par-rien; suyo&pt-par-rien; es hasta
                   treze&slash; <lb facs="#l519"/>y nosotros&pt-par-rien; a&espace;diez&pt-par-rien;
-                  y nuebe&pt-slash; La&espace;puri <lb facs="#l520"/><seg type="hyphen"
+                  y nuebe&pt-slash; La&espace;puri<lb facs="#l520"/><seg type="hyphen"
                      >fi&Cc;a&cced;ion</seg>&pt-par-rien; de nues&supr-space;tra señora&pt-slash;
                      <lb facs="#l521"/>&slash;&mM;ar&cced;o&pt;&pt-slash; </p>
                <p>
                   <lb facs="#l522"/><add place="margin-left">&pdmV;</add>&eE;l&espace;sigundo
                   mes&pt-par-rien; se llamaba&slash; tla<add place="above">ca</add>xi Pehualiztli<index>
                      <term>Pehualiztli</term>
-                  </index><note type="commentaire">Début ou commencement selon Alonso de Molina, Vocabulario en lengua
-                     castellana y mexicana y mexicana y castellana, 1571, part 2, f. 81r. col.
+                  </index><note type="commentaire">Début ou commencement selon Alonso de Molina, "Vocabulario en lengua
+                     castellana y mexicana y mexicana y castellana", 1571, partie 2, f. 81r. col.
                      2.</note>&slash; <lb facs="#l523"
                   />en&espace;el&espace;primer&espace;dia&pt-par-rien; deste&espace;mes&pt-par-rien;
                   hasian fiesta&pt-par-rien; a <lb facs="#l524"/>hon&Rr;a&pt-par-rien;
@@ -2368,7 +2372,7 @@
                      >&tT;otec</persName>&pt-slash; y por <lb facs="#l525"/>otro nombre&pt-par-rien;
                   se llamaba&pt-slash; <persName ref="#xipe">&xX;ipe</persName>&pt-slash; donde <lb
                      facs="#l526"/>mataban&pt-par-rien; y desollaban&pt-par-rien;
-                  munczos&pt-par-rien; escla <lb facs="#l527"/><seg type="hyphen"
+                  munczos&pt-par-rien; escla<lb facs="#l527"/><seg type="hyphen"
                   >vos</seg>&pt-par-rien; y cauztibos&pt-absent; </p>
                <p>
                   <lb facs="#l528"/><add place="margin-left"
@@ -3577,10 +3581,10 @@
                      de&espace;e<supplied reason="omitted-in-original">s</supplied>ta&espace;fiesta
                   los <lb facs="#l820"/>satrapas&pt-par-rien; de los ydolos&pt-par-rien;
                   y&espace;sus ministros&pt-par-virgule; <lb facs="#l821"/>yban por
-                  jun&cced;ial&slash; a &çCced;itlaltepec&slash; que&espace;se <lb facs="#l822"
+                  jun&cced;ial&slash; a <placeName ref="#citlaltepec">&çCced;itlaltepec</placeName>&slash; que&espace;se <lb facs="#l822"
                   />ha&cced;en muy grandes&pt-par-virgule; y muy hermosas&pt-par-virgule; <lb
                      facs="#l823"/>en una&pt-par-rien; agua&pt-par-rien; que&espace;se llama&slash;
-                  &tT;emilco&slash; <lb facs="#l824"/>de&espace;alli&pt-par-rien; las
+                  <placeName ref="#temilco">&tT;emilco</placeName>&slash; <lb facs="#l824"/>de&espace;alli&pt-par-rien; las
                   trayan&pt-par-rien; a&espace;&mM;exico para&pt-par-rien; adornar&pt-par-rien; <lb
                      facs="#l825"/>los&slash; Cues&pt-slash; por el camino&pt-par-rien; donde venian
                   na <lb facs="#l826"/><seg type="hyphen"
@@ -3872,9 +3876,9 @@
                <p><!-- 116v -->
                   <cb n="14"/>
                   <lb facs="#l929"/><add place="margin-left">&pdmV;</add>El otabo mes llamaban
-                  &hH;uey <lb facs="#l930"/>&tT;ecuilhuitl&pt; &eE;n el primer dia <lb facs="#l931"
+                  &hH;uey <lb facs="#l930"/>&tT;ecuilhuitl&pt;<note type="commentaire">Hueytecuilthuitli, grande fête des dignitaires, huitième mois du calendrier solaire aztèque.</note> &eE;n el primer dia <lb facs="#l931"
                   />deste&espace;mes&pt-par-rien; asian fiesta a&espace;la di <lb facs="#l932"/><seg
-                     type="hyphen">osa</seg> llamada&pt-slash; &xX;ilonen&slash; diosa <lb
+                     type="hyphen">osa</seg> llamada&pt-slash; &xX;ilonen<note type="commentaire">Autre désignation de Chicomecóatl. Voir : http://www.gdn.unam.mx/diccionario/consultar/palabra/xilonen.</note>&slash; diosa <lb
                      facs="#l933"/>de&espace;los xilotes&pt;
                   &eE;n&espace;esta&espace;fies&supr-space;ta daban <lb facs="#l934"
                   />de&espace;comer a&espace;los pobres hom <lb facs="#l935"/><seg type="hyphen"
@@ -4201,12 +4205,10 @@
                      facs="#l1026"/>to&supr-space;das&pt-par-rien; las otras&pt-par-rien;
                   estatuas&pt-par-rien; de los calpules&slash-pt; <lb facs="#l1027"/>y telpuczcales<index>
                      <term>Telpuchcales</term>
-                  </index> y en las casas de los calpixques<index>
-                     <term>Calpixque</term>
-                  </index>
+                  </index> y en las casas de los calpixques<note type="commentaire">"Calpixqui, plur. calpixqueh ou câcalpixqueh. Intendant. Généralement traduit par 'majordomo' en espagnol".</note>
                   <lb facs="#l1028"/>prin&cced;ipales y ma&cced;ehuales<index>
                      <term>Macehualli</term>
-                  </index><note type="commentaire">Membre de la classe sociale la plus basse.</note>
+                  </index><note type="commentaire">Membre de la classe sociale la plus basse. Homme ou femme du peuple; vassal.</note>
                   to&supr-space;dos conponian <lb facs="#l1029"/>las estatuas que&espace;tenian en
                   sus casas &Cc;on <lb facs="#l1030"/>flores&pt-par-rien; y conpuestas la
                   estatuas&pt-par-rien; de todos los dioses luego comen&cced;aban&pt-par-rien;
@@ -4228,9 +4230,7 @@
                      <sic>em</sic>
                   </choice>&espace;pie&pt-par-rien; apartados&pt-par-rien; un poco de los que
                   baylaban&pt-par-rien; serca <lb facs="#l1037"/>de&espace;un altar&pt-par-rien;
-                  &Rr;edondo&slash-pt; que llaman &mM;umuztli<index>
-                     <term>Mamaztli</term>
-                  </index>&slash-pt; duraba&espace;este cantar&pt-par-rien; hasta&espace;la <lb
+                  &Rr;edondo&slash-pt; que llaman &mM;umuztli<note type="commentaire">Sic pour "momoztli" : Autel, oratoire, en forme de petite pyramide, dressé aux croisements des chemins. Sahagun écrit "mumuztli".</note>&slash-pt; duraba&espace;este cantar&pt-par-rien; hasta&espace;la <lb
                      facs="#l1059"/>nocze&slash-pt; no&espace;solo en los patios&pt-par-rien;
                   de&espace;los&pt-par-rien; Cuis&pt-par-virgule; &Pp;ero en&espace;todas las
                   casas&pt-par-rien; de&espace;los prin&cced;ipales&pt-par-rien; y &mM;a <!-- 23-->
@@ -4400,9 +4400,7 @@
                   <lb facs="#l1060"/><seg type="hyphen">cehuales</seg><index>
                      <term>Macehuales</term>
                   </index> tanian y cantaban con&espace;gran vozeria a&s-long;ta la noche y
-                  lo&s-long; <lb facs="#l1061"/>viejo&s-long; y vieja&s-long; bebian el&pt-par-rien; octli<index>
-                     <term>Octli</term>
-                  </index>&pt-par-virgule; pero ningun mo&cced;o ni mo&cced;a <add place="above"
+                  lo&s-long; <lb facs="#l1061"/>viejo&s-long; y vieja&s-long; bebian el&pt-par-rien; octli<note type="commentaire">Jus d'agave fermenté, pulque, vin. </note>&pt-par-virgule; pero ningun mo&cced;o ni mo&cced;a <add place="above"
                      >lo</add> bebia <lb facs="#l1062"/>y&espace;&s-long;i&espace;alguno lo bebia
                   caztigabanle ne&cced;ia&supr-space;mente&pt; <lb facs="#l1063"/>10 mes </p>
                <p>
@@ -4910,7 +4908,7 @@
                   <lb facs="#l1246"/>&Ee;n un&espace;palo&pt-par-rien; y los cuerpos&pt-par-rien; llebavan&espace;los&pt-par-rien; a las casas&pt-par-rien; que&espace;llaman&pt-par-rien; cal&Pp;u 
                   <lb facs="#l1247"/><seg type="hyphen">les</seg>&pt-par-rien; donde los &Rr;epartian&pt-par-rien; par comer&pt-par-virgule; los papeles&pt-par-rien; con que&espace;adere&cced;a&V-pr-v;an 
                   <lb facs="#l1248"/>las ymagin<choice><orig>i</orig><reg>e</reg></choice>s&pt-par-rien; de&espace;los montes&pt-par-rien; despues de a&supr-space;&V-pr-v;er los desbaratado&pt-par-rien; &p-barre;a
-                  <lb facs="#l1249"/>&Cc;omer&pt-par-rien; colga&V-pr-v;anlos&pt-par-rien; en el calpuli&pt-par-virgule; otras mu<choice><orig>ncz</orig><reg>ch</reg></choice>as&pt-par-rien; sirimonias&pt-par-rien; hasian
+                  <lb facs="#l1249"/>&Cc;omer&pt-par-rien; colga&V-pr-v;anlos&pt-par-rien; en el calpuli<note type="commentaire">Sic pour "calpulli", la "maison communale", Gómez da Silva, Guido, "Diccionario breve de Mexicanismos", 2001, p. 34 : « Del náhuatl calpolli o calpulli "casa comunal", literalmente "casa grande", de calli "casa" + -pol, aumentativo ».</note>&pt-par-virgule; otras mu<choice><orig>ncz</orig><reg>ch</reg></choice>as&pt-par-rien; sirimonias&pt-par-rien; hasian
                   <lb facs="#l1250"/>en esta fiesta&slash-pt;&pt;
                   <lb facs="#l1251"/>14&pt; mes
                   <!-- 14 mes-->
@@ -5223,7 +5221,7 @@
                <p>
                   <lb facs="#l1446"/><add place="margin-left">&pdmTiron;</add> La ter&s-long;era fie&s-long;ta mobible en&espace;el ter&s-long;ero &s-long;igno &neuf-pr-que; &s-long;e&espace;llama ce ma-
                   <lb facs="#l1447"/><seg type="hyphen">&cced;atl</seg> en&espace;la &pt-gros; 1 &pt-gros; ca&s-long;a a&cced;&i-aigu;an fie&s-long;ta a&espace;la&s-long; dio&s-long;a&s-long; &neuf-pr-que; &s-long;e&espace; llamaban <persName ref="#">&cced;i-
-                     <lb facs="#l1448"/><seg type="hyphen">lhua pipitl</seg></persName> por&neuf-pr-que; de&cced;&i-aigu;an &neuf-pr-que; entonse&s-long; desendian a&espace;la tierra
+                  <lb facs="#l1448"/><seg type="hyphen">lhua pipitl</seg></persName> por&neuf-pr-que; de&cced;&i-aigu;an &neuf-pr-que; entonse&s-long; desendian a&espace;la tierra
                   <lb facs="#l1449"/>ataviaban a&espace;&s-long;u&s-long; himagina&s-long; con&espace;papele&s-long; y ofre&cced;&i-aigu;anla&s-long; ofrenda&s-long;&pt;
                   </p>
                <p>
@@ -5286,14 +5284,15 @@
                   <lb facs="#l1489"/><seg type="hyphen">to</seg>&pt-par-rien; desian que&espace;se hasian&pt-par-rien; diosas&pt-par-rien; y que mora&V-pr-v;an&pt-par-rien; en la casas&pt-par-rien; del&espace;sol&pt-par-rien; y que <choice><abbr>q&pt-par-rien;<hi rend="sup">do</hi></abbr><expan>quando</expan></choice> &Rr;eyna
                      <lb facs="#l1490"/><seg type="hyphen">&V-pr-v;a</seg>&pt-par-rien; este&espace;signo&pt-par-rien; decendian&pt-par-rien; a&espace;la&espace;tie&rr;a&pt-par-rien; y herian&pt-par-rien; con diversas&pt-par-rien; enfermedades&pt; A los que&espace;topavan
                   <lb facs="#l1491"/>fuera&espace;de sus casas&pt-par-rien; tenian&pt-par-rien; edificados&pt-par-rien; horatorios&pt-par-rien; a&espace;hon&Rr;a&pt-par-rien; destas&espace;diosas&pt-par-rien; en&espace;todos los &Bb;a&rr;ios&pt-par-rien; don
-                  <lb facs="#l1492"/><seg type="hyphen">de</seg>&espace;avia&pt-par-rien; dos calles&pt-par-virgule; las quales&pt-par-rien; llama&V-pr-v;an &pt-gros; <persName>sihuateocali</persName> &pt-gros; o &Pp;or otro nombre &pt-gros; <persName>sihuatopan</persName>&pt-gros; en&espace;estos  
+                  <lb facs="#l1492"/><seg type="hyphen">de</seg>&espace;avia&pt-par-rien; dos calles&pt-par-virgule; las quales&pt-par-rien; llama&V-pr-v;an &pt-gros; sihuateocali<note type="commentaire">Tezozomoc l'orthographie "çihuateocalli" : "el templo de las monjas llaman çihuateocalli" (f:097v.).</note> &pt-gros; o &Pp;or otro nombre &pt-gros; <placeName ref="#çihuateopan">&sS;ihuatopan</placeName><note type="commentaire">Tezozomoc ne mentionne pas de synonyme mais évoque le toponyme "Çihuateopan" (f:121v.).</note>&pt-gros; en&espace;estos  
                   <lb facs="#l1493"/>oratorios&pt-par-rien; tenian&pt-par-rien; las ymagines&pt-par-rien; destas diosas&pt-par-rien; y en&espace;estos dias&pt; Las adora&V-pr-v;an&pt-par-rien; co<choice><orig>m</orig><reg>n</reg></choice>&espace;papeles que&espace;lla 
-                  <lb facs="#l1494"/><seg type="hyphen">ma&V-pr-v;an</seg>&pt-gros; <persName>Amatetehuitl</persName> &pt-gros; en&espace;esta&espace;fiesta&pt-par-rien; destas&pt-par-rien; diosas&pt-par-rien; mata&V-pr-v;an&pt-par-rien; a&espace;su hon&Rr;a&pt-par-rien; los&espace;co<supplied reason="omitted-in-original">n</supplied>denados&pt-par-rien; 
+                  <lb facs="#l1494"/><seg type="hyphen">ma&V-pr-v;an</seg>&pt-gros; Amatetehuitl<note type="gloss">"Tetehuitl" ou "amatetehuit" : papier, drapeau, offrande sacrée en papier. Voir Nahuatl dictionary, https://nahuatl.uoregon.edu/content/tetehuitl.</note> &pt-gros; en&espace;esta&espace;fiesta&pt-par-rien; destas&pt-par-rien; diosas&pt-par-rien; mata&V-pr-v;an&pt-par-rien; a&espace;su hon&Rr;a&pt-par-rien; los&espace;co<supplied reason="omitted-in-original">n</supplied>denados&pt-par-rien; 
                   <lb facs="#l1495"/>a muerte por algun delito&pt-par-virgule; que&espace;estavan&pt-par-rien; en las car&s-long;eles&pt;
                </p>
                <p>
-                  <lb facs="#l1496"/><add place="margin-left">&pdmV;</add> La nona fiesta mobivle&pt-par-virgule; en&espace;el signo llamado &pt-gros; <persName>sequiyahuitl</persName> &pt-gros; en la quarta&espace;casa&pt-par-rien; que&espace;se&espace;llamava &pt-gros; <persName>na</persName>
-                  <lb facs="#l1497"/><seg type="hyphen">hui&pt-par-rien;acatl</seg>&pt-gros; por ser esta&espace;casa&pt-par-rien; mal&pt-par-rien; afortunada&pt-par-rien;  mata&V-pr-v;an en&espace;ella&pt-par-rien; a&espace;los&espace; mal&pt-par-rien; hec<choice><orig>z</orig><reg>h</reg></choice>ores&pt-par-rien; que&espace;esta
+                  <lb facs="#l1496"/><add place="margin-left">&pdmV;</add> La nona fiesta mobivle&pt-par-virgule; en&espace;el signo llamado &pt-gros; sequiyahuitl<note type="commentaire">
+					  "Ce quiyahuitl" : la pluie. 19ème signe du calendrier rituel, "Dictionnaire de nahuatl classique" d'Alexis Wimmer, 2004.</note> &pt-gros; en la quarta&espace;casa&pt-par-rien; que&espace;se&espace;llamava &pt-gros; <persName>na</persName>
+                  <lb facs="#l1497"/><seg type="hyphen">hui&pt-par-rien;acatl</seg><note type="commentaire">"Nahui acatl" : quatre cannes (roseau).</note>&pt-gros; por ser esta&espace;casa&pt-par-rien; mal&pt-par-rien; afortunada&pt-par-rien; mata&V-pr-v;an en&espace;ella&pt-par-rien; a&espace;los&espace; mal&pt-par-rien; hec<choice><orig>z</orig><reg>h</reg></choice>ores&pt-par-rien; que&espace;esta
                   <lb facs="#l1498"/><seg type="hyphen">&V-pr-v;an</seg> &Pp;resos&pt-par-rien; y tambien el se&n-tilde;or&pt-par-rien; hasia&pt-par-rien; matar&pt-par-rien; algunos&pt-par-rien; esclavos&pt-par-rien; por via&pt-par-rien; de supersti&cced;ion&pt-par-rien; y los
                   <lb facs="#l1499"/>mercaderes&pt-par-rien; y tratantes&pt-par-rien; ha&cced;ian&pt-par-rien; alarde&pt-par-rien; o&espace;demonstra&cced;ion&pt-par-rien; de&espace;las&pt-par-rien; joyas&pt-par-rien; en que trata&V-pr-v;an&espace;sa 
                   <lb facs="#l1500"/><seg type="hyphen">&Cc;andolas</seg>&pt-par-rien; &p-barre;a que las viesen&espace;todos&pt-par-virgule; y despues a la noc<choice><orig>z</orig><seg>h</seg></choice>e&pt-par-rien; &Cc;omian&pt-par-rien; y bevian&pt-par-rien; toma&V-pr-v;an&pt-par-rien; flores&pt-par-rien;
@@ -5303,27 +5302,28 @@
                   <lb facs="#l1504"/>con los&pt-par-rien; otros&pt-par-rien; gran &Rr;ato&pt-par-rien; de la noc<choice><orig>z</orig><reg>h</reg></choice>e&pt;
                </p>
                <p>
-                  <lb facs="#l1505"/><add place="margin-left">&pdmV;</add> La de&cced;ima fiesta&pt-par-rien; mobivle&pt-par-virgule; en&espace;el signo que llaman &pt-gros; se <persName>malinali</persName> &pt-gros; En la sigunda&pt-par-rien; casa lla 
-                  <lb facs="#l1506"/><seg type="hyphen">mada</seg>&pt-par-rien; o me acatl<index><term></term></index>&pt-par-rien; hasian&pt-par-rien; gran fiesta porque desian&pt-par-rien; que&espace;este&pt-par-rien; signo&pt-par-rien; hera de&espace;<persName>&tT;ezcatlepoca</persName>
-                  <lb facs="#l1507"/>en&espace;esta fiesta&pt-par-rien; ha&cced;ian&pt-par-rien; la&espace;y&supr-space;magen&pt-par-rien; de omeacatl<index><term>Omeacatl</term></index>&pt-par-rien; y alguno&pt-par-rien; que&espace;tenia&pt-par-rien; de&V-pr-v;o&cced;ion&pt-par-rien; la lleba&V-pr-v;a
+                  <lb facs="#l1505"/><add place="margin-left">&pdmV;</add> La de&cced;ima fiesta&pt-par-rien; mobivle&pt-par-virgule; en&espace;el signo que llaman &pt-gros; se malinali<note type="commentaire">Malinalli est un prénom féminin d'origine Nahuatl qui signifie "herbe à corde".</note> &pt-gros; En la sigunda&pt-par-rien; casa lla 
+                  <lb facs="#l1506"/><seg type="hyphen">mada</seg>&pt-par-rien; o me acatl<note type="gloss">"Ome acatl" : deux roseaux.</note>&pt-par-rien; hasian&pt-par-rien; gran fiesta porque desian&pt-par-rien; que&espace;este&pt-par-rien; signo&pt-par-rien; hera de&espace;<persName ref="#tezcatlipoca">&tT;ezcatlepoca</persName>
+                  <lb facs="#l1507"/>en&espace;esta fiesta&pt-par-rien; ha&cced;ian&pt-par-rien; la&espace;y&supr-space;magen&pt-par-rien; de <persName ref="#omeacatl">&oO;meacatl</persName>&pt-par-rien; y alguno&pt-par-rien; que&espace;tenia&pt-par-rien; de&V-pr-v;o&cced;ion&pt-par-rien; la lleba&V-pr-v;a
                   <lb facs="#l1508"/>a&espace;su&espace;casa&pt-par-rien; &p-barre;a que&espace;la vendizese&pt-par-rien; y le ysiese&pt-par-rien; multiplicar&pt-par-rien; su ha&cced;ienda&pt-par-rien; y <choice><abbr>q&pt-par-rien;<hi rend="sup">do</hi></abbr><expan>quando</expan></choice> esto acontesia&pt-par-rien; tenia 
                   <lb facs="#l1509"/>l&Aa;&pt-par-rien; y no la&espace;queria dejar&pt; &eE;l&espace;que queria&pt-par-rien; dejar esta&espace;ymagen&pt-par-rien; esperava&pt-par-rien; hasta&espace;que&espace;otra &V-pr-v;ez&pt-par-rien; &Rr;eyna 
                   <lb facs="#l1510"/><seg type="hyphen">se</seg> el mismo&pt-par-rien; signo enton&cced;es la llevaba&pt-par-rien; a&espace;donde la abia&espace;tomado&pt;
                </p>
                <p>
-                  <lb facs="#l1511"/><add place="margin-left">&pdmV;</add> La hon&cced;ena&pt-par-rien; fiesta movivle&pt-par-virgule; en&espace;el signo&pt-par-rien; llamado &pt-gros; &cced;etecpatl<index><term>Cetecpatl</term></index> &pt-gros; en la&espace;primera casa&pt-par-virgule; saca&V-pr-v;an
-                  <lb facs="#l1512"/>todos&pt-par-rien; los hornamentos de <persName>huitzilopocztli</persName>&pt; Los limpiaban&pt-par-rien; y sacudian&pt-par-rien; y ponian&pt-par-rien; al&espace;sol de 
-                  <lb facs="#l1513"/><seg type="hyphen">&cced;ian</seg>&pt-par-rien; que hera&pt-par-rien; este su signo&pt-par-rien; y el de &cC;amaxtle&pt-par-virgule; esto hasian&pt-par-rien; en &tT;lacateco&piper; &aA;qui &Pp;onian en&espace;este  
+                  <lb facs="#l1511"/><add place="margin-left">&pdmV;</add> La hon&cced;ena&pt-par-rien; fiesta movivle&pt-par-virgule; en&espace;el signo&pt-par-rien; llamado &pt-gros; &cced;etecpatl<note type="commentaire">"ce tecpatl", le silex, couteau d'obsidienne.</note> &pt-gros; en la&espace;primera casa&pt-par-virgule; saca&V-pr-v;an
+                  <lb facs="#l1512"/>todos&pt-par-rien; los hornamentos de <persName ref="#huitzilopochtli">&hH;uitzilopocztli</persName>&pt; Los limpiaban&pt-par-rien; y sacudian&pt-par-rien; y ponian&pt-par-rien; al&espace;sol de 
+                  <lb facs="#l1513"/><seg type="hyphen">&cced;ian</seg>&pt-par-rien; que hera&pt-par-rien; este su signo&pt-par-rien; y el de &cC;amaxtle<note type="commentaire">
+                     "Divinité solaire adorée par les Tlaxcaltecas, semblable à Huitzilopachtli", selon "Dictionnaire de nahuatl classique" d'Alexis Wimmer, 2004.</note>&pt-par-virgule; esto hasian&pt-par-rien; en <placeName ref="#tlacateco">&tT;lacateco</placeName>&piper; &aA;qui &Pp;onian en&espace;este  
                   <lb facs="#l1514"/>dia&pt-par-rien; mu<choice><orig>ncz</orig><reg>ch</reg></choice>as maneras&pt-par-rien; de&espace;comidas&pt-par-rien; muy &V-pr-b;ien&espace;guisadas&pt-par-virgule; como las comen&pt-par-rien; los se&n-tilde;ores&pt-par-virgule; todas 
                   <lb facs="#l1515"/>las presenta&V-pr-v;an&pt-par-rien; delante&pt-par-rien; de&espace;su&espace;ymagen&piper; &dD;espues de a&supr-space;&V-pr-v;er&pt-par-rien; estado&pt-par-rien; un &Rr;ato&pt-par-rien; alli&pt-par-rien; toma&V-pr-v;an
-                  <lb facs="#l1516"/><seg type="hyphen">las</seg> dos&pt-par-rien; ofi&cced;iales&pt-par-rien; de <persName>huitzilopcztli</persName>&pt-par-rien; y &Rr;epartian&supr-space;las entre&espace;si&pt-par-rien; y comianlas&pt-par-virgule; y ensensavan&pt-par-rien; tambi
+                  <lb facs="#l1516"/><seg type="hyphen">las</seg> dos&pt-par-rien; ofi&cced;iales&pt-par-rien; de <persName ref="#huitzilopochtli">&hH;uitzilopcztli</persName>&pt-par-rien; y &Rr;epartian&supr-space;las entre&espace;si&pt-par-rien; y comianlas&pt-par-virgule; y ensensavan&pt-par-rien; tambi
                   <lb facs="#l1517"/><seg type="hyphen">en</seg>&pt-par-rien; a&espace;la&espace;ymagen&pt-par-rien; y ofresian&pt-par-rien; las codornices&pt-par-virgule; desca&V-pr-v;esandolas&pt-par-rien; delante della&pt-par-rien; &p-barre;a que&espace;se&espace;de&rr;a
                   <lb facs="#l1518"/><seg type="hyphen">mase</seg>&pt-par-rien; la&espace;sangre&pt-par-rien; delante&pt-par-rien; de&espace;la&espace;ymagen&pt-par-rien; y ofre&cced;ia&pt-par-rien; el se&n-tilde;or&pt-par-rien; todas las preciosas flores&pt-par-rien; presiosas&pt-par-rien; &huit-pr-que;
                   <lb facs="#l1519"/>&V-pr-u;savan&pt-par-rien; los se&n-tilde;ores&pt-par-rien; delante&pt-par-rien; la ymagen&pt;
                </p>
                <p>
-                  <lb facs="#l1520"/><add place="margin-left">&pdmV;</add> La do&cced;ena&pt-par-rien; fiesta&espace;mobivle&pt; &eE;n&espace;el signo&pt-par-rien; llamado &pt-gros; <persName>&cced;eo&cced;omatli</persName> &pt-gros; desian que de&cced;indian&pt-par-rien; las
-                  <lb facs="#l1521"/><choice><orig>dian</orig><reg/></choice> las diosas&pt-par-rien; llamadas&pt-par-rien; &pt-gros; <persName>&cced;&supr-space;huapipiltin</persName> &pt-gros; A la tierra&pt-par-rien; y da&n-tilde;a&V-pr-v;an&pt-par-rien; a&espace;los ni&n-tilde;os&pt-par-rien; y ni&n-tilde;as&pt-par-rien;
+                  <lb facs="#l1520"/><add place="margin-left">&pdmV;</add> La do&cced;ena&pt-par-rien; fiesta&espace;mobivle&pt; &eE;n&espace;el signo&pt-par-rien; llamado &pt-gros; &cced;eo&cced;omatli<note type="commentaire">"Ce ozomatli", un singe, signe du calendrier. Selon la "Crónica mexicana" de Hernando de Alvarado Tezozómoc, 1598 : "	Y sus prençipales de ellos llamados Matlacxochitl y Oçomatli y Timal, fueron estos los mayores ningrománticos del mundo en Tula, y al cabo ¿no binieron a morir (f:153r.)".</note> &pt-gros; desian que de&cced;indian&pt-par-rien; las
+                  <lb facs="#l1521"/><choice><orig>dian</orig><reg/></choice> las diosas&pt-par-rien; llamadas&pt-par-rien; &pt-gros; &cced;&supr-space;huapipiltin<note type="commentaire">"Les Cihuateteo (ou Cihuapipiltin) sont, dans la mythologie aztèque, des esprits de femmes mortes en couches.", "Cihuateteo", "Wikipedia, La enciclopedia libre", 31 julio 2019. Disponible sur Internet, url : https://es.wikipedia.org/w/index.php?title=Cihuateteo&amp;oldid=117889897.</note> &pt-gros; A la tierra&pt-par-rien; y da&n-tilde;a&V-pr-v;an&pt-par-rien; a&espace;los ni&n-tilde;os&pt-par-rien; y ni&n-tilde;as&pt-par-rien;
                   <lb facs="#l1522"/>hirian<supplied reason="omitted-in-original">do</supplied>los&pt-par-rien; co<choice><orig>m</orig><reg>n</reg></choice> perlesia&pt-par-rien; y si alguno&pt-par-rien; en&espace;este tiempo&pt-par-rien; e<choice><orig>m</orig><reg>n</reg></choice>ferma&V-pr-v;a&pt-par-virgule; de&cced;ian que ellas
                   <lb facs="#l1523"/>lo abian&pt-par-rien; hec<choice><orig>z</orig><reg>h</reg></choice>o&pt-par-virgule; que&espace;se abian&pt-par-rien; encontrado&pt-par-rien; con&espace;ellas&pt-par-virgule; y los padres&pt-par-virgule; y las madre<supplied reason="omitted-in-original">s</supplied>&pt-par-rien; no los dejavan&pt-par-rien;
                   <lb facs="#l1524"/>salir&pt-par-rien; fuera&pt-par-rien; de casa&pt-par-virgule; porque no se&espace;encontrasen&pt-par-rien; con&espace;e&s-long;tas&pt-par-rien; diosas&pt-par-rien; de las quales tenian <choice><abbr>g&n-tilde;</abbr><expan>gran</expan></choice>
@@ -5334,8 +5334,7 @@
                   <!--28-->
                   <lb facs="#l1527"/><add place="margin-left">&pdmV;</add> La tresina fiesta mobi&V-pr-v;le&pt-absent; En&espace;el signo&pt-par-rien; que&espace;llama &pt-gros; <persName>seytzcuintli</persName>&pt-gros; desian&pt-par-rien; que era el&espace;signo
                   <lb facs="#l1528"/>del fuego&pt-par-rien; ha&cced;an&pt-par-rien; gran fiesta a&espace;hon&Rr;a&pt-par-rien; de&espace; <persName>&xX;iuztecucztli</persName>&pt-par-virgule; dios del fuego&pt-par-virgule; en ella&pt-par-rien; le ofre
-                  <lb facs="#l1529"/><seg type="hyphen">sian</seg>&pt-par-rien; mu<choice><orig>ncz</orig><reg>ch</reg></choice>o&pt-par-rien; copal&pt-par-rien; y mu<choice><orig>ncz</orig><reg>ch</reg></choice>as&pt-par-rien; codornises&pt-par-rien; componian&pt-par-rien; su ymagen&pt-par-rien; co<choice><orig>m</orig><reg>n</reg></choice> mun
-                  <lb facs="#l1530"/><seg type="hyphen">czas maneras&pt-par-rien; de&espace;papeles&pt-par-rien; y con mu<choice><orig>ncz</orig><reg>ch</reg></choice>os&pt-par-rien; hornamentos&pt-par-rien; &Rr;icos&pt; &eE;ntre las personas &Rr;i
+                  <lb facs="#l1529"/><seg type="hyphen">sian</seg>&pt-par-rien; mu<choice><orig>ncz</orig><reg>ch</reg></choice>o&pt-par-rien; copal&pt-par-rien; y mu<choice><orig>ncz</orig><reg>ch</reg></choice>as&pt-par-rien; codornises&pt-par-rien; componian&pt-par-rien; su ymagen&pt-par-rien; co<choice><orig>m</orig><reg>n</reg></choice> mun<lb facs="#l1530"/><seg type="hyphen">czas maneras&pt-par-rien; de&espace;papeles&pt-par-rien; y con mu<choice><orig>ncz</orig><reg>ch</reg></choice>os&pt-par-rien; hornamentos&pt-par-rien; &Rr;icos&pt; &eE;ntre las personas &Rr;i
                      <lb facs="#l1531"/><seg type="hyphen"></seg>&Cc;as</seg> y poderosas&pt-par-rien; hasian&pt-par-rien; gra<supplied reason="omitted-in-original">n</supplied>&espace;fiesta&pt-par-rien; a hon&Rr;a&pt-par-rien; del fuego&pt-par-rien; en&espace;sus&espace;mismas casas&pt-par-virgule;
                   <!--28-->
                   <lb facs="#l1532"/>
@@ -5351,7 +5350,7 @@
                   <lb facs="#l1535"/><seg type="hyphen">ytos</seg>&pt-par-rien; y dones&pt; <choice><orig>despuestas</orig><reg>Despues de estas</reg></choice> fiestas&pt-par-rien; a pregona&supr-space;&V-pr-v;an luego&pt-par-rien; la gue&rr;a&pt-par-rien; contra&espace;sus enemigos&pt;
                </p>
                <p>
-                  <lb facs="#l1536"/><add place="margin-left">&pdmV;</add> La catorzena&pt-par-rien; fiesta mo&V-pr-v;ible&pt; &eE;n&espace;el&espace;signo llamado &pt-gros; <persName>ze acatl</persName> &pt-gros; en la primera casa deste sig<choice><supplied reason="omitted-in-original">n</supplied></choice>o&pt-par-virgule; has<damage><supplied>ian</supplied></damage>
+                  <lb facs="#l1536"/><add place="margin-left">&pdmV;</add> La catorzena&pt-par-rien; fiesta mo&V-pr-v;ible&pt; &eE;n&espace;el&espace;signo llamado &pt-gros; ze<note type="gloss">Sic pour "ce", un.</note> acatl &pt-gros; en la primera casa deste sig<choice><supplied reason="omitted-in-original">n</supplied></choice>o&pt-par-virgule; has<damage><supplied>ian</supplied></damage>
                   <lb facs="#l1537"/>fiesta&pt-par-rien; a&espace;la&espace;diosa&pt-par-rien; del&espace;agua&pt-par-rien; llamada &pt-gros; <persName>&cC;zalczihuitl&supr-space;ycue</persName> &pt-gros; hasian&espace;fiesta&pt-par-rien; todos&pt-par-rien; los que&espace;tratavan&pt-par-rien; en el
                   <lb facs="#l1538"/>agua&pt-par-virgule; ansi vendiendo&pt-par-rien; el agua&pt-par-virgule; como el pescando&pt-par-virgule; como hasiendo&pt-par-rien; otras&pt-par-rien; grangerias&pt-par-rien; que ay&espace;en&espace;el a
                   <lb facs="#l1539"/><seg type="hyphen">gua</seg>&pt; &eE;stos&pt-par-rien; componian&pt-par-rien; a&espace;su ymagen&pt-par-rien; y la&espace;ofre&cced;ian&pt-par-rien; y &Rr;e&V-pr-v;eren&cced;iaban&pt-par-rien; en la&espace;casa&pt-par-rien; llamada&pt-par-rien; calpuli<index><term>Calpulli</term></index>&pt-absent;
@@ -5372,17 +5371,17 @@
                   <lb facs="#l1550"/><add place="margin-left">&pdmV;</add> La sesta de&cced;ima mobi&V-pr-v;le&pt; &dD;esque&espace;los padres&pt-par-rien; bian&pt-par-rien; que&espace;su hijo&pt-par-rien; hera de hedad&pt-par-rien; &p-barre;a&espace;casarse&pt-par-virgule;
                   <lb facs="#l1551"/>ha&supr-space;bla&V-pr-v;anle en que&espace;le querian&pt-par-rien; bus&Cc;ar&pt-par-rien; su muger&pt-par-virgule; y el rrespondia&pt-par-rien; ha&cced;iendoles&pt-par-rien; gra&cced;ias por&espace;ello po<damage><supplied>r aqu</supplied></damage>
                   <lb facs="#l1552"/><seg type="hyphen">el</seg> cuydado&pt-par-rien; que&espace;toma&V-pr-v;an&pt-par-rien; de&espace;casarle&pt-par-rien; luego&pt-par-rien; hablaban&pt-par-rien; al prin&cced;ipal&pt-par-rien; que&espace;tenia &Cc;argo&pt-par-rien; de&espace;todos&pt-par-rien; los m<damage><supplied>an</supplied></damage>
-                  <lb facs="#l1553"/><seg type="hyphen">sevos</seg>&pt-par-rien; &neuf-pr-que; hellos&pt-par-rien; llama&V-pr-v;an&deuxpt; <persName>telpocztlato</persName>&deuxpt; y de&cced;ianle&pt-par-rien; como que&supr-space;rian&pt-par-rien; cazar&pt-par-rien; su hijo&pt-par-rien; &neuf-pr-que; lo tubiese&pt-par-rien; por bien y
+                  <lb facs="#l1553"/><seg type="hyphen">sevos</seg>&pt-par-rien; &neuf-pr-que; hellos&pt-par-rien; llama&V-pr-v;an&deuxpt; telpocztlato<note type="commentaire">Sic pour "telpochtlato" ou "telpochtlahtoh" : "Directeur de l'établissement d'éducation pour les jeunes gens", selon le "Dictionnaire de nahuatl classique", d'Alexis Wimmer, 2004.</note>&deuxpt; y de&cced;ianle&pt-par-rien; como que&supr-space;rian&pt-par-rien; cazar&pt-par-rien; su hijo&pt-par-rien; &neuf-pr-que; lo tubiese&pt-par-rien; por bien y
                   <lb facs="#l1554"/>&p-barre;a esto&pt-par-virgule; le ha&cced;ian&pt-par-rien; &V-pr-u;n combite&pt-par-rien; &p-barre;a el y a los man&cced;e&V-pr-v;os&pt-par-rien; &neuf-pr-que; tenia&pt-par-rien; a&espace;su &Cc;argo&pt-par-virgule; y &p-barre;a esto&pt-par-virgule; le hasian&pt-par-rien; &V-pr-u;na
                   <lb facs="#l1555"/>platica&pt-par-rien; despues&pt-par-rien; de a&V-pr-v;erle&pt-par-rien; dado&pt-par-rien; de&espace;co&supr-space;mer&pt-par-virgule; y &V-pr-b;eber&pt-par-rien; ael&espace;y a&espace;todos&pt-par-rien; los que&espace;tenia&pt-par-rien; a&espace;su&espace;cargo&pt-par-virgule; y en el
                   <lb facs="#l1556"/>prin&cced;ipio&pt-par-rien; de&espace;la&espace;platica&pt-par-virgule; ponianle&pt-par-rien; delante&pt-par-rien; &V-pr-u;na hac<choice><orig>z</orig><reg>h</reg></choice>&pt-par-rien; de cortar madera&deuxpt; o le&n-tilde;a&pt-par-virgule; e&s-long;ta hac<choice><orig>z</orig><reg>h</reg></choice>
                   <lb facs="#l1557"/>hera&espace;se&n-tilde;al&pt-par-virgule; que aquel mansebo&pt-par-rien; se despedia&pt-par-rien; ya de la &Cc;ompania&pt-par-rien; de los otros man&cced;ebos&pt-par-virgule; porque le&espace;queria<damage><supplied>n</supplied></damage>
-                  <lb facs="#l1558"/>&Cc;a&cced;ar&pt-par-rien; y ansi&deuxpt; el&espace;<persName>teczpocztlato</persName>&deuxpt; yba contento&deuxpt; despeus desto&pt-par-virgule; determina&V-pr-v;an entre&espace;si los p<choice><orig>o</orig><reg>a</reg></choice>rientes la muger
+                  <lb facs="#l1558"/>&Cc;a&cced;ar&pt-par-rien; y ansi&deuxpt; el&espace;teczpocztlato<note type="commentaire">Sic pour "telpochtlato" ou "telpochtlahtoh".</note>&deuxpt; yba contento&deuxpt; despeus desto&pt-par-virgule; determina&V-pr-v;an entre&espace;si los p<choice><orig>o</orig><reg>a</reg></choice>rientes la muger
                   <lb facs="#l1559"/>que le abian de dar&pt-par-virgule; y llama&V-pr-v;an&pt-par-rien; a las casamenteras&pt-par-virgule; &huit-pr-que; heran&pt-par-rien; unas &V-pr-v;iejas&pt-par-rien; hon&Rr;adas&pt-par-rien; &p-barre;a que fuesen a
                   <lb facs="#l1660"/>hablar&pt-par-rien; a&espace;los padres&pt-par-rien; de la mo&cced;a&deuxpt; y yban dos o&espace;tres &V-pr-v;e&cced;es&pt-par-rien; y ha&V-pr-b;laban&pt-par-rien; y bolbian&pt-par-rien; con la &Rr;epuesta&pt; &eE;n&espace;este
                   <lb facs="#l1661"/>tiempo&pt-par-virgule; los parientes&pt-par-rien; de la mo&cced;a&pt-par-virgule; se habla&V-pr-v;an y con&cced;erta&V-pr-v;an&pt-par-virgule; de&espace;darsela&pt-par-rien; davan el si&pt-par-virgule; a las casa&supr-space;m<damage><supplied>en</supplied></damage>
                   <lb facs="#l1662"/><seg type="hyphen">teras</seg>&deuxpt; desto busca&V-pr-v;an&pt-par-rien; un dia&pt-par-rien; bien afortunado&pt-par-virgule; de&espace;algun&espace; si<supplied>g</supplied>no&pt-par-virgule; bien&espace; acondisionado&pt-par-rien; quales&pt-par-rien; eran
-                  <lb facs="#l1663"/>&slash-pt; acatl &slash-pt; <persName>o&cced;omatli &cced;ipactli&deuxpt; quacztli</persName>&slash; ya viendo escojido&pt-par-rien; &V-pr-u;no destos si<supplied>g</supplied>nos el padre dem mo&cced;o ha&cced;ian&pt-par-rien; sa&V-pr-v;er&pt-par-rien; 
+                  <lb facs="#l1663"/>&slash-pt; acatl<note type="commentaire">Canne, 13e position dans le calendrier de 20 jours.</note> &slash-pt; o&cced;omatli<note type="commentaire">Singe, 11e position dans le calendrier de 20 jours.</note> &cced;ipactli&deuxpt;<note type="commentaire">Crocodile, 1ère position dans le calendrier de 20 jours.</note> quacztli<note type="commentaire">Cuauhtli, aigle, 15e position dans le calendrier de 20 jours.</note>&slash; ya viendo escojido&pt-par-rien; &V-pr-u;no destos si<supplied>g</supplied>nos el padre dem mo&cced;o ha&cced;ian&pt-par-rien; sa&V-pr-v;er&pt-par-rien; 
                   <lb facs="#l1664"/>a&espace;los padres&pt-par-rien; de&espace;la mo&cced;a&pt-par-rien; el&espace;dia en&espace;que&espace;se abra de haser&pt-par-rien; el matrimonio&pt-par-virgule; y luego comen&cced;aban&pt-par-rien; a hapare
                   <lb facs="#l1665"/><seg type="hyphen">jar</seg>&pt-par-rien; las cosas nesesaria&pt-par-rien; &p-barre;ara las bodas&pt-par-virgule; asi de comer como de be&V-pr-v;er&pt-par-virgule; como de&espace;mantas&pt-par-virgule; y ca&n-tilde;as&pt-par-virgule; de u
                   <lb facs="#l1666"/><seg type="hyphen">mo</seg>&pt-par-virgule; y flores&pt-par-virgule; y esto hec<choice><orig>z</orig><reg>h</reg></choice>o combida&V-pr-v;an&pt-par-rien; al os prin&cced;ipales&pt-par-virgule; y toda la&espace;otra gente&pt-par-rien; &neuf-pr-que; ellos&pt-par-rien; queria &p-barre;a la<damage><supplied>s</supplied></damage>
@@ -5392,11 +5391,11 @@
                   <lb facs="#l1700"/>cza gente&pt-par-virgule; detras y delante&pt-par-rien; hasta que llegavan&pt-par-rien; a la casa de&espace;los padres&pt-par-rien; del mo&cced;o llegada a l&Aa; casa
                   <lb facs="#l1701"/>del moso&pt-par-virgule; ponian los&pt-par-rien; ambos&pt-par-rien; juntos&pt-par-rien; al hogar&pt-par-rien; que siempre le&espace;tienen&pt-par-rien; en medio&pt-par-rien; de una&espace;sala&pt-par-rien; lleno <damage><supplied>de</supplied></damage>  
                   <lb facs="#l1702"/>fuego&pt-par-virgule; y la muger&pt-par-rien; esta ha la mano&pt-par-rien; yzquierda&pt-par-rien; del varo<choice><orig>s</orig><reg>n</reg></choice> luego la madre&pt-par-rien; del manzebo&pt-par-rien; &V-pr-v;e<damage><supplied>s</supplied></damage>
-                  <lb facs="#l1703"/><seg type="hyphen">tia</seg> &V-pr-u;n huipil&pt-par-rien; muy galano&pt-par-rien; a&espace;su nuera&pt-par-virgule; y ponianle&pt-par-rien; junto&pt-par-rien; a&espace;sus p&i-aigu;es&pt-par-rien; &V-pr-u;nas&pt-par-rien; naguas&pt-par-rien; muy labra
+                  <lb facs="#l1703"/><seg type="hyphen">tia</seg> &V-pr-u;n huipil<note type="commentaire">Le huipil est un vêtement traditionnel d'Amérique centrale et du Mexique. C'est une sorte de chasuble portée par les femmes", "Huipil", "Wikipédia, l'encyclopédie libre", 4 septembre 2017. Disponible sur Internet, url : http://fr.wikipedia.org/w/index.php?title=Huipil&amp;oldid=140347774.</note>&pt-par-rien; muy galano&pt-par-rien; a&espace;su nuera&pt-par-virgule; y ponianle&pt-par-rien; junto&pt-par-rien; a&espace;sus p&i-aigu;es&pt-par-rien; &V-pr-u;nas&pt-par-rien; naguas&pt-par-rien; muy labra
                   <lb facs="#l1704"/><seg type="hyphen">das</seg>&pt-par-virgule; y la madre &pt-par-rien; de la moza&pt-par-rien; &Cc;ubria&pt-par-rien; con una manta&pt-par-rien; muy galana &slash; a su hyerno&pt-par-rien; y ata<supplied>va</supplied>se
-                  <lb facs="#l1705"/><seg type="hyphen">la</seg>&pt-par-rien; sobre&pt-par-rien; &Ee;l hombro&pt-par-virgule; y poniale&pt-par-rien; &V-pr-u;n maxtli&pt-par-rien; muy labrado&pt-par-rien; a&espace;los pies&pt-par-rien; hec<choice><orig>z</orig><reg>h</reg></choice>o esto &V-pr-u;nas&pt-par-rien; bie
-                  <lb facs="#l1706"/><seg type="hyphen">jas</seg>&pt-par-rien; que&espace;se&pt-par-rien; llamaban &slash; titi&cced;i &slash; ataban la esquina&pt-par-rien; de la manta del mozo&pt-par-rien; con la&espace;falda&pt-par-rien; del&espace;gui
-                  <lb facs="#l1707"/><seg type="hyphen">pil</seg>&pt-par-rien; de&espace;la mo&cced;a&pt-par-rien; asi se concluya&pt-par-rien; el matrimonio&pt-par-rien; con otras mu<choice><orig>ncz</orig><reg>ch</reg></choice>as&pt-par-rien; sirimonias&pt-par-virgule; y comere<damage><supplied>s</supplied></damage>
+                  <lb facs="#l1705"/><seg type="hyphen">la</seg>&pt-par-rien; sobre&pt-par-rien; &Ee;l hombro&pt-par-virgule; y poniale&pt-par-rien; &V-pr-u;n maxtli<note type="commentaire">Selon la "Crónica mexicana" de Hernando de Alvarado Tezozómoc, 1598, c'est un "atapador de sus bergüenças" ou "pañetes azule labrado", soit un pagne qui couvre les parties honteuses.</note>&pt-par-rien; muy labrado&pt-par-rien; a&espace;los pies&pt-par-rien; hec<choice><orig>z</orig><reg>h</reg></choice>o esto &V-pr-u;nas&pt-par-rien; bie
+                  <lb facs="#l1706"/><seg type="hyphen">jas</seg>&pt-par-rien; que&espace;se&pt-par-rien; llamaban &slash; titi&cced;i<note type="commentaire">Selon le "Vocabulario en lengua Mexicana y Castellana" de fray Alonso de Molina, 1571, c'est le médecin. Voir Viniegra Rodríguez, Fernando Melesio ; Olmos, Jiménez Katiuska, "¿Titici, tlamatini, texoxotlatitici o tepatiani?", Revista AMMVEPE, 2001, vol. 12, n° 3, p. 69.</note> &slash; ataban la esquina&pt-par-rien; de la manta del mozo&pt-par-rien; con la&espace;falda&pt-par-rien; del&espace;gui&pt-par-rien;
+                  <lb facs="#l1707"/><seg type="hyphen">pil</seg><note type="gloss">Sic pour "huipil"</note>&pt-par-rien; de&espace;la mo&cced;a&pt-par-rien; asi se concluya&pt-par-rien; el matrimonio&pt-par-rien; con otras mu<choice><orig>ncz</orig><reg>ch</reg></choice>as&pt-par-rien; sirimonias&pt-par-virgule; y comere<damage><supplied>s</supplied></damage>
                   <lb facs="#l1708"/>y beveres&pt-par-virgule; y bayles&pt-par-virgule; que despues&pt-par-rien; se hazian&pt;
                </p>
                <p>

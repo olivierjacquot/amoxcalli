@@ -811,7 +811,7 @@
          <particDesc>
             <listPerson>
                <person xml:id="chalchiuhtlicue">
-                  <persName type="mythological" ref="chalchiuhtlicue">Chalchiuhtlícue</persName>
+                  <persName type="mythological" ref="#chalchiuhtlicue">Chalchiuhtlícue</persName>
                   <note type="biographical" source="https://es.wikipedia.org/wiki/Chalchiuhtlicue">
                      Déesse de l'eau.</note>
                </person>
@@ -821,12 +821,12 @@
                      source="https://es.wikipedia.org/wiki/Chicomec%C3%B3atl">Déesse de la nourriture, en particulier du maïs, patrone de la végétation et par extension, déesse de la fertilité. Le nom Xilonen qui lui étaut attribué ("le poilu"), fait référence aux barbes du maïs. </note>
                </person>
                <person xml:id="huitzilopochtli">
-                  <persName type="mythological" ref="huitzilopochtli">Huitzilopochtli</persName>
+                  <persName type="mythological" ref="#huitzilopochtli">Huitzilopochtli</persName>
                   <note type="biographical" source="https://www.wikidata.org/wiki/Q219412">
                      Signifiant "colibri de gauche", dieu de la Guerre et du Soleil.</note>
                </person>
                <person xml:id="gama">
-                  <persName type="person" ref="gama">León y Gama, Antonio de (1735-1802)</persName>
+                  <persName type="person" ref="#gama">León y Gama, Antonio de (1735-1802)</persName>
                   <note type="biographical" source="https://fr.wikipedia.org/wiki/Antonio_de_Le%C3%B3n_y_Gama">
                      Antonio de León y Gama (1735-1802) est un érudit et un scientifique mexicain.</note>
                </person>               
@@ -842,6 +842,12 @@
                      Monarque (tlatoani) de l'"altepetl" de Texcoco, succédant à son père
                      Nezahualcóyotl en 1473.</note>
                </person>
+				<person xml:id="omeacatl">
+					<persName type="mythological" ref="#omeacatl">Omeacatl</persName>
+					<note type="biographical">
+						Dieu des banquets.
+					</note>
+				</person>
                <person xml:id="opochtli">
                   <persName type="mythological" ref="#opochtli">Opochtli</persName>
                   <note type="biographical" source="https://es.wikipedia.org/wiki/Opochtli">
@@ -891,14 +897,24 @@
                   <person xml:id="xipe">
                      <persName type="mythological" ref="#xipe">Xipe Totec</persName>
                      <note type="biographical"
-                        source="https://es.wikipedia.org/wiki/Xipe_T%C3%B3tec">Xipe est probablement une forme tronquée de Xipeuh, divinité également appelé Xipe Totec.</note>
+                        source="https://es.wikipedia.org/wiki/Xipe_T%C3%B3tec">Xipe est probablement une forme tronquée de Xipeuh, divinité également appelé Xipe Totec (« notre seigneur l'écorché » en nahuatl).</note>
                </person>
             </listPerson>
          </particDesc>
 
          <settingDesc>
             <listPlace>
-               <place xml:id="huauchinango"
+               <place xml:id="citlaltepec"
+                  corresp="https://es.wikipedia.org/wiki/Municipio_de_Citlalt%C3%A9petl">
+                  <placeName ref="#citlaltepec">Citlaltépec</placeName>
+                  <note>La commune de Citlaltepetl, qui signifie "Colline de l'Etoile", est située dans l'état de Veracruz dans la Sierra de Otontepec.</note>
+               </place>		
+				<place xml:id="çihuateopan"
+                  corresp="https://es.wikipedia.org/wiki/Huauchinango">
+					<placeName ref="#çihuateopan">Çihuateopan</placeName>
+					<note>"Aux côtés des déesses féminines." Division territoriale de la confédération chalcaise.</note>
+				</place>			
+				<place xml:id="huauchinango"
                   corresp="https://es.wikipedia.org/wiki/Huauchinango">
                   <placeName ref="#huauchinango">Huauchinango</placeName>
                   <note>"Huauchinango" o "Cuauchinanco" en nahuatl signie le "lieu entouré d'arbres".</note>
@@ -908,6 +924,10 @@
                   <note>Capitale de la Vice-Royauté de Nouvelle-Espagne, désignée à l'époque aztèque
                      sous la double appellation : Mexico-Tenochtitlan.</note>
                </place>
+               <place xml:id="temilco" corresp="http://sites.estvideo.net/malinal/1.hist/T.html">
+                  <placeName ref="#temilco">Temilco</placeName>
+                  <note>Communauté rattachée à la province de Chalco. Nom d'une source à Citlaltepec, dans laquelle croissaient de très beaux roseaux que les prêtres allaient cueillir pour la célébration de la fête qui était consacrée aux dieux de la pluie et avait lieu le premier jour du mois d'Etzalcualiztli. Sah2,73.</note>
+               </place>
                <place xml:id="templomayor" corresp="https://es.wikipedia.org/wiki/Templo_Mayor">
                   <placeName ref="#templomayor">Templo Mayor</placeName>
                   <note>Grand Temple de Tenochtitlan.</note>
@@ -916,6 +936,10 @@
                   <placeName ref="#tezcuco">Tezcuco</placeName>
                   <note>Capitale du royaume des Acolhuas.</note>
                </place>
+				<place xml:id="tlacateco">
+					<placeName ref="#tlacateco">Tlacateco</placeName>
+					<note>Tlacateco forme désormais un quartier de la ville de Tepotzotlán.</note>
+				</place>
                <place xml:id="tlaxcala"
                   corresp="https://es.wikipedia.org/wiki/Se%C3%B1or%C3%ADo_de_Tlaxcala_(Huey_Altepetl_Tlaxcall%C4%81n)">
                   <placeName ref="#tlaxcala">Tlaxcala</placeName>
@@ -1594,26 +1618,17 @@
                      </list>
                   </figure>
                   <!-- remplacer les i aigus en i ? -->
-                  <lb facs="#l6"/>esta fiesta llamaban los yndios &xX;&i-aigu;lomanistle<index
-                     indexName="IndexRerum">
-                     <term>Xilomaniztli</term>
-                  </index>&cent-envers-pr-virgule; y los Mexicanos y otros algunos <lb facs="#l7"
+                  <lb facs="#l6"/>esta fiesta llamaban los yndios &xX;&i-aigu;lomanistle
+                     <note type="commentaire">Le Códice Magliabecchi, folio 28v, emploie "Xilomaniztli". Voir Enrique García Fernández, Americanismos en la Crónica de la Nueva España de Francisco Cervantes de Salazar. Disponible sur Internet, url : https://eprints.ucm.es/49367/1/T40259.pdf</note>                  
+                  &cent-envers-pr-virgule; y los Mexicanos y otros algunos <lb facs="#l7"
                   />la&espace;llamaban&cent-envers-pr-virgule; &aA;lcagualo<index
                      indexName="IndexRerum">
                      <term>Alcagualo</term>
                   </index> porque en este tiempo dejaban de pescar los pezcados es <lb facs="#l8"
                   />como des&i-aigu;r que dejaban el agua&cent-envers-pr-virgule; y llamanla
-                     &xX;ilomantztl&i-aigu;<index indexName="IndexRerum">
-                     <term>Xilomaniztli</term>
-                  </index> porque lo pintan con <lb facs="#l9"/>&v-pr-u;nas ma&cced;orcas de
+                  &xX;ilomantztl&i-aigu;<note type="commentaire">Le terme est référencé dans l'Index lexical du Codex de Florence par Marc Eisinger</note> porque lo pintan con <lb facs="#l9"/>&v-pr-u;nas ma&cced;orcas de
                   ma&i-aigu;s en&espace;el pu&n-tilde;o<pc>,</pc> antes de a&u-pr-v;er quajado el
-                  grano que &s-long;e&espace;llaman <lb facs="#l10"/>&xX;&i-aigu;lotl<index
-                     indexName="IndexRerum">
-                     <term>Xilotl</term>
-                  </index> y asi &xX;&i-aigu;loman&i-aigu;ztl&i-aigu;<index indexName="IndexRerum">
-                     <term>Xilomaniztli</term>
-                  </index> quiere desir que t&i-aigu;ene en la&espace;mano
-                  x&i-aigu;lotes&cent-envers-pr-virgule; en&espace;esta <lb facs="#l11"/>fiesta
+                  grano que &s-long;e&espace;llaman <lb facs="#l10"/>&xX;&i-aigu;lotl<note type="commentaire">Epis de maïs tendres. Gran Diccionario Náhuatl [en ligne], México : Universidad Nacional Autónoma de México, 2012. Disponible sur Internet, url : http://www.gdn.unam.mx.</note> y asi &xX;&i-aigu;loman&i-aigu;ztl&i-aigu; x&i-aigu;lotes&cent-envers-pr-virgule; en&espace;esta <lb facs="#l11"/>fiesta
                   &s-long;acr&i-aigu;f&i-aigu;caban ni&n-tilde;os&cent-envers-pr-virgule; el
                   d&i-aigu;mon&i-aigu;o &s-long;e&espace;llamaba <persName ref="#tlaloc">&tT;laloc</persName>&cent-envers-pr-virgule; en <choice>
                      <abbr><placeName ref="#mexico">mex<hi rend="sup">o</hi></placeName></abbr>
@@ -1722,8 +1737,7 @@
                      medium="black-ink" resp="#hdfra-goupil-5"/>N° 65 à 71. <lb facs="#l22"
                      /><handShift medium="brown-ink" resp="#hdspa-Cal-ill-1"/>&eE;sta figura
                   e&s-long; de la fiesta del demonio que los&espace;yndios llamaban
-                     &tT;ocoxtlé<index indexName="IndexRerum">
-                        <term>Tocoxtlé</term></index> y el demon&i-aigu;o <lb facs="#l23"/>a qu&i-aigu;en la &s-long;elebraban
+                  &tT;ocoxtlé<note type="commentaire">Sic pour Toxoctli que l'on retrouve dans les Codex Tudela et Magliabechiano. Voir "Ethnographische Dokumente aus Neuspanien im Umfeld der Codex Magliabechi-Gruppe" de Berthold Riese.</note> y el demon&i-aigu;o <lb facs="#l23"/>a qu&i-aigu;en la &s-long;elebraban
                   &s-long;e&espace;llamaba <persName ref="#chalchiuhtlicue">&cC;halchutlique</persName> porque le&espace;ponian al cuello &V-pr-u;n collar <lb facs="#l24"/>de
                   e&s-long;meraldas que&espace;ellos llamaban &cC;halch&i-aigu;lgu&i-aigu;tl<index
                      indexName="IndexRerum">
@@ -1735,21 +1749,21 @@
                   &virgule; que eran n&i-aigu;&n-tilde;os y ofresian mucho
                   copal&espace;y&espace;papel y ca&n-tilde;a&s-long; de <lb facs="#l26"/>mays y
                   en&espace;esta fiesta &s-long;cr&i-aigu;f&i-aigu;caban &V-pr-u;na yndia laqual
-                  &s-long;e&espace;ataba los&espace;cabellos a&espace;la&espace;rre <lb facs="#l27"
+                  &s-long;e&espace;ataba los&espace;cabellos a&espace;la&espace;rre<lb facs="#l27"
                      /><seg type="hyphen">donda</seg> conforme el demon&i-aigu;o
                   que&espace;esta&u-pr-v;a de aquel harte y e&s-long; denotar
                   que&espace;en&espace;esta fiesta <lb facs="#l28"/>&s-long;e &s-long;acrificaban
-                  los niñ&n-tilde;s peque&n-tilde;os y las&espace;n&i-aigu;&n-tilde;as y tanbien los
+                  los ni&n-tilde;os peque&n-tilde;os y las&espace;n&i-aigu;&n-tilde;as y tanbien los
                   rre&s-long;ien na&cced;&i-aigu;dos y le&s-long; <lb facs="#l29"/>pon&i-aigu;an
                   nombrez como los chr&i-aigu;st&i-aigu;anos en&espace;el Baut&i-aigu;&s-long;mo y
                   a&V-pr-u;nque este punto esto puesto <lb facs="#l30"/>en&espace;otra fiesta
                   de&espace;las &s-long;&i-aigu;gu&i-aigu;entez&virgule; mas prop&i-aigu;a
                   &s-long;er&i-aigu;mon&i-aigu;a era de&espace;esta fiesta&virgule; en&espace;laqual
-                  da <lb facs="#l31"/><seg type="hyphen">ban</seg> de comer &s-long;u&s-long;
+                  da<lb facs="#l31"/><seg type="hyphen">ban</seg> de comer &s-long;u&s-long;
                   par&i-aigu;ente&s-long; y ell&espace;quel&espace;a&supr-space;s&i-aigu;
                   &V-pr-u;nabe&s-long; era&espace;ofre&cced;ido no &s-long;e
-                  ofre&s-long;&i-aigu;a&espace;mas lla <lb facs="#l32"/><seg type="hyphen"
-                     >maban</seg>&i-aigu;esta f&i-aigu;esta
+                  ofre&s-long;&i-aigu;a&espace;mas lla<lb facs="#l32"/><seg type="hyphen"
+                     >maban</seg>&espace;esta f&i-aigu;esta
                      &tT;eycoquezp&i-aigu;p&i-aigu;ltontl&i-aigu;<index indexName="IndexRerum">
                      <term>Teycoquezpipiltontli</term>
                   </index>&virgule-abs; y daban tamale&s-long; y&espace;otra&s-long; cosas
@@ -1807,9 +1821,6 @@
                   <lb facs="#l38"/>&eE;sta f&i-aigu;esta se&espace;llamaba &tT;ocoxtl<index><term>Tocoxtli</term></index>&i-aigu; porque
                   pon&i-aigu;an al demon&i-aigu;o ca&n-tilde;as con&espace;ojaz
                   de&espace;mays&pt-par-virgule; <lb facs="#l39"/>que &s-long;e&espace;llama
-                     &tT;octl&i-aigu;<index indexName="IndexRerum">
-                     <term>Toctli</term>
-                  </index>&virgule; y en&espace;esta f&i-aigu;esta ofre&s-long;&i-aigu;an
                   muncho&espace;mays y tamale&s-long; ama&s-long;ados <lb facs="#l40"
                   />con&espace;fr&i-aigu;jole&s-long; al demon&i-aigu;o&virgule; y en&espace;esta
                   f&i-aigu;esta los ni&n-tilde;os en amanes&i-aigu;endo echaban <lb facs="#l41"/>en
@@ -1875,10 +1886,7 @@
                      </list>
                   </figure>
                   <lb facs="#l50"/><handShift medium="brown-ink" resp="#hdspa-Cal-ill-1"/>&eE;sta
-                  e&s-long; la f&i-aigu;esta que llamaban los&espace;ynd&i-aigu;os &tT;oxcatl<index
-                     indexName="IndexRerum">
-                     <term>Toxcatl</term>
-                  </index> era gran f&i-aigu;esta porque el de <lb facs="#l51"/><seg type="hyphen"
+                  e&s-long; la f&i-aigu;esta que llamaban los&espace;ynd&i-aigu;os &tT;oxcatl<note type="commentaire">Nom de la cinquième fête annuelle. Gran Diccionario Náhuatl [en ligne], México : Universidad Nacional Autónoma de México, 2012. Disponible sur Internet, url : http://www.gdn.unam.mx.</note> era gran f&i-aigu;esta porque el de<lb facs="#l51"/><seg type="hyphen"
                      >mon&i-aigu;o</seg> que&espace;en&espace;ella &s-long;e &s-long;elebraba
                   &s-long;e&espace;llamaba &tT;ezcatepocatl<index indexName="IndexRerum">
                      <term>Tezcatepocatl</term>
@@ -1957,9 +1965,7 @@
                      &eE;zalcoal&i-aigu;ztl&i-aigu;<index indexName="IndexRerum">
                      <term>Ezalcoaliztli</term>
                   </index>&virgule; que qu&i-aigu;ere&espace;des&i-aigu;r corr&i-aigu;dade <lb
-                     facs="#l67"/>&eE;zatl<index indexName="IndexRerum">
-                     <term>Ezatl</term>
-                  </index>&pt; que&s-long; &V-pr-u;na&espace;manera de&espace;comida de
+                     facs="#l67"/>&eE;zatl<note type="commentaire">Le sang. Vocabulario mexicano de San Miguel Tzinacapan (Sierra Norte de Puebla), Sybille Toumi de Pury, 1984.</note>&pt; que&s-long; &V-pr-u;na&espace;manera de&espace;comida de
                   ma&i-aigu;&s-long; cos&i-aigu;do&cent-envers-pr-virgule; el demon&i-aigu;o quiene
                   <lb facs="#l68"/>lla &s-long;e honrraba&espace;era <persName ref="#quetzalcoatl">&qQ;uetzalcoatl</persName>
                   que qu&i-aigu;ere des&i-aigu;r culebra de pluma <lb facs="#l69"
@@ -1975,7 +1981,7 @@
                   manojo de juncos en&espace;esta f&i-aigu;esta
                   &s-long;acr&i-aigu;f&i-aigu;cab&a-aigu;n los&espace;ynd&i-aigu;os de
                   &s-long;u&s-long; na <lb facs="#l74"/><seg type="hyphen">tura&s-long;</seg>
-                  que&espace;llamaban &mM;otepolizo que quiere des&i-aigu;r esta
+                  que&espace;llamaban &mM;otepolizo<note type="commentaire">"los hombres en Etzalcualiztli le ofrecían “unas partes que se cortaban del prepucio, que llamaban Motepolizo para que les diese sucesión”, Veytia, Mariano, Historia antigua de México, México : Editorial del Valle de México, 2000, vol. II, p. 789.</note> que quiere des&i-aigu;r esta
                   &s-long;u&s-long;&i-aigu;edad &s-long;acr&i-aigu;f&i-aigu;ca <lb facs="#l75"/><seg
                      type="hyphen">da</seg>&cent-envers-pr-virgule; d&i-aigu;sen&espace;algunos que
                   esto a&s-long;&i-aigu;an por que &s-long;u D&i-aigu;os tub&i-aigu;e&s-long;e por
@@ -2082,7 +2088,7 @@
                   en&espace;laqual los&espace;mancebos llebaban&espace;en hombro&s-long; <lb
                      facs="#l90"/>al&espace;demon&i-aigu;o best&i-aigu;do como papagayo y en
                   &V-pr-u;n&espace;carro aforrado con ojas&espace;de&espace;ca&n-tilde;a de
-                  ma&i-aigu;&s-long; ta <lb facs="#l91"/><seg type="hyphen">&n-tilde;endole</seg>
+                  ma&i-aigu;&s-long; ta<lb facs="#l91"/><seg type="hyphen">&n-tilde;endole</seg>
                   flautas por delante&espace;del y&espace;en la&espace;mano le&espace;pon&i-aigu;an
                   &V-pr-u;n cetro de&espace;pluma que e <lb facs="#l92"/><seg type="hyphen"
                      >llos</seg> llamaban <del>hu</del>&yY;olo&supr-space;top&i-aigu;l que
@@ -2214,7 +2220,7 @@
                   p&i-aigu;ntan de&espace;d&i-aigu;&u-pr-v;er&s-long;os colorez &s-long;egun
                   le&espace;dan <lb facs="#l115"/>d&i-aigu;&u-pr-v;er&s-long;os
                   nombres&cent-envers-pr-virgule; otros llaman esta fiesta &mM;oxuch&i-aigu;maca
-                  porque en&espace;ella rrode <lb facs="#l116"/><seg type="hyphen">aban</seg> de
+                  porque en&espace;ella rrode<lb facs="#l116"/><seg type="hyphen">aban</seg> de
                   gui&i-aigu;rnaldas derrossas al&espace;demon&i-aigu;o&cent-envers-pr-virgule;
                   a&espace;este &tT;ezcaltepoca &s-long;on&espace;ded&i-aigu;cados los <lb
                      facs="#l117"/>teucale&s-long; que ellos llaman &tT;laquixcalcatl y
@@ -2957,17 +2963,17 @@
                   o&espace;chr&i-aigu;stal que&espace;ello&s-long; <lb facs="#l248"/>llaman
                   &tT;ezacatl que lo &V-pr-u;&s-long;aban quando &V-pr-u;&i-aigu;b&i-aigu;an y
                   baylaban en&espace;los&espace;aretos <lb facs="#l249"/>colgados de &V-pr-u;n
-                  agujero que ten&i-aigu;an echo en &s-long;&i-aigu;ma de&espace;la barba
-                  en&espace;el&espace;labio y po <lb facs="#l250"/><seg type="hyphen"
+                  agujero que ten&i-aigu;an echo en&supr-space;&s-long;&i-aigu;ma de&espace;la barba
+                  en&espace;el&espace;labio y po<lb facs="#l250"/><seg type="hyphen"
                      >n&i-aigu;anle</seg> &s-long;us plumajes atidos al&espace;colodr&i-aigu;llo que
-                  llaman &tT;lalp&i-aigu;lon&i-aigu; y mu <lb facs="#l251"/><seg type="hyphen"
+                  llaman &tT;lalp&i-aigu;lon&i-aigu; y mu<lb facs="#l251"/><seg type="hyphen"
                      >chos</seg> perfume&s-long; y &s-long;entabanle en &V-pr-u;n&espace;petate
                   &s-long;obre &s-long;u &i-aigu;cpal y pon&i-aigu;an all&i-aigu; <lb facs="#l252"
                   />mucha com&i-aigu;da y con&u-pr-v;&i-aigu;daban a&espace;los princ&i-aigu;palez y
                   de&s-long;pue&s-long;&espace;pegaban&espace;fuego <lb facs="#l253"/>a locote y
                   quemabase todo con quanto all&i-aigu;&espace;ten&i-aigu;an puesto y esta
                   memor&i-aigu;a que <lb facs="#l254"/>cada a&n-tilde;o
-                  le&s-long;&espace;a&s-long;&i-aigu;an &s-long;u&s-long; h&s-long;jos
+                  le&s-long;&espace;a&s-long;&i-aigu;an &s-long;u&s-long; h&i-aigu;jos
                   o&espace;par&i-aigu;ente&s-long; la llamaban quipequ&i-aigu;lon&a-aigu;&espace;que
                      <lb facs="#l255"/>qu&i-aigu;ere&espace;de&s-long;&i-aigu;r que pon&i-aigu;an
                   &s-long;u figura o&espace;memor&i-aigu;a&pt; <lb facs="#l256"/><stamp><mentioned
@@ -3109,8 +3115,7 @@
                   &V-pr-u;nos melone&s-long;&espace;de&espace;la&espace;t&i-aigu;erra
                   d&i-aigu;&s-long;en&espace;que <lb facs="#l281"/>era este hermano de&espace;otro
                   que llamaban &mM;&i-aigu;ctlantectle que e&s-long; &s-long;e&n-tilde;or de<damage
-                     agent="déchirure">
-                     <supplied reason="omitted">l lu</supplied>
+                     agent="déchirure"><supplied reason="omitted">l lu</supplied>
                   </damage>
                   <lb facs="#l282"/><seg type="hyphen">gar</seg> de&espace;los muertos y
                   e&s-long;&espace;hermano de&espace;otro ydolo que llamaban &xX;ulutl <damage
@@ -3263,7 +3268,7 @@
                   de&espace;arr&i-aigu;ba cont&i-aigu;ene lo m&i-aigu;smo que la ante&s-long; della
                   y <lb facs="#l305"/>laplana&espace;atra&s-long; porque lloraban
                   a&espace;&s-long;us h&i-aigu;jos y par&i-aigu;ente&s-long; y
-                  le&espace;da&u-pr-v;an para el ca <lb facs="#l306"/><seg type="hyphen"
+                  le&espace;da&u-pr-v;an para el ca<lb facs="#l306"/><seg type="hyphen"
                      >m&i-aigu;no</seg> cacaguatl&virgule; que&espace;enton&s-long;e&s-long;
                   no&espace;&s-long;e hu&s-long;aba chocolate&pt; <lb facs="#l307"/>&eE;st<supplied
                      reason="omitted-in-original">a</supplied>&espace;otra &s-long;egunda
@@ -3318,12 +3323,12 @@
                      </list>
                   </figure>
                   <lb facs="#l313"/>Esta f&i-aigu;gura&espace;e&s-long; de&espace;quando algun moria
-                  del f&i-aigu;naba lo&espace;que&supr-space;maban y enterr <lb facs="#l314"/><seg
+                  del f&i-aigu;naba lo&espace;que&supr-space;maban y enterra<lb facs="#l314"/><seg
                      type="hyphen">ban</seg> con&espace;el &s-long;u ha&s-long;&i-aigu;enda y
                   pellejo&s-long; de t&i-aigu;guere y loma&s-long; que ten&i-aigu;an
                   pon&i-aigu;endolo <lb facs="#l315"/>a&espace;la rredonda todo el&espace;oro
                   xoyelez p&i-aigu;edras f&i-aigu;na&s-long; y x&i-aigu;cara&s-long; que
-                  ten&i-aigu;an y pluma <lb facs="#l316"/>xe&s-long; como
+                  ten&i-aigu;an y pluma<lb facs="#l316"/>xe&s-long; como
                   &s-long;&i-aigu;&espace;alla en&espace;&mM;&i-aigu;ctlan &V-pr-u;b&i-aigu;eran de
                   &V-pr-u;&s-long;ar &s-long;u&espace;of&i-aigu;c&i-aigu;o&tiret; <lb/><fw
                      type="sig" place="bot-right"><handShift medium="pencil"/>&#43;</fw>
