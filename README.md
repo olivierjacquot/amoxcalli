@@ -12,10 +12,10 @@ Ce livrable technique accompagne le mémoire *« C'est tout un monde à ressusci
 
 ### Contenu
 L'ensemble de la livraison comprend plusieurs types de documents :
-1. des fichiers créés pour produire une édition électronique encodée au format XML-TEI, son site web de consultation en HTML et des instruments de recherche (IR) en XML/EAD ; 
+1. des fichiers créés pour produire une édition électronique encodée au format XML-TEI, son site web de consultation en HTML et des instruments de recherche (IR) en XML/EAD ;
 2. de la documentation nécessaire à la compréhension des outils utilisés (ODD, dtd)  ;
-3. un fichier (.xsl) lié au processus de conversion de l'XML vers HTML : la feuille de style XSLT qui permet de transformer les documents .xml en un document d'un autre format, à savoir pour notre cas, des pages web (.html) ; 
-4. un schéma Relax NG (document .rng) élaboré à partir de l'édition TEI que nous avons développée (document .xml). 
+3. un fichier (.xsl) lié au processus de conversion de l'XML vers HTML : la feuille de style XSLT qui permet de transformer les documents .xml en un document d'un autre format, à savoir pour notre cas, des pages web (.html) ;
+4. un schéma Relax NG (document .rng) élaboré à partir de l'édition TEI que nous avons développée (document .xml).
 5. des fichiers produits pour rédiger en LaTeX un mémoire de recherche (sortie PDF) ;
 6. des fichiers d'images (jpg, jpeg, png) utilisés pour illustrer le mémoire de recherche et le site web ;
 7. des packs d'installation pour les logiciels utilisés pour ces travaux.
@@ -45,7 +45,7 @@ Pour lire les fichiers source, des logiciels sont à installer.
 #### Générer le fichier HTML à partir des fichiers livrés
 ```
 Ouvrir le logiciel Oxygen XML Editor
-Ouvrir le fichier 'Mexicain65-71-corpus.xml', 'Mexicain65-71.xsl' sur Oxygen XML Editor
+Ouvrir le fichier 'Mexicain65-71.xml', 'Mexicain65-71.xsl' sur Oxygen XML Editor
 Utiliser le processeur XSLT du logiciel Oxygen XML Editor pour générer les fichiers .html
 Enregistrer les fichiers .html et ouvrir le fichier 'Mexicain65-71-01accueil.html' dans un navigateur web.
 ```
@@ -335,5 +335,5 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   │   └───texstudio-2.12.16-osx.dmg [52Mb]                    # Image disque
 │   └───windows
 │       └───texstudio-2.12.16-win-qt5.exe [87Mb]                # Fichier exécutable
-└──README.md [Kb]                                               # Fichier Lisez-moi
+└──README.md [27Kb]                                             # Fichier Lisez-moi
 ```
