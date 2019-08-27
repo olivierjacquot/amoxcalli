@@ -29,6 +29,8 @@ En effet, tous les navigateurs proposent des lecteurs PDF intégrés.
 
 Livrés sous forme de fichiers HTML et PDF, l'édition électronique et le site web de consultation sont réputés accessibles à tout public.
 
+Pour afficher tous les caractères typographiques utlilisés, l'installation de la police d'écriture Junicode (Junius-Unicode) est recommandée.
+
 Les fichiers source (xml, tex) produits avec des logiciels dédiés peuvent être consultés avec ceux-ci ou un éditeur de texte (Notepad++, Sublime Text, etc.). Sinon, les fichiers à exécuter sont fournis afin d'installer l'environnement informatique nécessaire au fonctionnement des fichiers source.
 
 ### Architecture
@@ -49,6 +51,25 @@ Ouvrir le fichier 'Mexicain65-71.xml', 'Mexicain65-71.xsl' sur Oxygen XML Editor
 Utiliser le processeur XSLT du logiciel Oxygen XML Editor pour générer les fichiers .html
 Enregistrer les fichiers .html et ouvrir le fichier 'Mexicain65-71-01accueil.html' dans un navigateur web.
 ```
+
+#### Installer la police d'écriture Junicode
+
+* Installer une police de caractères sous Linux :
+```
+Double cliquer sur le fichier 'Junicode.ttf' puis cliquer sur Installer dans la fenêtre qui s'est ouverte.
+Pour les distributions ne proposant pas cette fonction, copier le fichier dans fonts://.
+```
+
+* Installer une police de caractères sous Windows :
+```
+Faire un clic droit sur le fichier 'Junicode.ttf' puis cliquer sur Installer.
+```
+
+* Installer une police d'écriture sous MacOS :
+```
+Double cliquer sur le fichier 'Junicode.ttf' puis cliquer sur Installer la police en bas de la fenêtre du Livre des polices.
+```
+
 #### Générer le fichier PDF du mémoire à partir des fichiers livrés
 ```
 Ouvrir le logiciel TeXstudio
@@ -165,7 +186,7 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   │   ├─────logo-ENC.png [24Kb]                               # Fichier image
 │   │   ├─────mexicain65-71.png [178Kb]                         # Fichier image
 │   │   └─────Mexicain65-71.xsl [189Kb]                         # Feuille de transformation
-│   ├─────Mexicain65-71.xml [3Kb]		                        # Fichier XML du corpus
+│   ├─────Mexicain65-71.xml [3Kb]                               # Fichier XML du corpus
 │   ├─────Mexicain65-71-01.xml [211Kb]                          # Fichier XML, 1e partie du MSS
 │   ├─────Mexicain65-71-02.xml [17Kb]                           # Fichier XML, 2e partie du MSS
 │   ├─────Mexicain65-71-03.xml [35Kb]                           # Fichier XML, 3e partie du MSS
@@ -189,6 +210,8 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   ├─────Mexicain65-71_struct.html [6Kb]                       # Fichier HTML, page structure
 │   ├─────Mexicain65-71_support.html [7Kb]                      # Fichier HTML, page support
 │   └─────Mexicain65-71_temoins.html [7Kb]                      # Fichier HTML, page témoins
+├───junicode
+│   └───Junicode.ttf [842kB]                                    # Police de caractères
 ├───memoire
 │   ├───back
 │   │   ├───appendix.tex [205kB]                                # Fichier LaTeX de annexes
@@ -318,9 +341,9 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   │   ├───partie5.tex [86Mb]                                  # Fichier LaTeX de la 5e partie
 │   │   ├───partie6.tex [47Mb]                                  # Fichier LaTeX de la 6e partie
 │   │   └───partie7.tex [255Mb]                                 # Fichier LaTeX de la 7e partie
-│   ├───Jacquot_memoire.pdf [36Mb]                                     # Fichier .pdf du mémoire
+│   ├───Jacquot_memoire.pdf [36Mb]                              # Fichier .pdf du mémoire
 │   └───Jacquot_memoire.tex [7Mb]                               # Fichier source .tex du mémoire
-├───oxygen_XML_editor                                           # Répertoire d'Oxygen
+├───oxygen_XML_editor
 │   ├───linux
 │   │   └───oxygen-64bit.sh [274Mb]                             # Script shell
 │   ├───max_os_x
@@ -328,12 +351,15 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   └───windows
 │       ├───oxygen.exe [263Mb]                                  # Fichier exécutable
 │       └───oxygen-64bit.exe [268Mb]                            # Fichier exécutable
-├───texstudio                                                   # Répertoire de TeXstudio
+├───texstudio
 │   ├───linux
 │   │   └───texstudio_2.12.16-1+2.1_amd64.deb [17Mb]            # Package Debian
 │   ├───max_os_x
 │   │   └───texstudio-2.12.16-osx.dmg [52Mb]                    # Image disque
 │   └───windows
 │       └───texstudio-2.12.16-win-qt5.exe [87Mb]                # Fichier exécutable
-└──README.md [27Kb]                                             # Fichier Lisez-moi
+├──README.md [28Kb]                                             # Fichier Lisez-moi en Markdown
+├──README.pdf [45Kb]                                             # Fichier Lisez-moi en PDF
+└──README.tex [38Kb]                                             # Fichier Lisez-moi en LaTeX
+
 ```
