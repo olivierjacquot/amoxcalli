@@ -3041,7 +3041,7 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
     <xsl:template name="notes1">
         <span style="font-weight:bold;">
             <xsl:text>Terme </xsl:text>
-            <xsl:copy-of select="descendant::index[@indexName=IndexRerum]"/>
+            <xsl:copy-of select="descendant::index[@indexName=IndexRerum]"/> Il manque ici les '' pour indiquer une chaine de caractères
         </span>             
         <xsl:text> : </xsl:text>
     </xsl:template>
@@ -3062,7 +3062,7 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
                     <xsl:value-of select="."/>
                 </span>
                 <xsl:text> : </xsl:text>
-                <xsl:for-each select="index[@indexName = IndexRerum]"> --> <!-- Essais infructueux -->
+                <xsl:for-each select="index[@indexName ='IndexRerum']"> --> <!-- Essais infructueux /  Il manque ici les '' pour indiquer une chaine de caractères -->
                     <!-- <xsl:value-of select="                      
                         text() |
                         term/text() |
@@ -3088,7 +3088,7 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
 
     <!-- Règles de présentation du texte -->
 
-    <xsl:template match="descendant::supplied" mode="default">
+    <xsl:template match="descendant::supplied" mode="#all">
         <xsl:value-of select="supplied"/>
     </xsl:template>
     
@@ -3100,10 +3100,11 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
         <xsl:value-of select="reg | expan | ex"/>
     </xsl:template>
     
-     <xsl:template match="div" mode="default">
-        <div>
-            <xsl:apply-templates/>
-        </div>
+    <!--   <xsl:template match="div" mode="default">  C'est ici qu'il faut modifier un peu la règle - default n'existe pas, à moins de l'avoir défini, sinon #default/ je pense que cela devrait fonctionnner, sinon essayer #default ou "orig reg" -->
+    <xsl:template match="div" mode="#all">  <!-- #all, #default, default ne font rien -->
+    <div>
+            <xsl:apply-templates mode="#current"/>
+    </div>
     </xsl:template>
     
    <xsl:template match="descendant::seg[@type='hyphen']" mode="reg"><xsl:apply-templates/></xsl:template>
@@ -3111,20 +3112,22 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
    <xsl:template match="descendant::lb[@type='facs']" mode="reg"><xsl:apply-templates/></xsl:template>
    <!-- Template pour supprimer l'espace blanc laissé par <lb facs="#lx"/> -->
 
-   <!-- <xsl:template match="pb" mode="reg">
+    <!--  <xsl:template match="pb" mode="reg">
         <div>
             <p>
-                <xsl:apply-templates/>
+                <xsl:apply-templates select="pb" mode="reg"/> 
                 <xsl:element name="br"/>
             </p>
         </div>
     </xsl:template> -->
     
-    <!--   <xsl:template match="div//p" mode="reg">
-        <p>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>-->
+    <xsl:template match="p" mode="#all">
+        <div>
+            <p>
+                <xsl:apply-templates mode="#current"/>
+            </p>
+        </div>
+    </xsl:template> 
 
     <!-- Règles de présentation des tableaux -->
 
@@ -3211,7 +3214,8 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
 
     <!-- Règles de présentation des listes -->
 
-    <xsl:template match="list[@type = 'gloss' or label]" mode="#all"> <!-- L'affichage pour le seul mode reg n'a pas fonctionné -->
+    <xsl:template match="list[@type = 'gloss' or 'label']" mode="#all"><!-- Attention les '' avaient été oubliés autour de label --><!-- L'affichage pour le seul mode reg n'a pas fonctionné / 
+        c'est très certainement à cause du chemin qui n'était pas complet en partant de la dernière règle en mode reg. Soit il doit manquer un apply-templates quelque part / voir ligne 3104 - la modification devrait permettre d'appeler la règle.-->
         <xsl:choose>
             <xsl:when test="head">
                 <div class="{local-name()}">
@@ -3235,7 +3239,7 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="list[@type = 'gloss' or label]/item" mode="#all"> <!-- L'affichage pour le seul mode reg n'a pas fonctionné -->
+    <xsl:template match="list[@type = 'gloss' or 'label']/item" mode="#all"> <!-- Attention les '' avaient été oubliés autour de label --><!-- L'affichage pour le seul mode reg n'a pas fonctionné / idem -->
         <dd>
             <span style="font-weight:bold;">
                 <xsl:call-template name="atts"/>
@@ -3244,7 +3248,7 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
         </dd>
     </xsl:template>
 
-    <!-- Autre tentative moins satisfaisante pour les tableaux -->
+    <!-- Autre tentative moins satisfaisante pour les tableaux / à retenter avec la correction-->
     <!--  <xsl:template match="item">
         <xsl:apply-templates/>
         <lb/>
@@ -3273,6 +3277,8 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
     <xsl:template match="index" mode="#all"/>
     <xsl:template match="term" mode="#all"/>
     <xsl:template match="note" mode="orig"/> <!-- Suppresion des notes en mode orig -->
+    <xsl:template match="choice/orig" mode="reg"/> <!-- Sans effet avec ou sans choice-->
+    
 
     <!-- Règles de présentation des notes numérotées et en exposant -->
     <!-- Pour les notes, nous avons préféré l'emploi d'info-bulles à l'endroit de la note, plutôt que des 
