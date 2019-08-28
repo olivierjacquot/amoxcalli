@@ -4,9 +4,25 @@ Ce livrable technique accompagne le mémoire *« C'est tout un monde à ressusci
 
 **Table des matières**
 
-[TOCM]
-
-[TOC]
+- [Mexicain 65-71 : Codex Ixtlilxóchitl de la Bibliothèque nationale de France](#mexicain-65-71--codex-ixtlilxóchitl-de-la-bibliothèque-nationale-de-france)
+	- [Pour commencer](#pour-commencer)
+		- [Contenu](#contenu)
+		- [Pré-requis](#pré-requis)
+		- [Architecture](#architecture)
+		- [Installation](#installation)
+			- [Installer un lecteur de fichier PDF](#installer-un-lecteur-de-fichier-pdf)
+			- [Générer le fichier HTML à partir des fichiers livrés](#générer-le-fichier-html-à-partir-des-fichiers-livrés)
+			- [Installer la police d'écriture Junicode](#installer-la-police-décriture-junicode)
+			- [Générer le fichier PDF du mémoire à partir des fichiers livrés](#générer-le-fichier-pdf-du-mémoire-à-partir-des-fichiers-livrés)
+	- [Démarrage](#démarrage)
+		- [Consulter l'édition numérique du Mexicain 65-71 : Codex Ixtlilxóchitl](#consulter-lédition-numérique-du-mexicain-65-71--codex-ixtlilxóchitl)
+		- [Lire le mémoire](#lire-le-mémoire)
+	- [Fabriqué avec](#fabriqué-avec)
+	- [Auteur](#auteur)
+	- [License](#license)
+	- [Remerciements](#remerciements)
+	- [Annexe](#annexe)
+		- [<a name="annexe1"></a>Architecture de la livraison](#a-nameannexe1aarchitecture-de-la-livraison)
 
 ## Pour commencer
 
@@ -185,7 +201,7 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   │   ├─────logo-BnF.png [2Kb]                                # Fichier image
 │   │   ├─────logo-ENC.png [24Kb]                               # Fichier image
 │   │   ├─────mexicain65-71.png [178Kb]                         # Fichier image
-│   │   └─────Mexicain65-71.xsl [189Kb]                         # Feuille de transformation
+│   │   └─────Mexicain65-71.xsl [190Kb]                         # Feuille de transformation
 │   ├─────Mexicain65-71.xml [3Kb]                               # Fichier XML du corpus
 │   ├─────Mexicain65-71-01.xml [211Kb]                          # Fichier XML, 1e partie du MSS
 │   ├─────Mexicain65-71-02.xml [17Kb]                           # Fichier XML, 2e partie du MSS
@@ -196,7 +212,7 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   ├─────Mexicain65-71_biblio.html [19Kb]                      # Fichier HTML, page bibliographie
 │   ├─────Mexicain65-71_deco.html [6Kb]                         # Fichier HTML, page décoration
 │   ├─────Mexicain65-71_etat.html [6Kb]                         # Fichier HTML, page état
-│   ├─────Mexicain65-71_facsim.html [302Kb]                     # Fichier HTML, page facsimilaire
+│   ├─────Mexicain65-71_facsim.html [379Kb]                     # Fichier HTML, page facsimilaire
 │   ├─────Mexicain65-71_foliotation.html [7Kb]                  # Fichier HTML, page foliotation
 │   ├─────Mexicain65-71_histoire.html [12Kb]                    # Fichier HTML, page histoire
 │   ├─────Mexicain65-71_indexl.html [6Kb]                       # Fichier HTML, page index locorum
@@ -204,9 +220,9 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   ├─────Mexicain65-71_layout.html [7Kb]                       # Fichier HTML, page layout
 │   ├─────Mexicain65-71_mains.html [9Kb]                        # Fichier HTML, page mains
 │   ├─────Mexicain65-71_manuel.html [1Kb]                       # Fichier HTML, page manuel
-│   ├─────Mexicain65-71_norm.html [330Kb]                       # Fichier HTML, page normalisée
+│   ├─────Mexicain65-71_norm.html [412Kb]                       # Fichier HTML, page normalisée
 │   ├─────Mexicain65-71_notes.html [13Kb]                       # Fichier HTML, page notes
-│   ├─────Mexicain65-71_reliure.html [6Kb]                      # Fichier HTML, page reliure
+│   ├─────Mexicain65-71_reliure.html [8Kb]                      # Fichier HTML, page reliure
 │   ├─────Mexicain65-71_struct.html [6Kb]                       # Fichier HTML, page structure
 │   ├─────Mexicain65-71_support.html [7Kb]                      # Fichier HTML, page support
 │   └─────Mexicain65-71_temoins.html [7Kb]                      # Fichier HTML, page témoins
@@ -358,8 +374,8 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   │   └───texstudio-2.12.16-osx.dmg [52Mb]                    # Image disque
 │   └───windows
 │       └───texstudio-2.12.16-win-qt5.exe [87Mb]                # Fichier exécutable
-├──README.md [28Kb]                                             # Fichier Lisez-moi en Markdown
-├──README.pdf [45Kb]                                             # Fichier Lisez-moi en PDF
-└──README.tex [38Kb]                                             # Fichier Lisez-moi en LaTeX
+├──README.md [29Kb]                                             # Fichier Lisez-moi en Markdown
+├──README.pdf [43Kb]                                            # Fichier Lisez-moi en PDF
+└──README.tex [39Kb]                                            # Fichier Lisez-moi en LaTeX
 
 ```
