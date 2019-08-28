@@ -1,0 +1,781 @@
+\documentclass[a4paper,twoside,12pt]{article}
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{forest}
+\usepackage{lmodern}
+\usepackage{comment}
+\usepackage{enumitem}
+\newlist{myEnumerate}{enumerate}{6}
+\setlistdepth{9}
+\newlist{myEnumerate}{enumerate}{9}
+\setlist[myEnumerate,1]{}
+\setlist[myEnumerate,2]{}
+\setlist[myEnumerate,3]{}
+\setlist[myEnumerate,4]{}
+\setlist[myEnumerate,5]{}
+\setlist[myEnumerate,6]{}
+\setlist[myEnumerate,7]{}
+\setlist[myEnumerate,8]{}
+\setlist[myEnumerate,9]{}
+\usepackage{hyperref}
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage{listings}
+\lstset{
+	breaklines=true,
+	numbers=left,
+	frame = single}
+
+\title{\textit{Mexicain 65-71 : Codex Ixtlilx\'ochitl de la Biblioth\`eque nationale de France}}
+\author{Olivier Jacquot}
+\date{2019}
+
+\begin{document}
+\maketitle
+	
+Ce livrable technique accompagne le m\'emoire \emph{\og C'est tout un monde \`a ressusciter \fg{}. \'edition \'electronique du manuscrit Mexicain 65-71~: Codex Ixtlilx\'ochitl de la Biblioth\`eque nationale de France}, m\'emoire pour le dipl\^ome de master \og Technologies num\'eriques appliqu\'ees \`a l'histoire \fg{} de l'\'Ecole nationale des chartes, dirig\'e par Ariane Pinche et r\'edig\'e par Olivier Jacquot.
+
+\section{Pour commencer}
+
+\subsection{Contenu}
+
+L'ensemble de la livraison comprend plusieurs types de documents :
+\begin{enumerate}
+	\item des fichiers cr\'e\'es pour produire une \'edition \'electronique encod\'ee au
+	format \texttt{XML-TEI}, son site web de consultation en \texttt{HTML} et des instruments
+	de recherche (IR) en \texttt{XML/EAD} ; 
+	\item de la documentation n\'ecessaire \`a la
+	compr\'ehension des outils utilis\'es (\texttt{ODD}, \texttt{dtd}) ; 
+	\item un fichier (.xsl) li\'e
+	au processus de conversion de l'\texttt{XML} vers \texttt{HTML} : la feuille de style \texttt{XSLT}
+	qui permet de transformer les documents .xml en un document d'un autre
+	format, \`a savoir pour notre cas, des pages web (.html) ; 
+	\item un sch\'ema \texttt{Relax NG} (document .rng) \'elabor\'e \`a partir de l'\'edition \texttt{TEI} que nous
+	avons d\'evelopp\'ee (document .xml) ;
+	\item des fichiers produits pour r\'ediger en \LaTeX un m\'emoire de recherche (sortie \texttt{PDF}) ; 
+	\item des fichiers d'images	(.jpg, .jpeg, .png) utilis\'es pour illustrer le m\'emoire de recherche et le
+	site web ;
+	\item des packs d'installation pour les logiciels utilis\'es pour ces travaux.
+\end{enumerate}
+
+\subsection{Pr\'e-requis}
+
+Quelques logiciels \'el\'ementaires suffisent pour prendre connaissance du m\'emoire et de l'\'edition \'electronique du manuscrit Mexicain 65-71 :
+
+\begin{lstlisting}
+Navigateur Web pour lire les fichiers PDF et HTML
+\end{lstlisting}
+
+En effet, tous les navigateurs proposent des lecteurs \texttt{PDF} int\'egr\'es.
+
+Livr\'es sous forme de fichiers \texttt{HTML} et \texttt{PDF}, l'\'edition \'electronique et le site web de consultation sont r\'eput\'es accessibles \`a tout public.
+
+Les fichiers source (\texttt{xml}, \texttt{tex}) produits avec des logiciels d\'edi\'es peuvent être consult\'es avec ceux-ci ou un \'editeur de texte (Notepad++,
+Sublime Text, etc.). Sinon, les fichiers \`a ex\'ecuter sont fournis afin d'installer l'environnement informatique n\'ecessaire au fonctionnement des fichiers source.
+
+\subsection{Architecture}
+
+Voir l'\nameref{annexe}
+
+\subsection{Installation}
+
+Pour lire les fichiers source, des logiciels sont \`a installer.
+
+\subsubsection{Installer un lecteur de fichier PDF}
+
+\`A d\'efaut de navigateur web, un lecteur de fichiers \texttt{PDF} peut être install\'e :
+\begin{itemize}
+	\item \href{https://get.adobe.com/fr/reader/otherversions/}{Adobe Acrobat Reader DC} : lecteur de fichiers \texttt{PDF} pour Windows, MAC OS, Android ;
+	\item \href{https://wiki.gnome.org/Apps/Evince/Downloads}{Evince} : lecteur de fichiers \texttt{PDF} pour Ubuntu.
+\end{itemize}
+
+\subsubsection{G\'en\'erer le fichier HTML \`a partir des fichiers livr\'es}
+
+\begin{lstlisting}
+Ouvrir le logiciel Oxygen XML Editor
+Ouvrir le fichier 'Mexicain65-71-corpus.xml', 'Mexicain65-71.xsl' sur Oxygen XML Editor
+Utiliser le processeur XSLT du logiciel Oxygen XML Editor pour g\'en\'erer les fichiers .html
+Enregistrer les fichiers .html et ouvrir le fichier 'Mexicain65-71-01accueil.html' dans un navigateur web.
+\end{lstlisting}
+
+\subsubsection{Installer la police d'\'ecriture Junicode}
+
+\begin{itemize}
+	\item Installer une police de caract\`eres sous Linux
+\end{itemize}
+
+\begin{lstlisting}
+Double cliquer sur le fichier 'Junicode.ttf' puis cliquer sur Installer dans la fenêtre qui s'est ouverte.
+Pour les distributions ne proposant pas cette fonction, copier le fichier dans fonts://.
+\end{lstlisting}
+
+\begin{itemize}
+	\item Installer une police de caract\`eres sous Windows :
+\end{itemize}
+
+\begin{lstlisting}
+Faire un clic droit sur le fichier 'Junicode.ttf' puis cliquer sur Installer.
+\end{lstlisting}
+
+\begin{itemize}
+	\item Installer une police d'\'ecriture sous MacOS :
+\end{itemize}
+
+\begin{lstlisting}
+Double cliquer sur le fichier 'Junicode.ttf' puis cliquer sur Installer la police en bas de la fenêtre du Livre des polices.
+\end{lstlisting}
+
+\subsubsection{G\'en\'erer le fichier PDF du m\'emoire \`a partir des fichiers livr\'es}
+
+\begin{lstlisting}
+Ouvrir le logiciel TeXstudio
+Ouvrir le fichier 'Jacquot_memoire.tex' sur TeXstudio
+Dans le menu Options > Configurer TeXStudio > Compilations
+\end{lstlisting}
+
+Changer la ligne :
+
+\begin{lstlisting}
+xelatex -synctex=1 -interaction=nonstopmode %.tex
+\end{lstlisting}
+
+En :
+
+\begin{lstlisting}
+xelatex -synctex=1 -shell-escape -interaction=nonstopmode %.tex
+Dans le menu Options > Configurer TeXStudio > Production, choisir la compilation par d\'efaut XeLaTeX
+Compiler pour g\'en\'erer le fichier pdf
+\end{lstlisting}
+
+\section{D\'emarrage}
+
+\subsection{Consulter l'\'edition num\'erique du Mexicain 65-71 : Codex Ixtlilx\'ochitl}
+
+Ouvrir le fichier \emph{Mexicain65-71\_accueil.html} avec un navigateur Web. Les diff\'erents menus de navigation du site construit permettent de
+consulter l'ensemble des fichiers \texttt{HTML} produits.
+
+\subsection{Lire le m\'emoire}
+
+Ouvrir le fichier \emph{Jacquot\_memoire.pdf} avec un navigateur web ou un lecteur de fichiers \texttt{PDF}.
+
+\section{Fabriqu\'e avec}
+
+\begin{itemize}
+	\item
+	\href{https://www.oxygenxml.com/}{Oxygen XML Editor} - \'Editeur \texttt{XML}
+	\item
+	\href{http://www.tug.org/texlive/}{TeX Live} - Distribution \texttt{TeX}
+	\item
+	\href{https://www.texstudio.org/}{TeXstudio} - \'Editeur \LaTeX
+	\item
+	\href{https://getbootstrap.com/}{Bootstrap} - Framework de cr\'eation de sites web
+\end{itemize}
+
+\section{Auteur}
+
+\begin{itemize}
+	\item
+	\textbf{Olivier Jacquot} -
+	\href{https://github.com/olivierjacquot}{Amoxcalli}
+\end{itemize}
+
+\section{License}\
+
+Ces sources sont mises \`a disposition dans le cadre de la licence \emph{Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Conditions}
+\href{https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr}{CC BY-NC-SA 4.0}.
+
+\section{Remerciements}
+
+Ce projet doit beaucoup \`a de nombreuses \'editions num\'eriques, dont :
+
+\begin{itemize}
+	\item \href{https://mapas.uoregon.edu/}{The Mapas Project} - \'edition
+	num\'erique de mappes
+	\item \href{http://www.desgodets.net/}{Les cours d'Antoine Desgodets} -
+	\'edition num\'erique des cours d'Antoine Desgodets
+	\item \href{http://vangoghletters.org}{Vincent Van Gogh The Letters} -
+	\'edition num\'erique des lettre de Vincent Van Gogh
+\end{itemize}
+
+\section{Annexe : architecture de la livraison}\label{annexe}
+
+Ce livrable technique se divise en plusieurs dossiers :
+
+\begin{comment} %Plus le temps pour mettre en place des split
+\begin{forest}
+	for tree={
+		font=\ttfamily,
+		grow'=0,
+		child anchor=west,
+		parent anchor=south,
+		anchor=west,
+		calign=first,
+		edge path={
+			\noexpand\path [draw, \forestoption{edge}]
+			(!u.south west) +(7.5pt,0) |- node[fill,inner sep=1.25pt] {} (.child anchor)\forestoption{edge label};
+		},
+		before typesetting nodes={
+			if n=1
+			{insert before={[,phantom]}}
+			{}
+		},
+		fit=band,
+		before computing xy={l=15pt},
+	}
+	[Jacquot
+	[ead
+	[ead.dtd (183kB)\hspace{5 mm}\# Document type definition EAD]
+	[FRBAM-Americain.xml (275kB)\hspace{5 mm}\# Instrument de recherche EAD]
+	[FRBAM-Angrand.xml (66Kb)\hspace{5 mm}\# Instrument de recherche EAD]
+	[FRBAM-Mexicain.xml (716kB)\hspace{5 mm}\# Instrument de recherche EAD]
+	]
+	[edition
+	[Mexicain65-71
+	[documentation
+	[out
+	[ODD-Mexicain65-71.rng (408Kb)\hspace{5 mm}\# Fichier ODD RelaxNG]
+	]
+	[DTD-Entity.dtd (7Kb)\hspace{5 mm}\# Document type definition]
+	[ODD-Mexicain65-71.html (2Mb)\hspace{5 mm}\# Version HTML de l'ODD]
+	[ODD-Mexicain65-71.xml (109Kb)\hspace{5 mm}\# Version XML de l'ODD]
+	]
+	[visualisation
+	[fol\_94r.jpg (223Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_95r.jpg (293Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_95v.jpg (218Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_96r.jpg (253Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_96v.jpg (273Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_97r.jpg (264Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_97v.jpg (205Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_98r.jpg (230Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_98v.jpg (237Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_99r.jpg (232Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_99v.jpg (233Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_100r.jpg (279Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_100v.jpg (270Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_101r.jpg (234Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_101v.jpg (217Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_102r.jpg (279Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_102v.jpg (232Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_103r.jpg (286Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_103v.jpg (266Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_104r.jpg (257Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_104v.jpg (249Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_105r.jpg (333Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_106r.jpg (366Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_107r.jpg (222Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_108r.jpg (333Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_109-110r.jpg (428Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_109-110v.jpg (366Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_112r.jpg (420Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_112v.jpg (309Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_113r.jpg (292Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_113v.jpg (304Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_114r.jpg (306Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_114v.jpg (296Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_115r.jpg (349Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_115v.jpg (364Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_116r.jpg (324Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_116v.jpg (315Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_117r.jpg (338Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_117v.jpg (278Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_118r.jpg (281Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_118v.jpg (266Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_119r.jpg (260Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_119v.jpg (297Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_120r.jpg (305Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_120v.jpg (271Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_121r.jpg (291Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_121v.jpg (291Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_122r.jpg (341Kb)\hspace{5 mm}\# Fichier image]
+	[fol\_122v.jpg (352Kb)\hspace{5 mm}\# Fichier image]
+	[logo-BnF.png (2Kb)\hspace{5 mm}\# Fichier image]
+	[logo-ENC.png (24Kb)\hspace{5 mm}\# Fichier image]
+	[mexicain65-71.png (178Kb)\hspace{5 mm}\# Fichier image]
+	[Mexicain65-71.xsl (189Kb)\hspace{5 mm}\# Feuille de transformation]
+	]
+	[Mexicain65-71.xml (3Kb)\hspace{5 mm}\# Fichier XML du corpus]
+	[Mexicain65-71-01.xml (211Kb)\hspace{5 mm}\# Fichier XML, 1e partie du MSS]
+	[Mexicain65-71-02.xml (17Kb)\hspace{5 mm}\# Fichier XML, 2e partie du MSS]
+	[Mexicain65-71-03.xml (35Kb)\hspace{5 mm}\# Fichier XML, 3e partie du MSS]
+	[Mexicain65-71-04.xml (484Kb)\hspace{5 mm}\# Fichier XML, 4e partie du MSS]
+	[Mexicain65-71\_accueil.html (8Kb)\hspace{5 mm}\# Fichier HTML, page d'accueil]
+	[Mexicain65-71\_a\_propos.html (11Kb)\hspace{5 mm}\# Fichier HTML, page à propos]
+	[Mexicain65-71\_biblio.html (19Kb)\hspace{5 mm}\# Fichier HTML, page bibliographie]
+	[Mexicain65-71\_deco.html (6Kb)\hspace{5 mm}\# Fichier HTML, page décoration]
+	[Mexicain65-71\_etat.html (6Kb)\hspace{5 mm}\# Fichier HTML, page état]
+	[Mexicain65-71\_facsim.html (302Kb)\hspace{5 mm}\# Fichier HTML, page facsimilaire]
+	[Mexicain65-71\_foliotation.html (7Kb)\hspace{5 mm}\# Fichier HTML, page foliotation]
+	[Mexicain65-71\_histoire.html (12Kb)\hspace{5 mm}\# Fichier HTML, page histoire]
+	[Mexicain65-71\_indexl.html (6Kb)\hspace{5 mm}\# Fichier HTML, page index locorum]
+	[Mexicain65-71\_indexn.html (8Kb)\hspace{5 mm}\# Fichier HTML, page index nominum]
+	[Mexicain65-71\_layout.html (7Kb)\hspace{5 mm}\# Fichier HTML, page layout]
+	[Mexicain65-71\_mains.html (9Kb)\hspace{5 mm}\# Fichier HTML, page mains]
+	[Mexicain65-71\_manuel.html (1Kb)\hspace{5 mm}\# Fichier HTML, page manuel]
+	[Mexicain65-71\_norm.html (330Kb)\hspace{5 mm}\# Fichier HTML, page normalisée]
+	[Mexicain65-71\_notes.html (13Kb)\hspace{5 mm}\# Fichier HTML, page notes]
+	[Mexicain65-71\_reliure.html (6Kb)\hspace{5 mm}\#Fichier HTML, page reliure]
+	[Mexicain65-71\_struct.html (6Kb)\hspace{5 mm}\# Fichier HTML, page structure]
+	[Mexicain65-71\_support.html (7Kb)\hspace{5 mm}\# Fichier HTML, page support]
+	[Mexicain65-71\_temoins.html (7Kb)\hspace{5 mm}\# Fichier HTML, page témoins]
+	]
+	]
+	[junicode
+	[Junicode.ttf (842kB)\hspace{5 mm}\# Police de caractères]
+	]
+	[memoire
+	[back
+	[appendix.tex (205kB)\hspace{5 mm}\# Fichier LaTeX de annexes]
+	[colophon.tex (2kB)\hspace{5 mm}\# Fichier LaTeX du colophon]
+	[repertoire.tex (110kB)\hspace{5 mm}\# Fichier LaTeX du répertorie]
+	]
+	[front
+	[abbrev.tex (8kB)\hspace{5 mm}\# Fichier LaTeX des abréviations]
+	[abstract.tex (3kB)\hspace{5 mm}\# Fichier LaTeX du résumé]
+	[epigraph.tex (1kB)\hspace{5 mm}\# Fichier LaTeX de l'épigraphe]
+	[thanks.tex (3kB)\hspace{5 mm}\# Fichier LaTeX des remerciements]
+	[titlepage.tex (1kB)\hspace{5 mm}\# Fichier LaTeX de la page de titre]
+	]
+	[images
+	[25795.png (7Mb)\hspace{5 mm}\# Fichier image]
+	[36db339b6a.jpg (315kB)\hspace{5 mm}\# Fichier image]
+	[40\_brasseur.png (316Kb)\hspace{5 mm}\# Fichier image]
+	[40\_omont.jpg (180Kb)\hspace{5 mm}\# Fichier image]
+	[40\_pinart.png (229Kb)\hspace{5 mm}\# Fichier image]
+	[596dbb9882.jpg (48Kb)\hspace{5 mm}\# Fichier image]
+	[833189e405.jpg (8Kb)\hspace{5 mm}\# Fichier image]
+	[aigle-serpent.jpg (337Kb)\hspace{5 mm}\# Fichier image]
+	[America-Latina-Mapa.jpg (197Kb)\hspace{5 mm}\# Fichier image]
+	[amoxcalli65-71.jpg (235Kb)\hspace{5 mm}\# Fichier image]
+	[amoxcalli65-71-glifo.jpg (159Kb)\hspace{5 mm}\# Fichier image]
+	[ano.png (77Kb)\hspace{5 mm}\# Fichier image]
+	[arkyves.png (300Kb)\hspace{5 mm}\# Fichier image]
+	[arrancaban.jpg (17Kb)\hspace{5 mm}\# Fichier image]
+	[aubin.jpg (284Kb)\hspace{5 mm}\# Fichier image]
+	[aztec-empire.jpg (1Mb)\hspace{5 mm}\# Fichier image]
+	[ballad-result.png (377Kb)\hspace{5 mm}\# Fichier image]
+	[ballad-sel.png (689Kb)\hspace{5 mm}\# Fichier image]
+	[bdmx.png (1Mb)\hspace{5 mm}\# Fichier image]
+	[bodegon\_thesaurus.jpg (278Kb)\hspace{5 mm}\# Fichier image]
+	[boothome.png (330Kb)\hspace{5 mm}\# Fichier image]
+	[carnet-proust.jpg (26Kb)\hspace{5 mm}\# Fichier image]
+	[cedille.png (82Kb)\hspace{5 mm}\# Fichier image]
+	[ciceri.png (79Kb)\hspace{5 mm}\# Fichier image]
+	[Codex\_Ixtlilxochitl\_\_btv1b84701752\_22.JPEG (227Kb)\hspace{5 mm}\# Fichier image]
+	[Codex\_Ixtlilxochitl\_\_btv1b84701752\_29.JPEG (358Kb)\hspace{5 mm}\# Fichier image]
+	[Codex\_Ixtlilxochitl\_\_btv1b84701752\_33.JPEG (326Kb)\hspace{5 mm}\# Fichier image]
+	[Codex\_Ixtlilxochitl\_\_btv1b84701752\_36.JPEG (358Kb)\hspace{5 mm}\# Fichier image]
+	[Codex\_Ixtlilxochitl\_\_btv1b84701752\_45.JPEG (317Kb)\hspace{5 mm}\# Fichier image]
+	[Codex\_Ixtlilxochitl\_\_btv1b84701752\_5.JPEG (218Kb)\hspace{5 mm}\# Fichier image]
+	[Codex\_Veytia\_page\_2.jpg (241Kb)\hspace{5 mm}\# Fichier image]
+	[Codex\_Veytia\_page\_22.jpg (71Kb)\hspace{5 mm}\# Fichier image]
+	[codex-ixtlilxochitl-veytia-echaniz.jpg (501Kb)\hspace{5 mm}\# Fichier image]
+	[codex-justinianus.jpg (126Kb)\hspace{5 mm}\# Fichier image]
+	[cohuatopilli.jpg (220Kb)\hspace{5 mm}\# Fichier image]
+	[conestas.png (48Kb)\hspace{5 mm}\# Fichier image]
+	[corazon.png (87Kb)\hspace{5 mm}\# Fichier image]
+	[cubes.png (187Kb)\hspace{5 mm}\#Fichier image]
+	[cuitlahuac.jpg (75Kb)\hspace{5 mm}\#Fichier image]
+	[decimo.png (41Kb)\hspace{5 mm}\#Fichier image]
+	[digipal-annot.jpg (327Kb)\hspace{5 mm}\# Fichier image]
+	[digipal-select.png (365Kb)\hspace{5 mm}\# Fichier image]
+	[dombey.png (604Kb)\hspace{5 mm}\#Fichier image]
+	[ducuing.png (940Kb)\hspace{5 mm}\#Fichier image]
+	[echaniz-laud1.jpg (29Kb)\hspace{5 mm}\# Fichier image]
+	[echaniz-laud2.jpg (18Kb)\hspace{5 mm}\# Fichier image]
+	[elcorazon.png (61Kb)\hspace{5 mm}\#Fichier image]
+	[expo-1889.jpg (363Kb)\hspace{5 mm}\#Fichier image]
+	[expo1889.png (797Kb)\hspace{5 mm}\#Fichier image]
+	[gayol.jpg (259Kb)\hspace{5 mm}\#Fichier image]
+	[giunti.jpg (145Kb)\hspace{5 mm}\#Fichier image]
+	[glasgow.png (666Kb)\hspace{5 mm}\#Fichier image]
+	[gorman.jpg (638Kb)\hspace{5 mm}\#Fichier image]
+	[goupil-atlas.jpg (142Kb)\hspace{5 mm}\# Fichier image]
+	[goupil-in-atlas.jpg (141Kb)\hspace{5 mm}\# Fichier image]
+	[hacian.png (53Kb)\hspace{5 mm}\#Fichier image]
+	[himanis.png (607Kb)\hspace{5 mm}\#Fichier image]
+	[htr114.jpg (374Kb)\hspace{5 mm}\#Fichier image]
+	[humarec.png (644Kb)\hspace{5 mm}\#Fichier image]
+	[iln.png (386Kb)\hspace{5 mm}\#Fichier image]
+	[irht-leica.jpg (193Kb)\hspace{5 mm}\# Fichier image]
+	[izcoatl.jpg (71Kb)\hspace{5 mm}\#Fichier image]
+	[langues.jpg (67Kb)\hspace{5 mm}\#Fichier image]
+	[lotb.png (755Kb)\hspace{5 mm}\#Fichier image]
+	[maaya.jpg (135Kb)\hspace{5 mm}\#Fichier image]
+	[maayavector.jpg (48Kb)\hspace{5 mm}\# Fichier image]
+	[mandragore102.jpg (167Kb)\hspace{5 mm}\# Fichier image]
+	[mandragore-mod.jpg (264Kb)\hspace{5 mm}\# Fichier image]
+	[mapasproject1.jpg (192Kb)\hspace{5 mm}\# Fichier image]
+	[mapasproject2.jpg (146Kb)\hspace{5 mm}\# Fichier image]
+	[meroweg.png (128Kb)\hspace{5 mm}\#Fichier image]
+	[mesoamerica.jpg (576Kb)\hspace{5 mm}\# Fichier image]
+	[miradorannot.png (468Kb)\hspace{5 mm}\# Fichier image]
+	[munczos.png (51Kb)\hspace{5 mm}\#Fichier image]
+	[mwb.png (89Kb)\hspace{5 mm}\#Fichier image]
+	[neurdein.png (43Kb)\hspace{5 mm}\#Fichier image]
+	[numipal.png (400Kb)\hspace{5 mm}\#Fichier image]
+	[ocr113.jpg (290Kb)\hspace{5 mm}\#Fichier image]
+	[ODD-html.png (71Kb)\hspace{5 mm}\#Fichier image]
+	[ODD-rng.png (46Kb)\hspace{5 mm}\#Fichier image]
+	[P476015.jpg (330Kb)\hspace{5 mm}\#Fichier image]
+	[paraque.jpg (4Kb)\hspace{5 mm}\#Fichier image]
+	[points.png (118Kb)\hspace{5 mm}\#Fichier image]
+	[que.png (88Kb)\hspace{5 mm}\#Fichier image]
+	[quinbakiric.png (101Kb)\hspace{5 mm}\# Fichier image]
+	[rregosijos.png (66Kb)\hspace{5 mm}\#Fichier image]
+	[sacandoles.jpg (24Kb)\hspace{5 mm}\#Fichier image]
+	[segmentation115.jpg (450Kb)\hspace{5 mm}\# Fichier image]
+	[siguiente.png (55Kb)\hspace{5 mm}\#Fichier image]
+	[tepalecoc.png (80Kb)\hspace{5 mm}\#Fichier image]
+	[thouvenot.jpg (522Kb)\hspace{5 mm}\#Fichier image]
+	[tlacuilo.jpg (102Kb)\hspace{5 mm}\#Fichier image]
+	[tlaloc-ceron.jpg (125Kb)\hspace{5 mm}\# Fichier image]
+	[tlatlazan.png (220Kb)\hspace{5 mm}\#Fichier image]
+	[tonalamatl.jpg (528Kb)\hspace{5 mm}\# Fichier image]
+	[triollet.jpg (900Kb)\hspace{5 mm}\#Fichier image]
+	[tsak.png (213Kb)\hspace{5 mm}\#Fichier image]
+	[ulb.png (58Kb)\hspace{5 mm}\#Fichier image]
+	[uxul.jpg (160Kb)\hspace{5 mm}\#Fichier image]
+	[vercelli.png (479Kb)\hspace{5 mm}\#Fichier image]
+	[voleur.png (1Mb)\hspace{5 mm}\#Fichier image]
+	[waldeck.jpg (36Kb)\hspace{5 mm}\#Fichier image]
+	[welsh-book.jpg (323Kb)\hspace{5 mm}\# Fichier image]
+	[writing-systems.png (47Kb)\hspace{5 mm}\# Fichier image]
+	[xochicalco.jpg (68Kb)\hspace{5 mm}\#Fichier image]
+	[xochicalco-an.jpg (51Kb)\hspace{5 mm}\# Fichier image]
+	]
+	[main
+	[bibliography.tex (175Mb)\hspace{5 mm}\# Fichier LaTeX de la bibliographie]
+	[conclusion.tex (10Mb)\hspace{5 mm}\# Fichier LaTeX de la conclusion]
+	[introduction.tex (5Mb)\hspace{5 mm}\# Fichier LaTeX de l'introduction]
+	[partie1.tex (469Mb)\hspace{5 mm}\# Fichier LaTeX de la 1e partie]
+	[partie2.tex (173Mb)\hspace{5 mm}\# Fichier LaTeX de la 2e partie]
+	[partie3.tex (154Mb)\hspace{5 mm}\# Fichier LaTeX de la 3e partie]
+	[partie4.tex (144Mb)\hspace{5 mm}\# Fichier LaTeX de la 4e partie]
+	[partie5.tex (86Mb)\hspace{5 mm}\# Fichier LaTeX de la 5e partie]
+	[partie6.tex (47Mb)\hspace{5 mm}\# Fichier LaTeX de la 6e partie]
+	[partie7.tex (255Mb)\hspace{5 mm}\# Fichier LaTeX de la 7e partie]
+	]
+	[Jacquot\_memoire.pdf (36Mb)\hspace{5 mm}\# Fichier .pdf du mémoire]
+	[Jacquot\_memoire.tex (7Mb)\hspace{5 mm}\# Fichier source .tex du mémoire]	]
+	[oxygen\_XML\_editor
+	[linux
+	[oxygen-64bit.sh (274Mb)\hspace{5 mm}\# Script shell]
+	]	
+	[max\_os\_x/
+	[oxygen.dmg (312Mb)\hspace{5 mm}\# Image disque]
+	]
+	[windows
+	[oxygen.exe (263Mb)\hspace{5 mm}\# Fichier exécutable]
+	[oxygen-64bit.exe (268Mb)\hspace{5 mm}\# Fichier exécutable]
+	]
+	]
+	[texstudio
+	[linux
+	[texstudio\_2.12.16-1+2.1\_amd64.deb (17Mb)\hspace{5 mm}\# Package Debian]
+	]	
+	[max\_os\_x/
+	[texstudio-2.12.16-osx.dmg (52Mb)\hspace{5 mm}\# Image disque]
+	]
+	[windows
+	[texstudio-2.12.16-win-qt5.exe (87Mb)\hspace{5 mm}\# Fichier exécutable]
+	]
+	]
+	[README.md (27Kb)\hspace{5 mm}\# Fichier Lisez-moi en Markdown]
+	[README.pdf (Kb)\hspace{5 mm}\# Fichier Lisez-moi en PDF]
+	[README.tex (18Kb)\hspace{5 mm}\# Fichier Lisez-moi en LaTeX]
+	]
+	]
+\end{forest}
+\end{comment}
+
+\begin{enumerate}
+	\item[--]Jacquot
+	\begin{myEnumerate}
+		\item[--]ead
+		\begin{myEnumerate}
+			\item[--]ead.dtd (183kB)\hspace{5 mm}\# Document type definition EAD
+			\item[--]FRBAM-Americain.xml (275kB)\hspace{5 mm}\# Instrument de recherche EAD
+			\item[--]FRBAM-Angrand.xml (66Kb)\hspace{5 mm}\# Instrument de recherche EAD
+			\item[--]FRBAM-Mexicain.xml (716kB)\hspace{5 mm}\# Instrument de recherche EAD
+		\end{myEnumerate}
+		\item[--]edition
+		\begin{myEnumerate}
+			\item[--]Mexicain65-71
+			\begin{myEnumerate}
+				\item[--]documentation
+			\begin{myEnumerate}
+				\item[--]out
+					\begin{myEnumerate}
+					\item[--]ODD-Mexicain65-71.rng (408Kb)\hspace{5 mm}\# Fichier ODD RelaxNG
+					\end{myEnumerate}
+				\item[--]DTD-Entity.dtd (7Kb)\hspace{5 mm}\# Document type definition
+				\item[--]ODD-Mexicain65-71.html (2Mb)\hspace{5 mm}\# Version HTML de l'ODD
+				\item[--]ODD-Mexicain65-71.xml (109Kb)\hspace{5 mm}\# Version XML de l'ODD
+			\end{myEnumerate}
+				\item[--]visualisation
+				\begin{myEnumerate}
+					\item[--]fol\_94r.jpg (223Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_95r.jpg (293Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_95v.jpg (218Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_96r.jpg (253Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_96v.jpg (273Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_97r.jpg (264Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_97v.jpg (205Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_98r.jpg (230Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_98v.jpg (237Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_99r.jpg (232Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_99v.jpg (233Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_100r.jpg (279Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_100v.jpg (270Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_101r.jpg (234Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_101v.jpg (217Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_102r.jpg (279Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_102v.jpg (232Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_103r.jpg (286Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_103v.jpg (266Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_104r.jpg (257Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_104v.jpg (249Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_105r.jpg (333Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_106r.jpg (366Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_107r.jpg (222Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_108r.jpg (333Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_109-110r.jpg (428Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_109-110v.jpg (366Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_112r.jpg (420Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_112v.jpg (309Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_113r.jpg (292Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_113v.jpg (304Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_114r.jpg (306Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_114v.jpg (296Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_115r.jpg (349Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_115v.jpg (364Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_116r.jpg (324Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_116v.jpg (315Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_117r.jpg (338Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_117v.jpg (278Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_118r.jpg (281Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_118v.jpg (266Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_119r.jpg (260Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_119v.jpg (297Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_120r.jpg (305Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_120v.jpg (271Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_121r.jpg (291Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_121v.jpg (291Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_122r.jpg (341Kb)\hspace{5 mm}\# Fichier image
+					\item[--]fol\_122v.jpg (352Kb)\hspace{5 mm}\# Fichier image
+					\item[--]logo-BnF.png (2Kb)\hspace{5 mm}\# Fichier image
+					\item[--]logo-ENC.png (24Kb)\hspace{5 mm}\# Fichier image
+					\item[--]mexicain65-71.png (178Kb)\hspace{5 mm}\# Fichier image
+					\item[--]Mexicain65-71.xsl (190Kb)\hspace{5 mm}\# Feuille de transformation
+				\end{myEnumerate}
+				\item[--]Mexicain65-71.xml (3Kb)\hspace{5 mm}\# Fichier XML du corpus
+				\item[--]Mexicain65-71-01.xml (211Kb)\hspace{5 mm}\# Fichier XML, 1e partie du MSS
+				\item[--]Mexicain65-71-02.xml (17Kb)\hspace{5 mm}\# Fichier XML, 2e partie du MSS
+				\item[--]Mexicain65-71-03.xml (35Kb)\hspace{5 mm}\# Fichier XML, 3e partie du MSS
+				\item[--]Mexicain65-71-04.xml (484Kb)\hspace{5 mm}\# Fichier XML, 4e partie du MSS
+				\item[--]Mexicain65-71\_accueil.html (8Kb)\hspace{5 mm}\# Fichier HTML, page d'accueil
+				\item[--]Mexicain65-71\_a\_propos.html (11Kb)\hspace{5 mm}\# Fichier HTML, page à propos
+				\item[--]Mexicain65-71\_biblio.html (19Kb)\hspace{5 mm}\# Fichier HTML, page bibliographie
+				\item[--]Mexicain65-71\_deco.html (6Kb)\hspace{5 mm}\# Fichier HTML, page décoration
+				\item[--]Mexicain65-71\_etat.html (6Kb)\hspace{5 mm}\# Fichier HTML, page état
+				\item[--]Mexicain65-71\_facsim.html (379Kb)\hspace{5 mm}\# Fichier HTML, page facsimilaire
+				\item[--]Mexicain65-71\_foliotation.html (7Kb)\hspace{5 mm}\# Fichier HTML, page foliotation
+				\item[--]Mexicain65-71\_histoire.html (12Kb)\hspace{5 mm}\# Fichier HTML, page histoire
+				\item[--]Mexicain65-71\_indexl.html (6Kb)\hspace{5 mm}\# Fichier HTML, page index locorum
+				\item[--]Mexicain65-71\_indexn.html (8Kb)\hspace{5 mm}\# Fichier HTML, page index nominum
+				\item[--]Mexicain65-71\_layout.html (7Kb)\hspace{5 mm}\# Fichier HTML, page layout
+				\item[--]Mexicain65-71\_mains.html (9Kb)\hspace{5 mm}\# Fichier HTML, page mains
+				\item[--]Mexicain65-71\_manuel.html (1Kb)\hspace{5 mm}\# Fichier HTML, page manuel
+				\item[--]Mexicain65-71\_norm.html (412Kb)\hspace{5 mm}\# Fichier HTML, page normalisée
+				\item[--]Mexicain65-71\_notes.html (13Kb)\hspace{5 mm}\# Fichier HTML, page notes
+				\item[--]Mexicain65-71\_reliure.html (8Kb)\hspace{5 mm}\#Fichier HTML, page reliure
+				\item[--]Mexicain65-71\_struct.html (6Kb)\hspace{5 mm}\# Fichier HTML, page structure
+				\item[--]Mexicain65-71\_support.html (7Kb)\hspace{5 mm}\# Fichier HTML, page support
+				\item[--]Mexicain65-71\_temoins.html (7Kb)\hspace{5 mm}\# Fichier HTML, page témoins
+		\end{myEnumerate}
+		\item[--]junicode
+		\begin{myEnumerate}
+			\item[--]Junicode.ttf (842kB)\hspace{5 mm}\# Police de caractères
+		\end{myEnumerate}
+		\item[--]memoire
+		\begin{myEnumerate}
+			\item[--]back
+			\begin{myEnumerate}
+				\item[--]appendix.tex (205kB)\hspace{5 mm}\# Fichier LaTeX de annexes
+				\item[--]colophon.tex (2kB)\hspace{5 mm}\# Fichier LaTeX du colophon
+				\item[--]repertoire.tex (110kB)\hspace{5 mm}\# Fichier LaTeX du répertorie
+			\end{myEnumerate}
+			\item[--]front
+			\begin{myEnumerate}
+				\item[--]abbrev.tex (8kB)\hspace{5 mm}\# Fichier LaTeX des abréviations
+				\item[--]abstract.tex (3kB)\hspace{5 mm}\# Fichier LaTeX du résumé
+				\item[--]epigraph.tex (1kB)\hspace{5 mm}\# Fichier LaTeX de l'épigraphe
+				\item[--]thanks.tex (3kB)\hspace{5 mm}\# Fichier LaTeX des remerciements
+				\item[--]titlepage.tex (1kB)\hspace{5 mm}\# Fichier LaTeX de la page de titre
+			\end{myEnumerate}
+			\item[--]images
+			\begin{myEnumerate}
+				\item[--]25795.png (7Mb)\hspace{5 mm}\# Fichier image
+				\item[--]36db339b6a.jpg (315kB)\hspace{5 mm}\# Fichier image
+				\item[--]40\_brasseur.png (316Kb)\hspace{5 mm}\# Fichier image
+				\item[--]40\_omont.jpg (180Kb)\hspace{5 mm}\# Fichier image
+				\item[--]40\_pinart.png (229Kb)\hspace{5 mm}\# Fichier image
+				\item[--]596dbb9882.jpg (48Kb)\hspace{5 mm}\# Fichier image
+				\item[--]833189e405.jpg (8Kb)\hspace{5 mm}\# Fichier image
+				\item[--]aigle-serpent.jpg (337Kb)\hspace{5 mm}\# Fichier image
+				\item[--]America-Latina-Mapa.jpg (197Kb)\hspace{5 mm}\# Fichier image
+				\item[--]amoxcalli65-71.jpg (235Kb)\hspace{5 mm}\# Fichier image
+				\item[--]amoxcalli65-71-glifo.jpg (159Kb)\hspace{5 mm}\# Fichier image
+				\item[--]ano.png (77Kb)\hspace{5 mm}\# Fichier image
+				\item[--]arkyves.png (300Kb)\hspace{5 mm}\# Fichier image
+				\item[--]arrancaban.jpg (17Kb)\hspace{5 mm}\# Fichier image
+				\item[--]aubin.jpg (284Kb)\hspace{5 mm}\# Fichier image
+				\item[--]aztec-empire.jpg (1Mb)\hspace{5 mm}\# Fichier image
+				\item[--]ballad-result.png (377Kb)\hspace{5 mm}\# Fichier image
+				\item[--]ballad-sel.png (689Kb)\hspace{5 mm}\# Fichier image
+				\item[--]bdmx.png (1Mb)\hspace{5 mm}\# Fichier image
+				\item[--]bodegon\_thesaurus.jpg (278Kb)\hspace{5 mm}\# Fichier image
+				\item[--]boothome.png (330Kb)\hspace{5 mm}\# Fichier image
+				\item[--]carnet-proust.jpg (26Kb)\hspace{5 mm}\# Fichier image
+				\item[--]cedille.png (82Kb)\hspace{5 mm}\# Fichier image
+				\item[--]ciceri.png (79Kb)\hspace{5 mm}\# Fichier image
+				\item[--]Codex\_Ixtlilxochitl\_\_btv1b84701752\_22.JPEG (227Kb)\hspace{5 mm}\# Fichier image
+				\item[--]Codex\_Ixtlilxochitl\_\_btv1b84701752\_29.JPEG (358Kb)\hspace{5 mm}\# Fichier image
+				\item[--]Codex\_Ixtlilxochitl\_\_btv1b84701752\_33.JPEG (326Kb)\hspace{5 mm}\# Fichier image
+				\item[--]Codex\_Ixtlilxochitl\_\_btv1b84701752\_36.JPEG (358Kb)\hspace{5 mm}\# Fichier image
+				\item[--]Codex\_Ixtlilxochitl\_\_btv1b84701752\_45.JPEG (317Kb)\hspace{5 mm}\# Fichier image
+				\item[--]Codex\_Ixtlilxochitl\_\_btv1b84701752\_5.JPEG (218Kb)\hspace{5 mm}\# Fichier image
+				\item[--]Codex\_Veytia\_page\_2.jpg (241Kb)\hspace{5 mm}\# Fichier image
+				\item[--]Codex\_Veytia\_page\_22.jpg (71Kb)\hspace{5 mm}\# Fichier image
+				\item[--]codex-ixtlilxochitl-veytia-echaniz.jpg (501Kb)\hspace{5 mm}\# Fichier image
+				\item[--]codex-justinianus.jpg (126Kb)\hspace{5 mm}\# Fichier image
+				\item[--]cohuatopilli.jpg (220Kb)\hspace{5 mm}\# Fichier image
+				\item[--]conestas.png (48Kb)\hspace{5 mm}\# Fichier image
+				\item[--]corazon.png (87Kb)\hspace{5 mm}\# Fichier image
+				\item[--]cubes.png (187Kb)\hspace{5 mm}\#Fichier image
+				\item[--]cuitlahuac.jpg (75Kb)\hspace{5 mm}\#Fichier image
+				\item[--]decimo.png (41Kb)\hspace{5 mm}\#Fichier image
+				\item[--]digipal-annot.jpg (327Kb)\hspace{5 mm}\# Fichier image
+				\item[--]digipal-select.png (365Kb)\hspace{5 mm}\# Fichier image
+				\item[--]dombey.png (604Kb)\hspace{5 mm}\#Fichier image
+				\item[--]ducuing.png (940Kb)\hspace{5 mm}\#Fichier image
+				\item[--]echaniz-laud1.jpg (29Kb)\hspace{5 mm}\# Fichier image
+				\item[--]echaniz-laud2.jpg (18Kb)\hspace{5 mm}\# Fichier image
+				\item[--]elcorazon.png (61Kb)\hspace{5 mm}\#Fichier image
+				\item[--]expo-1889.jpg (363Kb)\hspace{5 mm}\#Fichier image
+				\item[--]expo1889.png (797Kb)\hspace{5 mm}\#Fichier image
+				\item[--]gayol.jpg (259Kb)\hspace{5 mm}\#Fichier image
+				\item[--]giunti.jpg (145Kb)\hspace{5 mm}\#Fichier image
+				\item[--]glasgow.png (666Kb)\hspace{5 mm}\#Fichier image
+				\item[--]gorman.jpg (638Kb)\hspace{5 mm}\#Fichier image
+				\item[--]goupil-atlas.jpg (142Kb)\hspace{5 mm}\# Fichier image
+				\item[--]goupil-in-atlas.jpg (141Kb)\hspace{5 mm}\# Fichier image
+				\item[--]hacian.png (53Kb)\hspace{5 mm}\#Fichier image
+				\item[--]himanis.png (607Kb)\hspace{5 mm}\#Fichier image
+				\item[--]htr114.jpg (374Kb)\hspace{5 mm}\#Fichier image
+				\item[--]humarec.png (644Kb)\hspace{5 mm}\#Fichier image
+				\item[--]iln.png (386Kb)\hspace{5 mm}\#Fichier image
+				\item[--]irht-leica.jpg (193Kb)\hspace{5 mm}\# Fichier image
+				\item[--]izcoatl.jpg (71Kb)\hspace{5 mm}\#Fichier image
+				\item[--]langues.jpg (67Kb)\hspace{5 mm}\#Fichier image
+				\item[--]lotb.png (755Kb)\hspace{5 mm}\#Fichier image
+				\item[--]maaya.jpg (135Kb)\hspace{5 mm}\#Fichier image
+				\item[--]maayavector.jpg (48Kb)\hspace{5 mm}\# Fichier image
+				\item[--]mandragore102.jpg (167Kb)\hspace{5 mm}\# Fichier image
+				\item[--]mandragore-mod.jpg (264Kb)\hspace{5 mm}\# Fichier image
+				\item[--]mapasproject1.jpg (192Kb)\hspace{5 mm}\# Fichier image
+				\item[--]mapasproject2.jpg (146Kb)\hspace{5 mm}\# Fichier image
+				\item[--]meroweg.png (128Kb)\hspace{5 mm}\#Fichier image
+				\item[--]mesoamerica.jpg (576Kb)\hspace{5 mm}\# Fichier image
+				\item[--]miradorannot.png (468Kb)\hspace{5 mm}\# Fichier image
+				\item[--]munczos.png (51Kb)\hspace{5 mm}\#Fichier image
+				\item[--]mwb.png (89Kb)\hspace{5 mm}\#Fichier image
+				\item[--]neurdein.png (43Kb)\hspace{5 mm}\#Fichier image
+				\item[--]numipal.png (400Kb)\hspace{5 mm}\#Fichier image
+				\item[--]ocr113.jpg (290Kb)\hspace{5 mm}\#Fichier image
+				\item[--]ODD-html.png (71Kb)\hspace{5 mm}\#Fichier image
+				\item[--]ODD-rng.png (46Kb)\hspace{5 mm}\#Fichier image
+				\item[--]P476015.jpg (330Kb)\hspace{5 mm}\#Fichier image
+				\item[--]paraque.jpg (4Kb)\hspace{5 mm}\#Fichier image
+				\item[--]points.png (118Kb)\hspace{5 mm}\#Fichier image
+				\item[--]que.png (88Kb)\hspace{5 mm}\#Fichier image
+				\item[--]quinbakiric.png (101Kb)\hspace{5 mm}\# Fichier image
+				\item[--]rregosijos.png (66Kb)\hspace{5 mm}\#Fichier image
+				\item[--]sacandoles.jpg (24Kb)\hspace{5 mm}\#Fichier image
+				\item[--]segmentation115.jpg (450Kb)\hspace{5 mm}\# Fichier image
+				\item[--]siguiente.png (55Kb)\hspace{5 mm}\#Fichier image
+				\item[--]tepalecoc.png (80Kb)\hspace{5 mm}\#Fichier image
+				\item[--]thouvenot.jpg (522Kb)\hspace{5 mm}\#Fichier image
+				\item[--]tlacuilo.jpg (102Kb)\hspace{5 mm}\#Fichier image
+				\item[--]tlaloc-ceron.jpg (125Kb)\hspace{5 mm}\# Fichier image
+				\item[--]tlatlazan.png (220Kb)\hspace{5 mm}\#Fichier image
+				\item[--]tonalamatl.jpg (528Kb)\hspace{5 mm}\# Fichier image
+				\item[--]triollet.jpg (900Kb)\hspace{5 mm}\#Fichier image
+				\item[--]tsak.png (213Kb)\hspace{5 mm}\#Fichier image
+				\item[--]ulb.png (58Kb)\hspace{5 mm}\#Fichier image
+				\item[--]uxul.jpg (160Kb)\hspace{5 mm}\#Fichier image
+				\item[--]vercelli.png (479Kb)\hspace{5 mm}\#Fichier image
+				\item[--]voleur.png (1Mb)\hspace{5 mm}\#Fichier image
+				\item[--]waldeck.jpg (36Kb)\hspace{5 mm}\#Fichier image
+				\item[--]welsh-book.jpg (323Kb)\hspace{5 mm}\# Fichier image
+				\item[--]writing-systems.png (47Kb)\hspace{5 mm}\# Fichier image
+				\item[--]xochicalco.jpg (68Kb)\hspace{5 mm}\#Fichier image
+				\item[--]xochicalco-an.jpg (51Kb)\hspace{5 mm}\# Fichier image
+			\end{myEnumerate}
+			\item[--]main
+			\begin{myEnumerate}
+				\item[--]bibliography.tex (175Mb)\hspace{5 mm}\# Fichier LaTeX de la bibliographie
+				\item[--]conclusion.tex (10Mb)\hspace{5 mm}\# Fichier LaTeX de la conclusion
+				\item[--]introduction.tex (5Mb)\hspace{5 mm}\# Fichier LaTeX de l'introduction
+				\item[--]partie1.tex (469Mb)\hspace{5 mm}\# Fichier LaTeX de la 1e partie
+				\item[--]partie2.tex (173Mb)\hspace{5 mm}\# Fichier LaTeX de la 2e partie
+				\item[--]partie3.tex (154Mb)\hspace{5 mm}\# Fichier LaTeX de la 3e partie
+				\item[--]partie4.tex (144Mb)\hspace{5 mm}\# Fichier LaTeX de la 4e partie
+				\item[--]partie5.tex (86Mb)\hspace{5 mm}\# Fichier LaTeX de la 5e partie
+				\item[--]partie6.tex (47Mb)\hspace{5 mm}\# Fichier LaTeX de la 6e partie
+				\item[--]partie7.tex (255Mb)\hspace{5 mm}\# Fichier LaTeX de la 7e partie
+			\end{myEnumerate}
+			\item[--]Jacquot\_memoire.pdf (36Mb)\hspace{5 mm}\# Fichier .pdf du mémoire
+			\item[--]Jacquot\_memoire.tex (7Mb)\hspace{5 mm}\# Fichier source .tex du mémoire	
+		\end{myEnumerate}
+		\item[--]oxygen\_XML\_editor
+		\begin{myEnumerate}
+			\item[--]linux
+			\begin{myEnumerate}
+				\item[--]oxygen-64bit.sh (274Mb)\hspace{5 mm}\# Script shell
+			\end{myEnumerate}
+			\item[--]max\_os\_x
+			\begin{myEnumerate}
+				\item[--]oxygen.dmg (312Mb)\hspace{5 mm}\# Image disque
+			\end{myEnumerate}
+			\item[--]windows
+			\begin{myEnumerate}
+				\item[--]oxygen.exe (263Mb)\hspace{5 mm}\# Fichier exécutable
+				\item[--]oxygen-64bit.exe (268Mb)\hspace{5 mm}\# Fichier exécutable
+			\end{myEnumerate}
+		\end{myEnumerate}
+		\item[--]texstudio
+		\begin{myEnumerate}
+			\item[--]linux
+			\begin{myEnumerate}
+				\item[--]texstudio\_2.12.16-1+2.1\_amd64.deb (17Mb)\hspace{5 mm}\# Package Debian
+			\end{myEnumerate}
+			\item[--]max\_os\_x
+			\begin{myEnumerate}
+				\item[--]texstudio-2.12.16-osx.dmg (52Mb)\hspace{5 mm}\# Image disque
+			\end{myEnumerate}
+			\item[--]windows
+			\begin{myEnumerate}
+				\item[--]texstudio-2.12.16-win-qt5.exe (87Mb)\hspace{5 mm}\# Fichier exécutable
+			\end{myEnumerate}
+		\end{myEnumerate}
+		\item[--]README.md (29Kb)\hspace{5 mm}\# Fichier Lisez-moi en Markdown
+		\item[--]README.pdf (43Kb)\hspace{5 mm}\# Fichier Lisez-moi en PDF
+		\item[--]README.tex (39Kb)\hspace{5 mm}\# Fichier Lisez-moi en LaTeX
+		\end{myEnumerate}
+\end{myEnumerate}
+\end{myEnumerate}
+
+\end{document}
