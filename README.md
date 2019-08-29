@@ -18,6 +18,7 @@ Ce livrable technique accompagne le mémoire *« C'est tout un monde à ressusci
 		- [Consulter l'édition numérique du Mexicain 65-71 : Codex Ixtlilxóchitl](#consulter-lédition-numérique-du-mexicain-65-71--codex-ixtlilxóchitl)
 		- [Lire le mémoire](#lire-le-mémoire)
 	- [Fabriqué avec](#fabriqué-avec)
+	- [Versionnage](#versionnage)
 	- [Auteur](#auteur)
 	- [License](#license)
 	- [Remerciements](#remerciements)
