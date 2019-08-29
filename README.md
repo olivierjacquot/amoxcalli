@@ -201,7 +201,7 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   │   ├─────logo-BnF.png [2Kb]                                # Fichier image
 │   │   ├─────logo-ENC.png [24Kb]                               # Fichier image
 │   │   ├─────mexicain65-71.png [178Kb]                         # Fichier image
-│   │   └─────Mexicain65-71.xsl [190Kb]                         # Feuille de transformation
+│   │   └─────Mexicain65-71.xsl [188Kb]                         # Feuille de transformation
 │   ├─────Mexicain65-71.xml [3Kb]                               # Fichier XML du corpus
 │   ├─────Mexicain65-71-01.xml [211Kb]                          # Fichier XML, 1e partie du MSS
 │   ├─────Mexicain65-71-02.xml [17Kb]                           # Fichier XML, 2e partie du MSS
@@ -212,7 +212,7 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   ├─────Mexicain65-71_biblio.html [19Kb]                      # Fichier HTML, page bibliographie
 │   ├─────Mexicain65-71_deco.html [6Kb]                         # Fichier HTML, page décoration
 │   ├─────Mexicain65-71_etat.html [6Kb]                         # Fichier HTML, page état
-│   ├─────Mexicain65-71_facsim.html [379Kb]                     # Fichier HTML, page facsimilaire
+│   ├─────Mexicain65-71_facsim.html [311Kb]                     # Fichier HTML, page facsimilaire
 │   ├─────Mexicain65-71_foliotation.html [7Kb]                  # Fichier HTML, page foliotation
 │   ├─────Mexicain65-71_histoire.html [12Kb]                    # Fichier HTML, page histoire
 │   ├─────Mexicain65-71_indexl.html [6Kb]                       # Fichier HTML, page index locorum
@@ -220,7 +220,7 @@ Ce livrable technique se divise en plusieurs dossiers :
 │   ├─────Mexicain65-71_layout.html [7Kb]                       # Fichier HTML, page layout
 │   ├─────Mexicain65-71_mains.html [9Kb]                        # Fichier HTML, page mains
 │   ├─────Mexicain65-71_manuel.html [1Kb]                       # Fichier HTML, page manuel
-│   ├─────Mexicain65-71_norm.html [412Kb]                       # Fichier HTML, page normalisée
+│   ├─────Mexicain65-71_norm.html [401Kb]                       # Fichier HTML, page normalisée
 │   ├─────Mexicain65-71_notes.html [13Kb]                       # Fichier HTML, page notes
 │   ├─────Mexicain65-71_reliure.html [8Kb]                      # Fichier HTML, page reliure
 │   ├─────Mexicain65-71_struct.html [6Kb]                       # Fichier HTML, page structure
