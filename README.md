@@ -117,6 +117,10 @@ Ouvrir le fichier *Jacquot_memoire.pdf* avec un navigateur web ou un lecteur de 
 * [TeXstudio](https://www.texstudio.org/) - Éditeur LaTeX
 * [Bootstrap](https://getbootstrap.com/) - Framework de création de sites web
 
+## Versionnage
+
+Nous utilisons [SemVer](http://semver.org/) pour le versionnage.
+
 ## Auteur
 * **Olivier Jacquot** - [Amoxcalli](https://github.com/olivierjacquot)
 
