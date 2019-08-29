@@ -3107,9 +3107,9 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
     </div>
     </xsl:template>
     
-   <xsl:template match="descendant::seg[@type='hyphen']" mode="reg"><xsl:apply-templates/></xsl:template>
+    <xsl:template match="descendant::seg[@type='hyphen']" mode="reg"><xsl:apply-templates mode="#current"/></xsl:template>
    <!-- Template pour supprimer l'espace blanc laissé par <seg type="hyphen"> -->
-   <xsl:template match="descendant::lb[@type='facs']" mode="reg"><xsl:apply-templates/></xsl:template>
+    <xsl:template match="descendant::lb[@type='facs']" mode="reg"><xsl:apply-templates mode="#current"/></xsl:template>
    <!-- Template pour supprimer l'espace blanc laissé par <lb facs="#lx"/> -->
 
     <!--  <xsl:template match="pb" mode="reg">
@@ -3192,81 +3192,39 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
         </xsl:element>
     </xsl:template>
 
-    <!-- Autre tentative moins satisfaisante pour les tableaux -->
-    <!--  <xsl:template match="table" mode="#all"> 
-    border="1" ne fonctionne pas ; nous n'avons pas eu le temps d'essayer XSL-FO -->
-    <!--  <table> 
-                 <head>
-            <xsl:copy-of select="head"/>
-        </head>
-            <xsl:for-each select="row"> 
-                <td>
-                    <xsl:value-of select="cell/@label,'',cell/@data"/>
-                </td>
-                <xsl:element name="br"/>
-                <td>
-                    <xsl:value-of select="cell/@label,'',cell/@data"/>
-                </td>                
-                <xsl:apply-templates/>
-        </xsl:for-each>
-        </table>
-        </xsl:template> -->
-
     <!-- Règles de présentation des listes -->
-
-    <xsl:template match="list[@type = 'gloss' or 'label']" mode="#all"><!-- Attention les '' avaient été oubliés autour de label --><!-- L'affichage pour le seul mode reg n'a pas fonctionné / 
-        c'est très certainement à cause du chemin qui n'était pas complet en partant de la dernière règle en mode reg. Soit il doit manquer un apply-templates quelque part / voir ligne 3104 - la modification devrait permettre d'appeler la règle.-->
-        <xsl:choose>
-            <xsl:when test="head">
-                <div class="{local-name()}">
-                    <span style="font-weight:bold;">
-                        <xsl:apply-templates select="head"/>
-                    </span>
-                    <dl class="dl">
-                        <xsl:call-template name="atts"/>
-                        <xsl:apply-templates select="*[local-name() != 'head']"/>
-                    </dl>
-                </div>
-            </xsl:when>
-            <xsl:otherwise>
-                <dl>
-                    <xsl:call-template name="atts">
-                        <xsl:with-param name="class">dl</xsl:with-param>
-                    </xsl:call-template>
-                    <xsl:apply-templates/>
-                </dl>
-            </xsl:otherwise>
-        </xsl:choose>
+    
+    <xsl:template match="list" mode="reg">
+        <dl>
+            <xsl:call-template name="atts"/>
+            <xsl:apply-templates mode="#current"/>
+        </dl>
+        <xsl:element name="br"/>
     </xsl:template>
     
-    <xsl:template match="list[@type = 'gloss' or 'label']/item" mode="#all"> <!-- Attention les '' avaient été oubliés autour de label --><!-- L'affichage pour le seul mode reg n'a pas fonctionné / idem -->
-        <dd>
+    <xsl:template match="list/head" mode="reg">
+        <head>  
             <span style="font-weight:bold;">
-                <xsl:call-template name="atts"/>
-                <xsl:apply-templates/>
+            <xsl:call-template name="atts"/>
+            <xsl:apply-templates mode="#current"/>
             </span>
+        </head>
+    </xsl:template>
+    
+    <xsl:template match="list/label" mode="reg">
+        <dt>
+            <xsl:call-template name="atts"/>
+            <xsl:apply-templates mode="#current"/>
+        </dt>
+    </xsl:template>
+    
+    <xsl:template match="list/item" mode="reg">
+        <dd>
+            <xsl:call-template name="atts"/>
+            <xsl:apply-templates mode="#current"/>   
         </dd>
     </xsl:template>
-
-    <!-- Autre tentative moins satisfaisante pour les tableaux / à retenter avec la correction-->
-    <!--  <xsl:template match="item">
-        <xsl:apply-templates/>
-        <lb/>
-    </xsl:template> -->
-
-    <!-- <xsl:template match="list" mode="#all">        
-        <xsl:element name="ul">
-            <head>
-                <xsl:copy-of select="head"/>
-            </head>
-            <xsl:element name="br"/>  
-                <ul>
-                    <td><xsl:value-of select="text() | label/text() | item/text()"/></td>                    
-                </ul>             
-                <xsl:element name="br"/> 
-        </xsl:element>
-   </xsl:template> -->
-
+    
     <!-- Suppressions d'éléments -->
 
     <xsl:template match="@* | node()">
@@ -3277,8 +3235,8 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
     <xsl:template match="index" mode="#all"/>
     <xsl:template match="term" mode="#all"/>
     <xsl:template match="note" mode="orig"/> <!-- Suppresion des notes en mode orig -->
-    <xsl:template match="choice/orig" mode="reg"/> <!-- Sans effet avec ou sans choice-->
-    
+    <xsl:template match="choice/orig" mode="reg"/>
+    <xsl:template match="list" mode="orig"/>
 
     <!-- Règles de présentation des notes numérotées et en exposant -->
     <!-- Pour les notes, nous avons préféré l'emploi d'info-bulles à l'endroit de la note, plutôt que des 
@@ -3304,14 +3262,24 @@ pour transformer l'encodage du manuscrit Mexicain 65-71 de la Bibliothèque nati
     <!-- Images -->
 
     <xsl:template match="graphic" mode="#all">
+       <xsl:element name="br"/>
+        <xsl:element name="figure">
+            <img src="visualisation/{@url}"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <!-- Nous n'avons plus eu le temps d'améliorer ce template pour générer le bon alt pour chaque image.
+        Ce template ramène tous les head des <graphic><list> 
+        
+        <xsl:template match="graphic" mode="#all">
         <xsl:variable name="titre">
-            <xsl:value-of select="liste/head/text()"/>
+            <xsl:copy-of select="//list/head/text()"/>
             <xsl:apply-templates/>
         </xsl:variable>
-       <xsl:element name="br"/>
+        <xsl:element name="br"/>
         <xsl:element name="figure">
             <img src="visualisation/{@url}" alt="{$titre}"/>
         </xsl:element>
-    </xsl:template>
+    </xsl:template>  -->
 
 </xsl:stylesheet>
